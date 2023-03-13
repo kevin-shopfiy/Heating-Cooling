@@ -1,0 +1,148 @@
+{
+  "sections": {
+    "1664457787319e1784": {
+      "type": "sk_warranty",
+      "settings": {
+        "war_title": "Free 10 year parts and labour warranty on new installations*",
+        "war_conteiion": "*Conditions apply.",
+        "war_btn_text": "See all promotions",
+        "war_btn_url": "shopify:\/\/pages\/promotions",
+        "war_icon": "shopify:\/\/shop_images\/sell.png",
+        "war_bg_color": "#f5f5f5"
+      }
+    },
+    "sk_product_breadcrumb": {
+      "type": "sk_product_breadcrumb",
+      "settings": {
+        "bred_clas": ""
+      }
+    },
+    "sk_product_template": {
+      "type": "sk_product_template",
+      "settings": {
+        "enable_ajax": false,
+        "stock_enable": false,
+        "enable_payment_button": false,
+        "social_sharing_products": false,
+        "enable_quick_view": true,
+        "full_pro_title": "Full Product Details",
+        "finan_title": "Financing Available",
+        "enable_pro_pho": true,
+        "coe_title": "Questions? Call our Experts",
+        "coe_phone": "555-555-5555",
+        "coe_icon": "shopify:\/\/shop_images\/call-4.png",
+        "coe_bg_color": "#f5f5f5"
+      }
+    },
+    "sk_quickview_iwr": {
+      "type": "sk_quickview_iwr",
+      "settings": {
+        "section_bg_color": "#f5f5f5",
+        "install_icon": "shopify:\/\/shop_images\/mode_cool.png",
+        "intall_text": "Precise Cooling",
+        "intall_desc": "<p>Our units continuously adjust their speed to meet the temperature you want. They gradually slow down or speed up to deliver a consistent flow of cool, comfortable air.<\/p>",
+        "war_icon": "shopify:\/\/shop_images\/bolt.png",
+        "war_text": "Long-lasting durability",
+        "war_desc": "<p>Parts and components of these air conditioners have been tested again and again for long-lasting performance and reliability.<\/p>",
+        "comm_icon": "shopify:\/\/shop_images\/phone_in_talk.png",
+        "comm_title": "Communication Technology",
+        "comm_desc": "<p>Lorem ipsum dolor sit amet. Sed voluptas adipisci et molestias modi et fugit voluptas! Non dolor esse rem quia mollitia eum iusto quibusdam qui molestias voluptatibus aut blanditiis.<\/p>"
+      }
+    },
+    "sk_product_details": {
+      "type": "sk_product_details",
+      "disabled": true,
+      "settings": {
+        "enable_spec": false,
+        "spec_title": "",
+        "spec_desct": "",
+        "enable_meas": false,
+        "meas_title": "",
+        "meas_desct": "",
+        "enable_disc": false,
+        "disc_title": "",
+        "disc_desct": "",
+        "enable_sku": false,
+        "manu_title": "Manufacturer Model Number"
+      }
+    },
+    "sk_related_products": {
+      "type": "sk_related_products",
+      "settings": {
+        "related_products_enable": true,
+        "related_title": "Air Conditioners",
+        "section_subtitle": "Lorem ipsum dolor sit amet. Sed voluptas adipisci et molestias modi et fugit voluptas! Non dolor esse rem quia mollitia eum iusto quibusdam qui molestias voluptatibus aut blanditiis officia.",
+        "related_product_limit_handle": "10",
+        "cs_btn_text": "View all",
+        "cs_btn_url": "",
+        "prev_img_icon": "shopify:\/\/shop_images\/carousel-arrow.png",
+        "next_img_icon": "shopify:\/\/shop_images\/carousel-arrow-next.png"
+      }
+    },
+    "sk_discover_products": {
+      "type": "sk_discover_products",
+      "blocks": {
+        "4155089d-5eb2-4618-af90-7014b0ee37ce": {
+          "type": "collection",
+          "settings": {
+            "collection": "furnaces"
+          }
+        },
+        "90904bdf-3e54-4823-b59d-a2935c60fb42": {
+          "type": "collection",
+          "settings": {
+            "collection": "ductless"
+          }
+        },
+        "f027c5c7-53c8-463a-a9d6-a9e0e6f7efa1": {
+          "type": "collection",
+          "settings": {
+            "collection": "heat-pumps"
+          }
+        }
+      },
+      "block_order": [
+        "4155089d-5eb2-4618-af90-7014b0ee37ce",
+        "90904bdf-3e54-4823-b59d-a2935c60fb42",
+        "f027c5c7-53c8-463a-a9d6-a9e0e6f7efa1"
+      ],
+      "settings": {
+        "dp_class": "quick",
+        "ser_title": "Discover Our Products",
+        "ser_sub_title": "Need a New System?",
+        "ser_description": "Bring home a system built and tested to last—developed with longevity in mind, ensuring optimal comfort, regardless of outdoor temperatures.",
+        "sub_title_color": "#0a6579",
+        "enable_promo": true,
+        "promo_title": "Main Installation Promotion:",
+        "promo_sub_title": "Free 10 year parts and labour warranty on new installations*",
+        "promo_condition": "*Conditions apply",
+        "promo_button": "See all promotions",
+        "promo_btn_url": "",
+        "promo_hover_color": "#086579",
+        "enable_pro_btn": true,
+        "pro_btn_text": "View All Products",
+        "pro_btn_url": "shopify:\/\/pages\/shop",
+        "btn_bg_color": "#474747"
+      }
+    },
+    "sk_financing_options": {
+      "type": "sk_financing_options",
+      "settings": {}
+    },
+    "sk_product_form": {
+      "type": "sk_product_form",
+      "settings": {}
+    }
+  },
+  "order": [
+    "1664457787319e1784",
+    "sk_product_breadcrumb",
+    "sk_product_template",
+    "sk_quickview_iwr",
+    "sk_product_details",
+    "sk_related_products",
+    "sk_discover_products",
+    "sk_financing_options",
+    "sk_product_form"
+  ]
+}

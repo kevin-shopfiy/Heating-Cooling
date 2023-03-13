@@ -1,0 +1,100 @@
+<style>
+  .page_header_warp { background-color: {{ section.settings.sec_header_bg_color }};}
+</style>
+
+<div class="promotion_wrapper">
+  {% for block in section.blocks %}
+    <div class="promotion_wrap" style="background-color: {{ settings.color_third }}">
+        <div class="promo_icon">
+            {% if block.settings.pro_logo %}
+              <img src="{{ block.settings.pro_logo | image_url }}">
+                {% else %}
+              <svg width="91" height="91" viewBox="0 0 91 91" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M49.4293 91C48.1385 91 46.9237 90.7528 45.7847 90.2584C44.6458 89.767 43.6587 89.1042 42.8235 88.27L2.73342 48.23C1.89821 47.3958 1.23459 46.41 0.742579 45.2725C0.247527 44.135 0 42.9217 0 41.6325V9.1C0 6.5975 0.892916 4.45445 2.67875 2.67085C4.46154 0.890283 6.60576 0 9.11139 0H41.6846C42.9754 0 44.1902 0.2457 45.3292 0.7371C46.4681 1.23153 47.4552 1.89583 48.2904 2.73L88.3805 42.8838C90.1268 44.6279 91 46.7695 91 49.3084C91 51.8503 90.1268 53.9933 88.3805 55.7375L55.8073 88.27C54.972 89.1042 54.0047 89.767 52.9053 90.2584C51.8028 90.7528 50.6441 91 49.4293 91ZM49.3154 81.9L81.8886 49.3675L41.6846 9.1H9.11139V41.6325L49.3154 81.9ZM20.5006 27.3C22.3988 27.3 24.0115 26.6357 25.3388 25.3071C26.669 23.9815 27.3342 22.3708 27.3342 20.475C27.3342 18.5792 26.669 16.9685 25.3388 15.6429C24.0115 14.3143 22.3988 13.65 20.5006 13.65C18.6024 13.65 16.9897 14.3143 15.6625 15.6429C14.3322 16.9685 13.6671 18.5792 13.6671 20.475C13.6671 22.3708 14.3322 23.9815 15.6625 25.3071C16.9897 26.6357 18.6024 27.3 20.5006 27.3Z" fill="{{ settings.color_primary }}"/>
+</svg>
+            {% endif %}
+          </div>
+        <div class="promo_details" style="background-color: {{ settings.color_primary }}">
+            <h2>{{ block.settings.pro_title }}</h2>
+            {% if block.settings.expire_dates != blank %}
+                <p>{{ block.settings.expire_dates }} </p> {% endif %} 
+                  {%  if block.settings.show_expiry %}<p><small>Expires: {{ " " }}
+              {%- capture current_month %}{{ "now" | date: '%m' }}{% endcapture -%}
+              {%- capture future_date %}{{ "now" | date: '%Y' }}-{% if current_month == 12 %}01{% else %}{{ current_month | plus: 1 }}{% endif %}-01{% endcapture -%}
+              {%- capture epoc_end_month_date %}{{ future_date | date: '%s' }}{% endcapture -%}
+              {{ epoc_end_month_date | minus: 86400 | date: "%B" }}{{ " " }}
+              {%- assign day = epoc_end_month_date | minus: 86400 | date: "%-d" -%}
+              {%- case day -%}
+                {%- when '1' or '21' or '31' -%}{{ day }}st
+                {%- when '2' or '22' -%}{{ day }}nd
+                {%- when '3' or '23' -%}{{ day }}rd
+                {%- else %}{{ day }}th
+              {%- endcase -%}
+                  {%- assign current_year = "now" | date: "%Y" -%}   
+                , {{ current_year }}</small></p>
+              {% endif %}  
+
+                
+        </div>
+    </div>
+  {% endfor %}
+</div>
+
+
+{% schema %}
+  {
+    "name": "Content",
+    "settings": [
+        {
+		"type": "color",
+		"id": "sec_header_bg_color",
+		"label": "Background Color",
+        "default": "#474747"
+		}
+    ],
+    "blocks": [
+		{
+		"type": "select",
+      	"name": "Promotion Box",
+		"settings": [
+			{
+			"type": "image_picker",
+			"id": "pro_logo",
+			"label": "Choose Icon"
+			},
+			{
+                "type": "text",
+                "id": "pro_title",
+                "label": "Title",
+                "default": "Pay As Little as $29 Per Month & No Credit Check Financing Available"
+            },
+                  {
+              "type": "checkbox",
+              "id": "show_expiry",
+              "label": "Show last day of month expiry?",
+              "default": true
+            },
+            {
+                "type": "text",
+                "id": "expire_dates",
+                "label": "Condition Text",
+              "default": "*On complete system installations."
+            },
+              {
+              "type": "color",
+              "id": "bg_color",
+              "label": "Background Color",
+              "default": "#f5f5f5"
+              },
+            {
+              "type": "color",
+              "id": "content_bg_color",
+              "label": "Content Background Color",
+              "default": "#00677B"
+              }
+		 ]
+	   }
+    ]
+  }
+{% endschema %}
+

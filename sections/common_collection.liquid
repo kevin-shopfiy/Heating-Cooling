@@ -1,0 +1,89 @@
+<section id="cmm_collection_cool">
+  <div class="container">
+     <div class="cmm_collection_title">
+      <h2>{{ section.settings.cmm_collection_h2 }}</h2>
+    </div>
+  {% assign blocks_count = section.blocks.size %}
+
+  {% case blocks_count %}
+    {% when 1 %}
+      {% assign grid_item_width = 'medium-up--one-half' %}
+      {% assign height = 450 %}
+      {% assign number_rows = 1 %}
+    {% when 2 %}
+      {% assign grid_item_width = 'medium-up--one-half' %}
+      {% assign height = 450 %}
+      {% assign number_rows = 1 %}
+    {% when 3 %}
+      {% assign grid_item_width = 'medium-up--one-third' %}
+      {% assign height = 330 %}
+      {% assign number_rows = 1 %}
+    {% when 4 %}
+      {% assign grid_item_width = 'medium-up--one-quarter' %}
+      {% assign height = 235 %}
+      {% assign number_rows = 1 %}
+    {% when 5 %}
+      {% assign grid_item_width = 'medium-up--one-third' %}
+      {% assign height = 330 %}
+      {% assign number_rows = 2 %}
+    {% when 6 %}
+      {% assign grid_item_width = 'medium-up--one-third' %}
+      {% assign height = 330 %}
+      {% assign number_rows = 2 %}
+  {% endcase %}
+    <div class="row">
+  <div class="cmm_collection_item grid grid--no-gutters" id="collection-list-grid" data-number-rows="{{ number_rows }}">
+    {% assign row_number = 1 %}
+
+    {% for block in section.blocks %}
+      {% if blocks_count == 5 and forloop.index > 3 %}
+        {% assign grid_item_width = 'medium-up--one-half' %}
+        {% assign height = 450 %}
+      {% endif %}
+      {% if blocks_count > 4 and forloop.index > 3 %}
+        {% assign row_number = 2 %}
+      {% endif %}
+
+      {% assign featured_collection = collections[block.settings.collection] %}
+      {% include 'collection-grid-item' with stretch_collection_image: section.settings.stretch_collection_image, height: height %}
+    {% endfor %}
+  </div>
+</div>
+  {% if section.blocks.size == 0 %}
+    {% include 'no-blocks' %}
+  {% endif %}
+</div>
+</section>
+
+{% schema %}
+  {
+    "name": "Common Collection List",
+	"max_blocks": 6,
+    "settings": [
+		{
+		"type": "text",
+		"id": "cmm_collection_h2",
+		"label": "Title"
+		}
+	],
+	"blocks": [
+    {
+      "type": "collection",
+      "name": "collection",
+      "settings": [
+         {
+          "id": "collection",
+          "type": "collection",
+          "label": "Collection"
+          }
+       ]
+    }
+  ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

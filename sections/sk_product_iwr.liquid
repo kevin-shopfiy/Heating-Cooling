@@ -1,0 +1,109 @@
+<section class="product_iwr pro">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-12">
+                <div class="installation_wrap">
+                    <h4>
+                      {% if settings.install_icon %}
+                        <img src="{{ settings.install_icon | image_url }}" />
+                      {% endif %}
+                      {{ settings.intall_text }}
+                    </h4>
+                    <div class="ins_content">{{ settings.intall_desc }}</div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12">
+                <div class="warranty_wrap">
+                    <h4>
+                        {% if settings.iwr_war_icon %}
+                          <img src="{{ settings.iwr_war_icon | image_url }}" />
+                        {% endif %}
+                        {{ settings.war_text }}
+                    </h4>
+                    <div class="warr_content">
+                      {{ settings.war_desc }}
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12">
+                <div class="greview_wrap" style="background-color: {{ settings.google_bg_color }}">
+                    {% if settings.google_icon %}
+                        <img src="{{ settings.google_icon | image_url }}" />
+                      {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% schema %}
+  {
+    "name": "Product IWR",
+    "settings": [
+      {
+    "type": "color",
+    "id": "section_bg_color",
+    "label": "Section Background Color",
+    "default": "#f5f5f5"
+},
+      {
+    "type": "header",
+    "content": "Installation"
+},
+{
+    "type": "image_picker",
+    "id": "install_icon",
+    "label": "Installation Icon"
+},
+{
+    "type": "text",
+    "id": "intall_text",
+    "label": "Title",
+    "default": "Installation Included"
+},
+{
+    "type": "richtext",
+    "id": "intall_desc",
+    "label": "Description"
+},
+{
+    "type": "header",
+    "content": "Warranties"
+},
+{
+    "type": "image_picker",
+    "id": "war_icon",
+    "label": "Warranties Icon"
+},
+{
+    "type": "text",
+    "id": "war_text",
+    "label": "Title",
+    "default": "Warranties"
+},
+{
+    "type": "richtext",
+    "id": "war_desc",
+    "label": "Description"
+},
+{
+    "type": "header",
+    "content": "Warranties"
+},
+{
+    "type": "image_picker",
+    "id": "google_icon",
+    "label": "Google Review Image"
+},
+{
+    "type": "color",
+    "id": "google_bg_color",
+    "label": "Background Color",
+    "default": "#474747"
+}
+      
+    ]
+  }
+{% endschema %}
+
+

@@ -1,0 +1,154 @@
+<style>
+section#hm_promo-slab {background-color: {{ section.settings.promo_background_color }};}
+.hm_promo_heading {color: {{ section.settings.promo_subheading_text }};}
+.hm_promo_icon svg {color: {{ section.settings.promo_subheading_text_desktop_svg }};}
+.hm_promo_heading svg {color: {{ section.settings.promo_subheading_text_moblie_svg }};}
+.hm_promo_subheading {color: {{ section.settings.promo_heading_text }};}
+a.hm_promo_a:hover {background-color: {{ section.settings.button_hover_bg_color }} !important;}
+</style>
+
+<section id="hm_promo-slab">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="hm_promo_col_cnt col-lg-8 col-md-12 align-self-center">
+        <div class="hm_promo-content"> 
+	 	  <div class="hm_promo_icon">
+	 	    <span class="fas fa-tags"></span>
+	 	  </div> 
+	 	  <div class="hm_promo_text"> 
+	 		<div class="hm_promo_heading"> 
+	 		  <span class="fas fa-tags"></span> 
+	 		  {{ section.settings.hm_promo_subheading }} 
+	 		</div> 
+	 		<div class="hm_promo_subheading">{{ section.settings.hm_promo_heading }}<sup>*</sup></div>
+	 	  </div> 
+	    </div>
+      </div>
+      <div class="hm_promo_col_btn col-lg-4 col-md-6 col-sm-8 align-self-center">
+        {% for block in section.blocks %}
+		<a href="{{ block.settings.hm_promo_url }}" class="hm_promo_a" style="background-color: {{ block.settings.button_bg_color }};color: {{ block.settings.button_text_color }};">
+          <div class="promo_txt_a">{{ block.settings.hm_promo_a }}</div>
+          <span class="{{ block.settings.hm_promo_a_icon }}" style="background-color: {{ block.settings.button_icon_bg_color }};color: {{ block.settings.button_icon_color }};"></span></a> 
+        {% endfor %}
+	</div> 
+    </div>
+  </div>
+</section>
+
+{% schema %}
+  {
+    "name": "Home Promo",
+    "settings": [
+	{
+	"type": "color",
+	"id": "promo_background_color",
+	"label": "Background Color",
+	"default": "#063f2c"
+	},
+	{
+	"type": "color",
+	"id": "promo_subheading_text",
+	"label": "Subheading Text Color",
+	"default": "#fff"
+	},
+	{
+	"type": "color",
+	"id": "promo_subheading_text_moblie_svg",
+	"label": "Subheading Moblie Text SVG",
+	"default": "#fff"
+	},
+	{
+	"type": "color",
+	"id": "promo_subheading_text_desktop_svg",
+	"label": "Subheading Desktop Text SVG",
+	"default": "#fff"
+	},
+	{
+	"type": "color",
+	"id": "promo_heading_text",
+	"label": "Heading Text",
+	"default": "#fff"
+	},
+	{
+	"type": "color",
+	"id": "button_hover_bg_color",
+	"label": "Button Hover Background Color",
+	"default": "#e1d8bd"
+	},
+	{
+	"type": "text",
+	"id": "hm_promo_heading",
+	"label": "Heading"
+	},
+	{
+	"type": "text",
+	"id": "hm_promo_subheading",
+	"label": "Sub-Heading"
+	}
+	],
+	"blocks": [
+	{
+		"type": "select",
+		"name": "Promo URL",
+		"settings": [
+				{
+				"type": "url",
+				"id": "hm_promo_url",
+				"label": "URL"
+				},
+				{
+				"type": "color",
+				"id": "button_bg_color",
+				"label": "Button Background Color",
+				"default": "#fff"
+				},
+				{
+				"type": "color",
+				"id": "button_text_color",
+				"label": "Button Text Color",
+				"default": "#151515"
+				},
+				{
+				"type": "color",
+				"id": "button_icon_bg_color",
+				"label": "Button Icon Background Color",
+				"default": "#063f2c"
+				},
+				{
+				"type": "color",
+				"id": "button_icon_color",
+				"label": "Button Icon Color",
+				"default": "#fff"
+				},
+				{
+				"type": "text",
+				"id": "hm_promo_a_icon",
+				"label": "Class"
+				},
+				{
+				"type": "text",
+				"id": "hm_promo_a",
+				"label": "URL Title"
+				}
+			]
+		}
+	],
+	"presets":[
+    	{
+    		"name": "Home Promo",
+    		"category": "Custom Content",
+			"blocks": [
+        		{ 
+          		"type": "select"
+        		}
+      		]
+    	}
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

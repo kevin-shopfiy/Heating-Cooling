@@ -1,0 +1,61 @@
+<div class="sk_popup_wrapper">
+    <div class="popup_width">
+      <div id="popup_close"><span class="fas fa-times"></span></div>
+      {% for block in section.blocks %}
+      <div class="single_info">
+        <h3>{{ block.settings.popup_text }}</h3>
+        <p>{{ block.settings.popup_desc }}</p>
+      </div>
+      {% endfor %}
+    </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Cart Popup",
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "enable_cart_popup",
+        "label": "Enable Popup",
+        "default": true
+      }
+    ],
+        "blocks": [
+    {
+    "type": "select",
+    "name": "Included Text",
+    "settings": [
+        {
+        "type": "text",
+        "id": "popup_text",
+        "label": "Title",
+          "default": "Warranty"
+        },
+        {
+        "type": "textarea",
+        "id": "popup_desc",
+        "label": "Description"
+        }
+     ]
+  }
+        ]
+  }
+{% endschema %}
+
+
+
+<script>
+  
+jQuery(document).ready(function(){
+    jQuery(".included_modal").on("click", function() {
+      jQuery("body").addClass("popup_active");
+    });
+
+    jQuery("#popup_close").on("click", function() {
+      jQuery("body").removeClass("popup_active");
+    });
+
+});
+  
+</script>

@@ -1,0 +1,46 @@
+{% form 'contact' %}
+{{ form.errors | default_errors }}
+
+{% unless form.posted_successfully? %}  
+{% if settings.sub_title %}
+  <p>{{ settings.sub_title }}</p>
+{% endif %}  
+{% if settings.section_title %}
+  <h3>{{ settings.section_title }}</h3>
+{% endif %}
+<div id="side_contact_form">
+    <div class="form-box">
+      <input type="text" placeholder="{{ settings.name_placeholder }}" class="{% if form.errors contains 'name' %}error{% endif %}" name="contact[name]" id="name" value="{% if form.name %}{{ form.name }}{% elsif customer.name %}{{ customer.name }}{% endif %}" required>
+    </div>
+    <div class="form-box email-icon mb-30">
+      <input type="email" placeholder="{{ settings.email_placeholder }}" class="{% if form.errors contains 'email' %}error{% endif %}" name="contact[email]" id="ContactFormEmail" value="{% if form.email %}{{ form.email }}{% elsif customer.email %}{{ customer.email }}{% endif %}" required>
+    </div>
+    <div class="form-box phone-icon mb-30">
+      <input type="text" placeholder="{{ settings.postal_code }}" class="{% if form.errors contains 'postal' %}error{% endif %}" name="contact[postal]" id="ContactFormPostal" value="{% if form.postal %}{{ form.postal }}{% elsif customer.postal %}{{ customer.postal }}{% endif %}" required>
+    </div>
+    <div class="form-box message-icon mb-30">
+      <textarea placeholder="{{ settings.message_placeholder }}" class="custom-textarea h-100" name="contact[body]" id="ContactFormMessage" required>{% if form.body %}{{ form.body }}{% endif %}</textarea>
+    </div>
+    <div class="contact-btn">
+      <button class="btn theme-btn" type="submit">{{ settings.form_button_name }}</button>
+    </div>
+</div>
+{% endunless %}
+
+  
+{% if form.posted_successfully? %}
+ 
+  
+  <script> window.location = "/pages/thanks"; </script> 
+ 
+<div class="form_success_message">
+    <h2>{{ settings.submitted_h1 }}</h2>
+    <p>{{ settings.submitted_p }}</p>
+    {% if settings.submitted_img %}
+      <img src="{{ settings.submitted_img | image_url }}" />
+    {% endif %}
+    <span class="close_sticky_form">{{ settings.submitted_close }}</span>
+</div>
+{% endif %}
+{% endform %}
+

@@ -1,0 +1,150 @@
+{
+  "sections": {
+    "sk_service-main-page": {
+      "type": "sk_service-main-page",
+      "disabled": true,
+      "blocks": {
+        "abfacb65-6715-4483-8a83-f7df80728141": {
+          "type": "select-text",
+          "settings": {
+            "select-text-p": "<p>Broken air conditioner or furnace? We understand that purchasing a new heating or cooling system is a major expense, which is why we offer flexible financing options that are geared to suit our customer’s unique needs and budget.<\/p>"
+          }
+        },
+        "cd64b40d-4600-46d3-a556-d2ad1d1fbaaf": {
+          "type": "select",
+          "settings": {
+            "abt_h2": "0% Financing Available",
+            "abt_p": "We offer zero interest financing plans for your new system purchase. Give us a call for details."
+          }
+        },
+        "6299b148-ae43-4722-800f-aef7245c4514": {
+          "type": "select",
+          "settings": {
+            "abt_h2": "Benefits of Financing Your New System",
+            "abt_p": ""
+          }
+        },
+        "ab515849-a772-424e-a4e8-24c9fb3e4848": {
+          "type": "testimonial",
+          "settings": {
+            "list_ul": "<ul>\n<li>\nLow, predictable monthly payments\n<\/li>\n<li>\nAbility to purchase a new system in spite of available cash\n<\/li>\n<li>\nSave on energy bills with a more efficient system\n<\/li>\n<li>\nIncrease your home’s value\n<\/li>\n<li>\nCleaner, healthier air with a new system\n<\/li>\n<\/ul>"
+          }
+        },
+        "bbf36f56-5c41-4b41-9699-40de2d9b2257": {
+          "type": "select",
+          "settings": {
+            "abt_h2": "Methods of Financing Your New System",
+            "abt_p": "A Wells Fargo Home Projects credit card is an easy and convenient way to pay for goods and services. Plus, as a Wells Fargo Home Projects card holder you can enjoy other great benefits throughout the year, such as:"
+          }
+        },
+        "3ee84efc-bbea-499a-9359-5185a0d328ad": {
+          "type": "testimonial",
+          "settings": {
+            "list_ul": "<ul>\n<li>\nSpecial promotional offers where available\n<\/li>\n<li>\nRevolving line of credit that you can use for future purchases\n<\/li>\n<li>\nQuick credit decision\n<\/li>\n<li>\nConvenient monthly payments to fit your budget\n<\/li>\n<li>\nEasy-to-use online account management and bill payment options\n<\/li>\n<\/ul>"
+          }
+        }
+      },
+      "block_order": [
+        "abfacb65-6715-4483-8a83-f7df80728141",
+        "cd64b40d-4600-46d3-a556-d2ad1d1fbaaf",
+        "6299b148-ae43-4722-800f-aef7245c4514",
+        "ab515849-a772-424e-a4e8-24c9fb3e4848",
+        "bbf36f56-5c41-4b41-9699-40de2d9b2257",
+        "3ee84efc-bbea-499a-9359-5185a0d328ad"
+      ],
+      "settings": {
+        "sec_banner_img": "shopify:\/\/shop_images\/financing-txt-img_1_2429875a-9d34-41f3-84da-120b2569b735.png",
+        "sec_header_bg_color": "#474747"
+      }
+    },
+    "33075bbd-bc12-4ac4-9800-2e9ead978644": {
+      "type": "sk_service-main-new",
+      "blocks": {
+        "290d58ca-56a8-45c6-bfcf-c92bdffc8625": {
+          "type": "select-text",
+          "settings": {
+            "select-text-p": "Broken air conditioner or furnace? We understand that purchasing a new heating or cooling system is a major expense, which is why we offer flexible financing options that are geared to suit our customer’s unique needs and budget."
+          }
+        },
+        "266743d2-db63-45b3-876a-70acd3ec4e88": {
+          "type": "select",
+          "settings": {
+            "abt_h2": "0% Financing Available",
+            "abt_p": "We offer zero interest financing plans for your new system purchase. Give us a call for details."
+          }
+        },
+        "dae00f3e-9743-452d-86ce-dc4094600942": {
+          "type": "select",
+          "settings": {
+            "abt_h2": "Benefits of Financing Your New System",
+            "abt_p": ""
+          }
+        },
+        "da840ec9-a41c-4c75-a086-150974c72c0b": {
+          "type": "testimonial",
+          "settings": {
+            "list_ul": "<ul>\n<li>\nLow, predictable monthly payments\n<\/li>\n<li>\nAbility to purchase a new system in spite of available cash\n<\/li>\n<li>\nSave on energy bills with a more efficient system\n<\/li>\n<li>\nIncrease your home’s value\n<\/li>\n<li>\nCleaner, healthier air with a new system\n<\/li>\n<\/ul>"
+          }
+        },
+        "c56661cd-afe4-408e-a7e9-a5d088871493": {
+          "type": "select",
+          "settings": {
+            "content_image": "shopify:\/\/shop_images\/Frame_056325de-68d2-4a25-b433-353c0e5eaf09.png",
+            "abt_h2": "Methods of Financing Your New System",
+            "abt_p": "A Wells Fargo Home Projects credit card is an easy and convenient way to pay for goods and services. Plus, as a Wells Fargo Home Projects card holder you can enjoy other great benefits throughout the year, such as:"
+          }
+        },
+        "dd7708b4-c85d-47d7-b795-a069c7886363": {
+          "type": "testimonial",
+          "settings": {
+            "list_ul": "<ul>\n<li>\nSpecial promotional offers where available\n<\/li>\n<li>\nRevolving line of credit that you can use for future purchases\n<\/li>\n<li>\nQuick credit decision\n<\/li>\n<li>\nConvenient monthly payments to fit your budget\n<\/li>\n<li>\nEasy-to-use online account management and bill payment options\n<\/li>\n<\/ul>"
+          }
+        },
+        "bb8efb8e-6d23-4ed8-ad6f-1e1f42435df5": {
+          "type": "announcement",
+          "settings": {
+            "fin_abt_h2": "Looking For Financing Options?",
+            "fin_subtitle": "Special Financing Available*",
+            "fin_content": "*This Credit card is issued with approved credit by Wells Fargo Bank N.A.",
+            "fin_btn": "Apply Now",
+            "fin_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "290d58ca-56a8-45c6-bfcf-c92bdffc8625",
+        "266743d2-db63-45b3-876a-70acd3ec4e88",
+        "dae00f3e-9743-452d-86ce-dc4094600942",
+        "da840ec9-a41c-4c75-a086-150974c72c0b",
+        "c56661cd-afe4-408e-a7e9-a5d088871493",
+        "dd7708b4-c85d-47d7-b795-a069c7886363",
+        "bb8efb8e-6d23-4ed8-ad6f-1e1f42435df5"
+      ],
+      "settings": {
+        "sec_banner_img": "shopify:\/\/shop_images\/financing-txt-img_1.png",
+        "sec_header_bg_color": "#474747"
+      }
+    },
+    "sk_services_solutions": {
+      "type": "sk_services_solutions",
+      "settings": {}
+    },
+    "82ed2962-d3cf-4483-98a0-75e43b35697b": {
+      "type": "sk_product_form",
+      "disabled": true,
+      "settings": {}
+    },
+    "f60f84de-d634-449b-9b45-02b6ea261e1e": {
+      "type": "sk_home_testimonial",
+      "disabled": true,
+      "settings": {}
+    }
+  },
+  "order": [
+    "sk_service-main-page",
+    "33075bbd-bc12-4ac4-9800-2e9ead978644",
+    "sk_services_solutions",
+    "82ed2962-d3cf-4483-98a0-75e43b35697b",
+    "f60f84de-d634-449b-9b45-02b6ea261e1e"
+  ]
+}

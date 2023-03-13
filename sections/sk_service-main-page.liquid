@@ -1,0 +1,306 @@
+<style>
+  .page_header_warp { background-color: {{ section.settings.sec_header_bg_color }};}
+</style>
+<style>
+  .top_promotion_box {background-color: {{ settings.color_primary }}; border-bottom: 7px solid {{ settings.color_second }}; }
+</style>
+
+<div class="page_content_wrpper">
+  <div class="page_header_warp">
+    <div class="container">
+      <div class="row ">
+        <div class="col">
+          <h1 class="page_title">{{ page.title }}</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="page_content_wrap">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-12">
+          <div class="page_text_content">
+            {% if section.settings.sec_banner_img != blank %}
+              <img
+                src="{{ section.settings.sec_banner_img | image_url }}"
+                alt="{{ section.settings.sec_banner_img | image_tag }}"
+              >
+            
+            {% endif %}
+            {% for block in section.blocks %}
+              {% case block.type %}
+                {% when 'select' %}
+                  <div class="h2_content">
+                    <h2>{{ block.settings.abt_h2 }}</h2>
+                    <p>{{ block.settings.abt_p }}</p>
+                  </div>
+                {% when 'select-text' %}
+                  <div class="textes">{{ block.settings['select-text-p'] }}</div>
+                {% when 'testimonial' %}
+                  <div class="list_ul_box">
+                    {{ block.settings.list_ul }}
+                  </div>
+                {%  when 'announcement' %}
+                  <div class="border-box" id="reviews">
+                    <div class="h2_content">
+                      <h2>{{ block.settings.abt_h2 }}</h2>
+                      <div class="home_testi_box">
+                        <img class="desktop_only" src="{{ block.settings.testi_icon | image_url }}" />
+                        <img class="mobile_only" src="{{ block.settings.testi_icon_mobile | image_url }}" />
+                        <p>{{ block.settings.box_text }}</p>
+                        <div class="name_btn">
+                            <p class="author_name">{{ block.settings.m_author_text }}</p>                            
+                        </div>
+                        <div class="rating">
+                          {% if block.settings.rating == 5 %}
+                            {% include 'icon-star' %}
+                            {% include 'icon-star' %}
+                            {% include 'icon-star' %}
+                            {% include 'icon-star' %}
+                            {% include 'icon-star' %}
+                          {% elsif block.settings.rating == 4 %}
+                            <span class="fas fa-star"></span>
+                            <span class="fas fa-star"></span>
+                            <span class="fas fa-star"></span>
+                            <span class="fas fa-star"></span>
+                            <span class="far fa-star"></span>
+                          {% elsif block.settings.rating == 3 %}
+                             <span class="fas fa-star"></span>
+                            <span class="fas fa-star"></span>
+                            <span class="fas fa-star"></span>
+                            <span class="far fa-star"></span>
+                            <span class="far fa-star"></span>
+                            {% elsif block.settings.rating == 2 %}
+                             <span class="fas fa-star"></span>
+                              <span class="fas fa-star"></span>
+                              <span class="far fa-star"></span>
+                              <span class="far fa-star"></span>
+                              <span class="far fa-star"></span>
+                            {% else %}
+                             <span class="fas fa-star"></span>
+                              <span class="far fa-star"></span>
+                              <span class="far fa-star"></span>
+                              <span class="far fa-star"></span>
+                              <span class="far fa-star"></span>
+                          {% endif %}
+                            
+                        </div>
+                      </div>  
+                                  
+                    </div>
+                         
+                  </div>   
+                  {%  when 'button' %}
+                    <div class="border-box_button">
+                      <a class="theme_green_btn" href="{{ block.settings.testi_btn_url }}">{{ block.settings.testi_btn_text }}</a>
+                    </div> 
+              {% endcase %}
+            {% endfor %}
+          </div>
+
+          {% if settings.enable_cta_box %}
+            <div class="call_to_action_wrap">
+              <h3>{{ settings.cta_text }}</h3>
+              <p>{{ settings.cta_desc }}</p>
+              <div class="buton_box">
+                <a href="tel:{{ settings.cta_phone }}"
+                  ><span class="fas fa-phone-alt"></span>
+                  {%- if settings.cta_phone != blank %}
+                    {{ settings.cta_phone }}
+                  {% else %}
+                    {{ settings.phone_number }}
+                  {% endif -%}
+                </a>
+                <a href="{{ settings.cta_email_address }}"
+                  ><span class="fas fa-envelope"></span> {{ settings.cta_email -}}
+                </a>
+              </div>
+            </div>
+          {% endif %}
+        </div>
+        <div class="col-lg-4 col-md-12">
+          <div class="sk_sidebar">
+            <div class="top_promotion_box">
+              <h4>
+                {% if settings.tp_sub_icon -%}
+                  <img src="{{ settings.tp_sub_icon | image_url }}">
+                {% endif %}
+                <span class="current_month"> </span> {{ settings.tp_sub_title }}
+              </h4>
+              <h2>{{ settings.tp_title }}</h2>
+              <a href="{{ settings.tp_condition_url }}" class="promo_button">
+                {{- settings.tp_condition_btn -}}
+              </a>
+              <p>{{ settings.tp_condition }}</p>
+            </div>
+
+            <div class="sidebar_form">
+              <div class="sidebar_form">
+                {% include 'sk_sidebar_form' %}
+              </div>
+            </div>
+
+            <div class="sidebar_rev_fi">
+              <div class="side_review_box">
+                <a href="{{ settings.review_box_url }}">
+                  <div class="rating">
+                    {% include 'icon-star' %}
+                    {% include 'icon-star' %}
+                    {% include 'icon-star' %}
+                    {% include 'icon-star' %}
+                    {% include 'icon-star' %}
+                  </div>
+                  <h3>{{ settings.review_text }}</h3>
+                </a>
+              </div>
+              <style>
+  .side_finance_box a {background-color: {{ settings.color_primary }}; color: {{ settings.btn_color }}; }
+</style>
+
+<div class="side_finance_box">
+    <h3>{{ settings.finacne_text }}</h3>
+    <a href="{{ settings.finace_box_url }}" class="finace_btn">{{ settings.finacne_btn_text }}</a>
+</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+{% schema %}
+ {
+   "name": "Service Main Page",
+   "settings": [
+       {
+	"type": "image_picker",
+	"id": "sec_banner_img",
+	"label": "Banner Image"
+	},
+     {
+	"type": "color",
+	"id": "sec_header_bg_color",
+	"label": "Background Color",
+       "default": "#474747"
+	}
+     
+   ],
+"blocks": [
+	{
+	"type": "select",
+     	"name": "Content",
+	"settings": [
+		{
+		"type": "text",
+		"id": "abt_h2",
+		"label": "Heading 2"
+		},
+		{
+		"type": "html",
+		"id": "abt_p",
+		"label": "Content"
+		}
+	 ]
+   },
+   {
+	"type": "select-text",
+     	"name": "Text HTML",
+	"settings": [
+		{
+		"type": "html",
+		"id": "select-text-p",
+		"label": "Text"
+		}
+	 ]
+   },
+  {
+	"type": "testimonial",
+     	"name": "Ul List",
+	"settings": [
+		{
+		"type": "html",
+		"id": "list_ul",
+		"label": "Ul List"
+		}
+	 ]
+   },
+   {
+	"type": "announcement",
+  "name": "announcement",
+	"settings": [	  
+    {
+		"type": "text",
+		"id": "abt_h2",
+		"label": "Heading 2"
+		},  
+    {
+		"type": "image_picker",
+		"id": "testi_icon",
+		"label": "Desk_top Icon"
+		}, 
+    {
+		"type": "image_picker",
+		"id": "testi_icon_mobile",
+		"label": "Mobile Icon"
+		},
+    {
+      "type": "text",
+      "id": "box_text",
+      "label": "Box Text"
+    },
+    {
+        "type": "text",
+        "id": "m_author_text",
+        "label": "Author Name"
+    }, 
+    {
+        "type": "range",
+        "id": "rating",
+        "min": 1,
+        "max": 5,
+        "step": 1,
+        "label": "Rating",
+        "default": 5
+    }
+   
+	 ]
+   },
+   {
+    "type": "button",
+  "name": "button",
+	"settings": [
+    {
+        "type": "text",
+        "id": "testi_btn_url",
+        "label": "Button Url",
+        "default": "\/pages\/about-us\/#reviews"
+      },
+      {
+        "type": "text",
+        "id": "testi_btn_text",
+        "label": "Author button"
+      }
+  ]
+   }
+   
+   ],
+   "presets": [
+      {
+        "name": "Service Main page"
+       
+      }
+    ]
+ }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

@@ -1,0 +1,79 @@
+{
+  "sections": {
+    "sk_service-main-page": {
+      "type": "sk_service-main-page",
+      "blocks": {
+        "abfacb65-6715-4483-8a83-f7df80728141": {
+          "type": "select-text",
+          "settings": {
+            "select-text-p": "<p>Having a reliable, well-maintained air conditioner can mean the difference between expensive, unexpected, and inconvenient repairs or breakdowns and comfort during the heat.<\/p>"
+          }
+        },
+        "2807be0f-6d5a-4d27-8e37-e2fa827de452": {
+          "type": "select-text",
+          "settings": {
+            "select-text-p": "<p>Our team of technicians and customer service representatives have the knowledge and expertise to help troubleshoot and solve any air conditioner issue or need you may have.<\/p>"
+          }
+        },
+        "6299b148-ae43-4722-800f-aef7245c4514": {
+          "type": "select",
+          "settings": {
+            "abt_h2": "Repair and Installation",
+            "abt_p": "Between our friendly and knowledgeable customer service reps to our experienced technicians, we can help solve any repair or installation need you may have."
+          }
+        },
+        "ab515849-a772-424e-a4e8-24c9fb3e4848": {
+          "type": "testimonial",
+          "settings": {
+            "list_ul": "<ul>\n<li>\nWe take into account the size of the space, your usage needs, and your budget to provide you with the most suitable options\n<\/li>\n<li>\nWe provide you with the information needed to help you make the right decision\n<\/li>\n<li>\nOur technicians stay up-to-date with the latest technology and techniques to provide you with an efficient, precise repair or installation<\/li>\n<\/ul>"
+          }
+        },
+        "bbf36f56-5c41-4b41-9699-40de2d9b2257": {
+          "type": "select",
+          "settings": {
+            "abt_h2": "Preventative Maintenance",
+            "abt_p": "Whether you need a seasonal tune-up or not sure when your system was last checked, we can help. Keeping your systems in good working order is not only smart, but much more cost-effective than paying for repairs or replacement if repair is not possible."
+          }
+        },
+        "3ee84efc-bbea-499a-9359-5185a0d328ad": {
+          "type": "testimonial",
+          "settings": {
+            "list_ul": "<ul>\n<li>\nAvoid frequent repairs and the likelihood for system failure\n<\/li>\n<li>\nMaintain energy-efficiency and keep energy bills down\n<\/li>\n<li>\nKeep your air clean and healthy\n<\/li>\n<\/ul>"
+          }
+        }
+      },
+      "block_order": [
+        "abfacb65-6715-4483-8a83-f7df80728141",
+        "2807be0f-6d5a-4d27-8e37-e2fa827de452",
+        "6299b148-ae43-4722-800f-aef7245c4514",
+        "ab515849-a772-424e-a4e8-24c9fb3e4848",
+        "bbf36f56-5c41-4b41-9699-40de2d9b2257",
+        "3ee84efc-bbea-499a-9359-5185a0d328ad"
+      ],
+      "settings": {
+        "sec_banner_img": "shopify:\/\/shop_images\/maintenance.jpg",
+        "sec_header_bg_color": "#474747"
+      }
+    },
+    "sk_services_solutions": {
+      "type": "sk_services_solutions",
+      "settings": {}
+    },
+    "82ed2962-d3cf-4483-98a0-75e43b35697b": {
+      "type": "sk_product_form",
+      "disabled": true,
+      "settings": {}
+    },
+    "f60f84de-d634-449b-9b45-02b6ea261e1e": {
+      "type": "sk_home_testimonial",
+      "disabled": true,
+      "settings": {}
+    }
+  },
+  "order": [
+    "sk_service-main-page",
+    "sk_services_solutions",
+    "82ed2962-d3cf-4483-98a0-75e43b35697b",
+    "f60f84de-d634-449b-9b45-02b6ea261e1e"
+  ]
+}

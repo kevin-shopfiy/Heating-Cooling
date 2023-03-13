@@ -1,0 +1,48 @@
+<section id="hm_brand" style="background: url({{ section.settings.hm_brand_bg | image_url }});background-repeat: no-repeat !important;background-size: cover !important;">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="hm_brand_col col align-self-center text-center">
+        {% for block in section.blocks %}
+        <img src="{{ block.settings.hm_brand_img | img_url: "master" }}" alt="logo" />
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+{% schema %}
+  {
+    "name": "Home Brand",
+	"settings": [
+		{
+		"type": "image_picker",
+		"id": "hm_brand_bg",
+		"label": "Background"
+		}
+	],
+	"blocks": [
+		{
+		"type": "select",
+      	"name": "brand",
+		"settings": [
+			{
+			"type": "image_picker",
+			"id": "hm_brand_img",
+			"label": "Image"
+			}
+		 ]
+	   }
+    ],
+	"presets": [
+	{
+	"name": "Home Brand",
+	"category": "Custom Content"
+	}
+	]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

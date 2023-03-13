@@ -1,0 +1,112 @@
+<style>
+  .specialist_wrap {background-color: {{ settings.color_third }};}
+  .section--{{ section.id }} {
+    margin-top: {{ section.settings.padding_top }}px;
+    margin-bottom: {{ section.settings.padding_bottom }}px;
+}
+
+</style>
+  
+<section class="specialist_wrap section--{{ section.id }}">
+    <div class="specialist_img" style="background-image:url({{ section.settings.image_text_bg | image_url }})""></div>
+    <div class="container">
+        <div class="row justify-content-end">
+            <div class="col-lg-6 col-md-12">
+                <div class="speicalist_content">
+                    <h2>{{ section.settings.img_text_title }}</h2>
+                    {{ section.settings.description }}
+                    <a class="inline_btn" href="{{ section.settings.img_text_url }}">{{ section.settings.img_text_btn }} <span class="fas fa-angle-double-right"></span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+{% schema %}
+  {
+    "name": "SK Image & Text",
+    "settings": [
+      
+    {
+        "type": "range",
+        "id": "padding_top",
+        "label": "Margin Top",
+        "min": 0,
+        "max": 100,
+        "step": 5,
+        "default": 35
+    },
+    {
+        "type": "range",
+        "id": "padding_bottom",
+        "label": "Margin Bottom",
+        "min": 0,
+        "max": 100,
+        "step": 5,
+        "default": 35
+    },
+    {
+        "type": "range",
+        "id": "padding_top_m",
+        "label": "Mobile Padding Top",
+        "min": 0,
+        "max": 100,
+        "step": 5,
+        "default": 35
+    },
+    {
+        "type": "range",
+        "id": "padding_bottom_m",
+        "label": "Mobile Padding Bottom",
+        "min": 0,
+        "max": 100,
+        "step": 5,
+        "default": 35
+    },
+      {
+		"type": "image_picker",
+		"id": "image_text_bg",
+		"label": "Image"
+      },
+      {
+		"type": "color",
+		"id": "img_text_bg_color",
+		"label": "Background Color",
+        "default": "#F5F5F5"
+      },
+      {
+		"type": "text",
+		"id": "img_text_title",
+		"label": "Title"
+      },
+      {
+		"type": "richtext",
+		"id": "description",
+		"label": "Description"
+      },
+      {
+		"type": "text",
+		"id": "img_text_btn",
+		"label": "Button Text"
+      },
+      {
+		"type": "url",
+		"id": "img_text_url",
+		"label": "Button Url"
+      }
+    ],
+    "presets":[
+    	{
+    		"name": "SK Image & Text",
+    		"category": "Custom Content"
+    	}
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

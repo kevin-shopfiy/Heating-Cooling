@@ -1,0 +1,58 @@
+<style>
+  .financing_btn a {
+    color: {{ settings.color_primary }};
+    background-color: {{ settings.color_white }};
+  }
+  .financing_btn a:hover {
+    color: {{ settings.color_primary }};
+    background-color: {{ settings.color_second }};
+  }
+
+.finacing_bg {background-color: {{ settings.color_primary }};}  
+  
+</style>
+
+
+<div class="financing_option_wrap {{ settings.f_fo_class }}">
+    <div class="container">
+      <div class="finacing_bg">
+        <div class="row align-items-center">
+            <div class="col-lg-8 col-md-12">
+                <div class="financing_contet">
+                    <h2>{{ settings.f_h2_title }}</h2>
+                    <p>{{ settings.f_testi_desc }}</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12">
+                <div class="financing_btn">
+                    <a href="{{ settings.f_fo_btn_url }}">{{ settings.f_fo_btn_text }}</a>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+
+
+{% schema %}
+  {
+    "name": "SK Financing Options",
+    "settings": [
+     
+    ],
+        
+    	"presets": [
+	{
+	"name": "SK Financing Options",
+	"category": "Custom Content"
+	}
+	]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

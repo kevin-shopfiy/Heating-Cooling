@@ -1,0 +1,142 @@
+<style>
+  .sk_hero_content h1 {color: {{ section.settings.title_color }};}
+  ul.sk_hero_ul li svg { color: {{ settings.color_second }};}
+  .sk_hero_btn a { background-color: {{ settings.color_second }};}
+  .sk_hero_btn a:hover { background-color: {{ settings.color_primary }}; color: {{ section.settings.button_hover_color_text }};}
+  .sk_hero_btn a { color: {{ section.settings.button_text_color }};}
+  
+</style>
+
+
+<section id="sk_hero_section" class="gradient_bg">
+  <div class="hero_abs_bg" style="background-image:url({% if section.settings.hero_bg != blank %} {{ section.settings.hero_bg | image_url }} {% else %} {{ 'BG-trane-technician-8.png'| asset_url }} {% endif %})"></div>
+  <div class="container">
+    <div class="row justify-content-center">
+        <div class="col-lg-10">
+          <div class="sk_hero_content">
+              <p>{{ section.settings.sub_title }}</p>
+              <h1>{{ section.settings.h1_title }}</h1>
+              <ul class="sk_hero_ul">
+                {% for block in section.blocks %}
+                  <li><span class="fas fa-check"></span>{{ block.settings.ul_li }}</li>
+                {% endfor %}
+              </ul>
+              <div class="sk_hero_btn">
+                <a href="{{ section.settings.hero_url }}">{{ section.settings.hero_url_txt }}</a>
+              </div>
+              {% if section.settings.google_review %}
+                <div class="google_reivew">
+                  <img src="{{ section.settings.google_review | image_url }}" alt="" />
+                </div>
+              {% endif %}
+          </div>
+        </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+  {
+    "name": "SK Hero Banner",
+    "settings": [
+      {
+		"type": "image_picker",
+		"id": "hero_bg",
+		"label": "Background"
+      },
+      {
+		"type": "text",
+		"id": "h1_title",
+		"label": "Title"
+		},
+      {
+		"type": "text",
+		"id": "sub_title",
+		"label": "Sub Title"
+		},
+        {
+        "type": "color",
+		"id": "title_color",
+		"label": "Title Color",
+		"default": "#000000"
+		},
+        {
+        "type": "color",
+		"id": "list_color",
+		"label": "List Text Color",
+		"default": "#000000"
+		},
+        {
+        "type": "color",
+		"id": "list_icon_color",
+		"label": "List Icon Color",
+		"default": "#0D6579"
+		},
+        {
+		"type": "text",
+		"id": "hero_url_txt",
+		"label": "Button Name"
+		},
+		{
+		"type": "url",
+		"id": "hero_url",
+		"label": "URL"
+		},
+        {
+        "type": "color",
+		"id": "button_bg_color",
+		"label": "Button BG Color",
+		"default": "#0D6579"
+		},
+        {
+        "type": "color",
+		"id": "button_text_color",
+		"label": "Button Text Color",
+		"default": "#ffffff"
+		},
+      {
+        "type": "color",
+		"id": "button_hover_color",
+		"label": "Button Hover GB Color",
+		"default": "#F99E15"
+		},
+      
+      {
+        "type": "color",
+		"id": "button_hover_color_text",
+		"label": "Button Hover Text Color",
+		"default": "#ffffff"
+		}
+    ],
+    "blocks": [
+		{
+		"type": "select",
+		"name": "Add list",
+		"settings": [
+				{
+				"type": "text",
+				"id": "ul_li",
+				"label": "Text"
+				}
+			]
+		}
+	],
+    "presets":[
+    	{
+    		"name": "SK Hero Banner",
+    		"category": "Custom Content",
+            "blocks": [
+        		{ 
+          		"type": "select"
+        		}
+      		]
+    	}
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

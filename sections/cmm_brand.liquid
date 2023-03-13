@@ -1,0 +1,42 @@
+<section id="cmm_brand" style="background: url({{ section.settings.cmm_brand_bg | image_url }});background-repeat: no-repeat !important;background-size: cover !important;">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="cmm_brand_col col align-self-center text-center">
+        {% for block in section.blocks %}
+        <img src="{{ block.settings.cmm_brand_img | img_url: "master" }}" alt="logo" />
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+{% schema %}
+  {
+    "name": "Service Brand",
+	"settings": [
+		{
+		"type": "image_picker",
+		"id": "cmm_brand_bg",
+		"label": "Background"
+		}
+	],
+	"blocks": [
+		{
+		"type": "select",
+      	"name": "brand",
+		"settings": [
+			{
+			"type": "image_picker",
+			"id": "cmm_brand_img",
+			"label": "Image"
+			}
+		 ]
+	   }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

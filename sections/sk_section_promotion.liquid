@@ -1,0 +1,63 @@
+{% if section.settings.enable_promo %}
+    <div class="col-lg-4 col-md-12">
+        <div class="sk_service_promo_box">
+            <p class="sk_promo_title">{{ section.settings.promo_title }}</p>
+            <p class="info">{{ section.settings.promo_sub_title }}</p>
+            <div class="sk_promo_btn">
+                <p class="condition_text">{{ section.settings.promo_condition }}</p>
+                <a href="{{ section.settings.promo_btn_url }}" class="sk_service_pro_btn">{{ section.settings.promo_button }}</a>
+            </div>
+        </div>
+    </div>
+{% endif %}
+
+
+{% schema %}
+  {
+    "name": "SK Section Promotion",
+    "settings": [
+      {
+		"type": "checkbox",
+		"id": "enable_promo",
+		"label": "Show Promotion Box",
+          "default": true
+		},
+        {
+		"type": "text",
+		"id": "promo_title",
+		"label": "Promotion Title",
+        "default": "Main Repair Promotion:"
+		},
+        {
+		"type": "textarea",
+		"id": "promo_sub_title",
+		"label": "Description",
+          "default": "20% discount on repairs for veterans, first responders and their families*"
+		},
+        {
+		"type": "text",
+		"id": "promo_condition",
+		"label": "Condition Text",
+        "default": "*Conditions apply"
+		},
+        {
+		"type": "text",
+		"id": "promo_button",
+		"label": "Promotion Button Text",
+        "default": "See all promotions"
+		},
+        {
+		"type": "url",
+		"id": "promo_btn_url",
+		"label": "Promotion Button Url"
+		},
+        {
+        "type": "color",
+		"id": "promo_hover_color",
+		"label": "Promotion Box Hover Color",
+		"default": "#086579"
+		}
+    ]
+  }
+{% endschema %}
+

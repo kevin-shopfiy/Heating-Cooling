@@ -1,0 +1,47 @@
+<style>
+  .side_finance_box a {background-color: {{ settings.color_primary }}; color: {{ settings.color_white }}; }
+</style>
+
+<div class="side_finance_box">
+    <h3>{{ settings.finacne_text }}</h3>
+    <a href="{{ settings.finace_box_url }}" class="finace_btn">{{ settings.finacne_btn_text }}</a>
+</div>
+
+
+{% schema %}
+  {
+    "name": "SK Finance",
+    "settings": [
+        {
+		"type": "text",
+		"id": "finacne_text",
+		"label": "Finance Text",
+          "default": "Special Financing is Available"
+		},
+        {
+		"type": "text",
+		"id": "finacne_btn_text",
+		"label": "Finance Button Text",
+          "default": "Learn More"
+		},
+        {
+		"type": "url",
+		"id": "finace_box_url",
+		"label": "Finance Box Url"
+		},
+        {
+		"type": "color",
+		"id": "btn_color",
+		"label": "Button Text Color",
+          "default": "#fff"
+		},
+        {
+		"type": "color",
+		"id": "btn_bg_color",
+		"label": "Button BG Color",
+          "default": "#086579"
+		}
+    ]
+  }
+{% endschema %}
+

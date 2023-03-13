@@ -1,0 +1,222 @@
+{
+  "sections": {
+    "1664457787319e1784": {
+      "type": "sk_warranty",
+      "settings": {
+        "war_title": "Free 10 year parts and labour warranty on new installations*",
+        "war_conteiion": "*Conditions apply.",
+        "war_btn_text": "See all promotions",
+        "war_btn_url": "shopify:\/\/pages\/promotions",
+        "war_bg_color": "#f5f5f5"
+      }
+    },
+    "sk_product_breadcrumb": {
+      "type": "sk_product_breadcrumb",
+      "settings": {
+        "bred_clas": ""
+      }
+    },
+    "sk_product_template": {
+      "type": "sk_product_template",
+      "settings": {
+        "enable_ajax": false,
+        "stock_enable": false,
+        "enable_payment_button": true,
+        "social_sharing_products": false,
+        "enable_quick_view": true,
+        "full_pro_title": "Full Product Details",
+        "finan_title": "Financing Available",
+        "enable_pro_pho": true,
+        "coe_title": "Questions? Call our Experts",
+        "coe_phone": "",
+        "coe_icon": "shopify:\/\/shop_images\/call.png",
+        "coe_bg_color": "#f5f5f5"
+      }
+    },
+    "sk_product_iwr": {
+      "type": "sk_product_iwr",
+      "settings": {
+        "section_bg_color": "#f5f5f5",
+        "intall_text": "",
+        "intall_desc": "",
+        "war_text": "",
+        "war_desc": "",
+        "google_bg_color": "#474747"
+      }
+    },
+    "sk_product_details": {
+      "type": "sk_product_details",
+      "settings": {
+        "enable_spec": true,
+        "spec_title": "Specifications",
+        "spec_desct": "<p>{{ product.metafields.custom.specifications | metafield_tag }}<\/p>",
+        "enable_meas": true,
+        "meas_title": "Product Measurements",
+        "meas_desct": "<p>{{ product.metafields.custom.product_mesurements | metafield_tag }}<\/p>",
+        "enable_disc": true,
+        "disc_title": "Disclaimer",
+        "disc_desct": "<p>{{ product.metafields.custom.disclaimer | metafield_tag }}<\/p>",
+        "enable_sku": true,
+        "manu_title": "Manufacturer Model Number"
+      }
+    },
+    "1414d19b-c4ac-45d5-bba6-ae828b0009a0": {
+      "type": "sk_collection_slider",
+      "blocks": {
+        "template--17309101719829__1414d19b-c4ac-45d5-bba6-ae828b0009a0-1671735920dd4b56c6-0": {
+          "type": "product",
+          "settings": {
+            "product_item": "air-conditioners"
+          }
+        },
+        "b55f1f69-be8c-4c49-b884-d9fc52e22c7f": {
+          "type": "product",
+          "settings": {
+            "product_item": "copy-of-air-conditioners"
+          }
+        },
+        "aec3d49e-3370-4b13-b962-42dd06a3df9f": {
+          "type": "product",
+          "settings": {
+            "product_item": "air-conditioners"
+          }
+        },
+        "231bf8a4-ec9b-490d-bc59-c7e63ef3f0dd": {
+          "type": "product",
+          "settings": {
+            "product_item": "copy-of-copy-of-air-conditioners"
+          }
+        },
+        "20d45df6-33e5-451f-82cb-3aa12a18fc4c": {
+          "type": "product",
+          "settings": {
+            "product_item": "furnaces"
+          }
+        },
+        "9785d93b-2f55-4dc1-ab6d-bbff688ca56c": {
+          "type": "product",
+          "settings": {
+            "product_item": "heat-pumps"
+          }
+        }
+      },
+      "block_order": [
+        "template--17309101719829__1414d19b-c4ac-45d5-bba6-ae828b0009a0-1671735920dd4b56c6-0",
+        "b55f1f69-be8c-4c49-b884-d9fc52e22c7f",
+        "aec3d49e-3370-4b13-b962-42dd06a3df9f",
+        "231bf8a4-ec9b-490d-bc59-c7e63ef3f0dd",
+        "20d45df6-33e5-451f-82cb-3aa12a18fc4c",
+        "9785d93b-2f55-4dc1-ab6d-bbff688ca56c"
+      ],
+      "settings": {
+        "cs_title": "Air Conditioners",
+        "cs_desc": "",
+        "cs_btn_text": "View all",
+        "cs_btn_url": "shopify:\/\/collections\/all",
+        "prev_img_icon": "shopify:\/\/shop_images\/Rectangle_56.png",
+        "next_img_icon": "shopify:\/\/shop_images\/Rectangle_56_1.png",
+        "enable_autoplay": false,
+        "autoplay_time": 5
+      }
+    },
+    "sk_discover_products": {
+      "type": "sk_discover_products",
+      "blocks": {
+        "4155089d-5eb2-4618-af90-7014b0ee37ce": {
+          "type": "collection",
+          "settings": {
+            "collection": "air-conditioners"
+          }
+        },
+        "90904bdf-3e54-4823-b59d-a2935c60fb42": {
+          "type": "collection",
+          "settings": {
+            "collection": "furnaces"
+          }
+        },
+        "f027c5c7-53c8-463a-a9d6-a9e0e6f7efa1": {
+          "type": "collection",
+          "settings": {
+            "collection": "heat-pumps"
+          }
+        }
+      },
+      "block_order": [
+        "4155089d-5eb2-4618-af90-7014b0ee37ce",
+        "90904bdf-3e54-4823-b59d-a2935c60fb42",
+        "f027c5c7-53c8-463a-a9d6-a9e0e6f7efa1"
+      ],
+      "settings": {
+        "dp_class": "",
+        "ser_title": "Discover Our Products",
+        "ser_sub_title": "Need a New System?",
+        "ser_description": "Bring home a system built and tested to last—developed with longevity in mind, ensuring optimal comfort, regardless of outdoor temperatures.",
+        "sub_title_color": "#0a6579",
+        "enable_promo": true,
+        "promo_title": "Main Installation Promotion:",
+        "promo_sub_title": "Free 10 year parts and labour warranty on new installations*",
+        "promo_condition": "*Conditions apply",
+        "promo_button": "See all promotions",
+        "promo_btn_url": "",
+        "promo_hover_color": "#086579",
+        "enable_pro_btn": true,
+        "pro_btn_text": "View All Products",
+        "pro_btn_url": "shopify:\/\/pages\/shop",
+        "btn_bg_color": "#474747"
+      }
+    },
+    "sk_related_products": {
+      "type": "sk_related_products",
+      "settings": {
+        "related_products_enable": true,
+        "related_title": "Air Conditioners",
+        "section_subtitle": "Lorem ipsum dolor sit amet. Sed voluptas adipisci et molestias modi et fugit voluptas! Non dolor esse rem quia mollitia eum iusto quibusdam qui molestias voluptatibus aut blanditiis officia.",
+        "related_product_limit_handle": "10",
+        "cs_btn_text": "View all",
+        "cs_btn_url": ""
+      }
+    },
+    "5e15ebdd-58cd-4c53-b5ca-da2d0443315d": {
+      "type": "sk_financing_options",
+      "settings": {}
+    },
+    "sk_product_form": {
+      "type": "sk_product_form",
+      "settings": {}
+    },
+    "59c2464d-c2f9-4a33-a6c4-3451a900cd31": {
+      "type": "sk-featured-product-box",
+      "blocks": {
+        "ac10efc0-298c-490b-9c03-0ed13e67ed0c": {
+          "type": "announcement",
+          "settings": {
+            "abt_h2": "Kristen M.",
+            "box_text": "Our old air conditioner broke and Button’s Heating and Air Conditioning came to our rescue when other companies didn’t. Todd Button was very thorough when explaining all of my different options for new air conditioners and took the time to answer all of my questions. Their install of our new air conditioner was neat and tidy and they did a good job of cleaning up their work space once the job was done. Thank you!! Highly recommend Button’s Heating and Air Conditioning!!!",
+            "m_author_text": "",
+            "rating": 5
+          }
+        }
+      },
+      "block_order": [
+        "ac10efc0-298c-490b-9c03-0ed13e67ed0c"
+      ],
+      "settings": {
+        "sec_banner_img": "shopify:\/\/shop_images\/Depositphotos_11307981_m-2015.png",
+        "sec_header_bg_color": "#474747"
+      }
+    }
+  },
+  "order": [
+    "1664457787319e1784",
+    "sk_product_breadcrumb",
+    "sk_product_template",
+    "sk_product_iwr",
+    "sk_product_details",
+    "1414d19b-c4ac-45d5-bba6-ae828b0009a0",
+    "sk_discover_products",
+    "sk_related_products",
+    "5e15ebdd-58cd-4c53-b5ca-da2d0443315d",
+    "sk_product_form",
+    "59c2464d-c2f9-4a33-a6c4-3451a900cd31"
+  ]
+}

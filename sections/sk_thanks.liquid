@@ -1,0 +1,113 @@
+<div
+  data-section-id="{{ section.id }}"
+  data-section-type="cart"
+  class="cart_page_section"
+  style="background-color:#f5f5f5"
+>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <div class="cart_empty_wrap">
+          <h2>{{ section.settings.cart_title }}</h2>
+          <p>{{ section.settings.cart_sub_title }}</p>
+          <a href="{{ section.settings.btn_url }}" class="goto_shop">{{ section.settings.cart_btn_text }}</a>
+          <h4>Questions? Contact our Experts:</h4>
+          <div class="cart_con">
+            <a href="tel:{{ settings.phone_number }}" class="cart_icons phone">
+              <svg width="59" height="59" viewBox="0 0 59 59" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <mask id="mask0_3252_9516" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="59" height="59">
+                <rect width="58.021" height="58.021" fill="#D9D9D9"/>
+                </mask>
+                <g mask="url(#mask0_3252_9516)">
+                <mask id="mask1_3252_9516" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="10" y="10" width="38" height="38">
+                <rect x="10" y="10" width="38" height="38" fill="#D9D9D9"/>
+                </mask>
+                <g mask="url(#mask1_3252_9516)">
+                <path d="M45.7833 48C41.2444 48 36.8203 46.9881 32.5108 44.9642C28.1999 42.9418 24.3823 40.2677 21.058 36.942C17.7323 33.6177 15.0582 29.8001 13.0358 25.4892C11.0119 21.1797 10 16.7556 10 12.2167C10 11.5833 10.2111 11.0556 10.6333 10.6333C11.0556 10.2111 11.5833 10 12.2167 10H20.7667C21.2593 10 21.6991 10.1583 22.0861 10.475C22.4731 10.7917 22.7019 11.1963 22.7722 11.6889L24.1444 19.0778C24.2148 19.5704 24.2064 20.0186 24.1191 20.4226C24.0304 20.8279 23.8278 21.1889 23.5111 21.5056L18.4444 26.6778C19.9222 29.2111 21.7694 31.5861 23.9861 33.8028C26.2028 36.0194 28.6481 37.937 31.3222 39.5556L36.2833 34.5944C36.6 34.2778 37.0138 34.0399 37.5247 33.8809C38.0341 33.7233 38.5352 33.6796 39.0278 33.75L46.3111 35.2278C46.8037 35.3333 47.2083 35.5705 47.525 35.9392C47.8417 36.3094 48 36.7407 48 37.2333V45.7833C48 46.4167 47.7889 46.9444 47.3667 47.3667C46.9444 47.7889 46.4167 48 45.7833 48Z" fill="white"/>
+                </g>
+                </g>
+              </svg>
+            </a>
+            <a href="{{ section.settings.cart_email_text }}" class="cart_icons email">
+              <svg width="59" height="59" viewBox="0 0 59 59" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <mask id="mask0_438_10354" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="59" height="59">
+                <rect width="58.021" height="58.021" fill="#D9D9D9"/>
+                </mask>
+                <g mask="url(#mask0_438_10354)">
+                <path d="M9.97234 47.8069C8.72328 47.8069 7.65553 47.3636 6.7691 46.4772C5.88267 45.5908 5.43945 44.523 5.43945 43.274V14.747C5.43945 13.4979 5.88267 12.4302 6.7691 11.5438C7.65553 10.6573 8.72328 10.2141 9.97234 10.2141H48.0486C49.2977 10.2141 50.3654 10.6573 51.2518 11.5438C52.1383 12.4302 52.5815 13.4979 52.5815 14.747V43.274C52.5815 44.523 52.1383 45.5908 51.2518 46.4772C50.3654 47.3636 49.2977 47.8069 48.0486 47.8069H9.97234ZM29.0105 31.1863L48.0486 19.2799V14.747L29.0105 26.6534L9.97234 14.747V19.2799L29.0105 31.1863Z" fill="white"/>
+                </g>
+              </svg>
+            </a>
+            <span class="cart_icons contact open_stky_form">
+              <svg width="47" height="47" viewBox="0 0 47 47" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <mask id="mask0_438_10348" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="47" height="47">
+                <rect width="46.021" height="46.021" fill="#D9D9D9"/>
+                </mask>
+                <g mask="url(#mask0_438_10348)">
+                <path d="M19.2713 15.3404H34.276V11.745H19.2713V15.3404ZM19.2713 20.9492H34.276V17.3538H19.2713V20.9492ZM19.2713 26.558H28.5713V22.9626H19.2713V26.558ZM13.6145 15.3883C14.1578 15.3883 14.6053 15.2126 14.9568 14.861C15.3084 14.5095 15.4841 14.078 15.4841 13.5667C15.4841 13.0234 15.3084 12.5676 14.9568 12.1995C14.6053 11.8326 14.1578 11.6491 13.6145 11.6491C13.1032 11.6491 12.6634 11.8326 12.2953 12.1995C11.9284 12.5676 11.7449 13.0074 11.7449 13.5187C11.7449 14.062 11.9207 14.5095 12.2722 14.861C12.6238 15.2126 13.0712 15.3883 13.6145 15.3883ZM13.6145 20.9971C14.1578 20.9971 14.6053 20.8214 14.9568 20.4698C15.3084 20.1183 15.4841 19.6868 15.4841 19.1755C15.4841 18.6322 15.3084 18.1764 14.9568 17.8083C14.6053 17.4414 14.1578 17.2579 13.6145 17.2579C13.1032 17.2579 12.6634 17.4414 12.2953 17.8083C11.9284 18.1764 11.7449 18.6162 11.7449 19.1275C11.7449 19.6708 11.9207 20.1183 12.2722 20.4698C12.6238 20.8214 13.0712 20.9971 13.6145 20.9971ZM13.6145 26.6059C14.1578 26.6059 14.6053 26.4302 14.9568 26.0786C15.3084 25.7271 15.4841 25.2956 15.4841 24.7843C15.4841 24.241 15.3084 23.7852 14.9568 23.4171C14.6053 23.0502 14.1578 22.8667 13.6145 22.8667C13.1032 22.8667 12.6634 23.0502 12.2953 23.4171C11.9284 23.7852 11.7449 24.225 11.7449 24.7363C11.7449 25.2796 11.9207 25.7271 12.2722 26.0786C12.6238 26.4302 13.0712 26.6059 13.6145 26.6059ZM4.31445 41.4669V7.86199C4.31445 6.87126 4.666 6.02435 5.3691 5.32125C6.0722 4.61815 6.91911 4.2666 7.90984 4.2666H38.1111C39.1018 4.2666 39.9487 4.61815 40.6518 5.32125C41.3549 6.02435 41.7065 6.87126 41.7065 7.86199V30.489C41.7065 31.4797 41.3549 32.3266 40.6518 33.0297C39.9487 33.7328 39.1018 34.0844 38.1111 34.0844H11.697L4.31445 41.4669Z" fill="white"/>
+                </g>
+              </svg>
+            </span>
+                  
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+
+    .cart_con .cart_icons svg {
+    max-width: 45px;
+    max-height: 45px;
+    display: inline-block;
+}
+</style>
+
+
+<script type="application/json" id="CartJson-{{ section.id }}">
+  {{ cart | json }}
+</script>
+                  
+{% schema %}
+{
+  "name": "Thanks pages",
+  "settings": [
+       {
+      "type": "text",
+      "id": "cart_title",
+      "label": "Cart Title",
+      "default": "Thank You"
+    },
+    {
+      "type": "text",
+      "id": "cart_sub_title",
+      "label": "Sub Title",
+      "default": "We have received your request and will get back to you as soon as possible."
+    },
+    {
+      "type": "text",
+      "id": "cart_btn_text",
+      "label": "Button Text",
+      "default": "View All Products"
+    },
+    {
+      "type": "url",
+      "id": "btn_url",
+      "label": "Button Url"
+    },
+    {
+      "type": "url",
+      "id": "cart_email_text",
+      "label": "Choose Url"
+    }
+  ],
+	"presets": [
+	{
+	"name": "SK Thanks Icons",
+	"category": "Custom Content"
+	}
+	]
+  }
+{% endschema %}

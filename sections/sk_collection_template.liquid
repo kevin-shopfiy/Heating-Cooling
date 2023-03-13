@@ -1,0 +1,209 @@
+<section class="collection_hero">
+  <img class="tab_mobile_only" src="{% if collection.featured_image %}{{ collection.featured_image | img_url: 'master'  }}{% endif %}" />
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-7 cl-md-12">
+                <div class="collection_title">
+                    <h1>{{ collection.title }}</h1>
+                </div>
+            </div>
+            <div class="col-lg-5 cl-md-12">
+                <div class="collection_product_img">
+                    <img class="desktop_only" src="{% if collection.featured_image %}{{ collection.featured_image | img_url: 'master'  }}{% endif %}" />
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="warranty_section">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+                <div class="warranty_box">
+                    <img src="{{ settings.war_icon | image_url }}" alt="{{ settings.war_icon | image_tag }}" />
+                    <div class="war_content">
+                        <h2>{{ settings.war_title }}</h2>
+                        <div class="btn_and_condition">
+                            <a class="inline-btn" href="{{ settings.war_btn_url }}">{{ settings.war_btn_text }}</a>
+                            <p>{{ settings.war_conteiion }}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="breadcrumb_wrap desktop_tab_only">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <ul class="breadcrumb_text">
+                    <li><a href="{{ section.settings.bread_h_url }}">{{ section.settings.bread_h_text }}</a></li>
+                    <li><span>{{ collection.title }}</span></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+  {% paginate collection.products by section.settings.products_limit_handle %}
+<section class="collection_products_wrapper">
+
+    <div class="container">
+        <div class="row align-items-end coll-mr">
+            <div class="col-lg-8 col-md-12">
+                <div class="collection_details">
+                    <h2>{{ collection.title }}</h2>
+                    <p>{{ collection.description }}</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12">
+                <div data-section-id="{{ section.id }}" data-section-type="collection-filters">
+                  <div class="collection_sort">
+                      {%- assign sort_by = collection.sort_by | default: collection.default_sort_by -%}
+                      <select name="sort_by" id="SortBy" aria-describedby="a11y-refresh-page-message" class="collection-sort__input">
+    
+    
+    <option value="title-ascending">Alphabetically, A-Z</option>
+    <option value="title-descending">Alphabetically, Z-A</option>
+    <option value="price-ascending">Price, low to high</option>
+    <option value="price-descending">Price, high to low</option>
+    
+</select>
+                  </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+  
+    <div class="container">
+      <div class="row">
+          {% for product in collection.products %}
+          <div class="col-lg-4 col-6">
+              <div class="single_collect_product">
+                  <div class="product_img_cl">
+                    <a href="{{ product.url}}">
+                      <img src="{{ product.featured_image.src | image_url }}" alt="{{ product.featured_image.src.alt | escape  }}" alt="{{ product.featured_image.src.alt | escape  }}">
+                    </a>
+                  </div>
+                  <div class="product_content">
+                      <h3>{{ product.title }}</h3>
+                      <a href="{{ product.url}}">View product</a>
+                      <div class="pro-price">
+                          <span>{{ product.price | money }}</span>
+                          {% if product.compare_at_price_max > product.price %}
+                          <span class="old-price">{{ product.compare_at_price | money }}</span>
+                          {% endif %}
+                      </div>
+                  </div>
+              </div>
+          </div>
+          {% endfor %}
+      </div>
+  </div>
+
+  {% if paginate.pages > 1 %}
+    <div class="container">
+        <div class="row">
+            <div class="col justify-content-center">
+                <div class="pagination_sk">
+                {{ paginate | default_pagination: next: 'Next', previous: 'Previous' }}
+                </div>
+            </div>
+        </div>
+    </div>
+  {% endif %}
+   
+</section>
+{% endpaginate %} 
+
+
+{% schema %}
+{
+  "name": "SK Collection Template",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Collection Hero"
+    },
+    {
+      "type": "color",
+      "id": "collect_bg_color",
+      "label": "Background Color",
+      "default": "#4B4B4B"
+    },
+    {
+      "type": "header",
+      "content": "Product Options"
+    },
+    {
+      "type": "text",
+      "id": "products_limit_handle",
+      "label": "Product Limit",
+      "default": "6",
+      "info": "How many posts will appear on each page"
+    },
+    {
+      "type": "header",
+      "content": "Breadcrumb Section"
+    },
+    {
+      "type": "text",
+      "id": "bread_h_text",
+      "label": "Breadcrumb Text",
+      "default": "Shop Now"
+    },
+    {
+      "type": "url",
+      "id": "bread_h_url",
+      "label": "Breadcrumb page url"
+    },
+    {
+      "type": "header",
+      "content": "Warranty Section"
+    },
+    {
+    	"type": "text",
+    	"id": "war_title",
+    	"label": "Title",
+        "default": "Free 10 year parts and labour warranty on new installations*"
+    	},
+      {
+    	"type": "text",
+    	"id": "war_conteiion",
+    	"label": "Condition Text",
+        "default": "*Conditions apply."
+      },
+      {
+    	"type": "text",
+    	"id": "war_btn_text",
+    	"label": "Button Text",
+        "default": "See all promotions"
+      },
+      {
+    	"type": "url",
+    	"id": "war_btn_url",
+    	"label": "Buton url"
+      },
+      {
+    	"type": "image_picker",
+    	"id": "war_icon",
+    	"label": "Uplaod Icon"
+      },
+      {
+    	"type": "color",
+    	"id": "war_bg_color",
+    	"label": "Section Background Color",
+        "default": "#f5f5f5"
+      }
+  ]
+}
+{% endschema %}
+
+
+<style>
+  .warranty_section { background-color: {{ section.settings.war_bg_color }}; }
+  .collection_hero { background-color: {{ section.settings.collect_bg_color }}; }
+</style>
+
+

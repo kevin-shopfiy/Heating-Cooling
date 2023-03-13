@@ -1,0 +1,102 @@
+
+<section class="product_details">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="rte product-single__description" itemprop="description">
+                    {{ product.description }}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+                                 
+{% schema %}
+  {
+    "name": "Product Details",
+    "settings": [
+      {
+    "type": "header",
+    "content": "Specifications"
+},
+{
+    "type": "checkbox",
+    "id": "enable_spec",
+    "label": "Enable Specifications",
+    "default": true
+},
+{
+    "type": "text",
+    "id": "spec_title",
+    "label": "Title",
+    "default": "Specifications"
+},
+{
+    "type": "richtext",
+    "id": "spec_desct",
+    "label": "Description"
+},
+{
+    "type": "header",
+    "content": "Product Measurements"
+},
+{
+    "type": "checkbox",
+    "id": "enable_meas",
+    "label": "Enable Measurements",
+    "default": true
+},
+{
+    "type": "text",
+    "id": "meas_title",
+    "label": "Title",
+    "default": "Product Measurements"
+},
+{
+    "type": "richtext",
+    "id": "meas_desct",
+    "label": "Description"
+},
+{
+    "type": "header",
+    "content": "Disclaimer"
+},
+{
+    "type": "checkbox",
+    "id": "enable_disc",
+    "label": "Enable Disclaimer",
+    "default": true
+},
+{
+    "type": "text",
+    "id": "disc_title",
+    "label": "Title",
+    "default": "Disclaimer"
+},
+{
+    "type": "richtext",
+    "id": "disc_desct",
+    "label": "Description"
+},
+{
+    "type": "header",
+    "content": "Manufacturer Model Number"
+},
+{
+    "type": "checkbox",
+    "id": "enable_sku",
+    "label": "Enable SKU & Barcode",
+    "default": true
+},      
+{
+    "type": "text",
+    "id": "manu_title",
+    "label": "Title",
+    "default": "Manufacturer Model Number"
+}
+    ]
+  }
+{% endschema %}

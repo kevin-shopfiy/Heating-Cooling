@@ -1,0 +1,126 @@
+<style>
+span.hm_hero_sub_title {color: {{ section.settings.sub_title_color }};}
+h1.hm_hero_h1_title {color: {{ section.settings.title_color }};}
+li.hm_hero_li {color: {{ section.settings.listed_color }};}
+li.hm_hero_li svg {color: {{ section.settings.listed_icon_color }};}
+.hm_hero_url a {background-color: {{ section.settings.button_bg_color }};color: {{ section.settings.button_text_color }};}
+.hm_hero_url a:hover {background-color: {{ section.settings.button_bg_hover_color }};}
+.hm_hero_url a svg {color: {{ section.settings.button_icon_color }};}
+</style>
+
+<section id="hm_hero_banner" style="background: url({{ section.settings.hero_bg | image_url }});background-repeat: no-repeat !important;background-size: cover !important;">
+  <div class="container">
+    <div class="hm_hero_inn_txt">
+      <span class="hm_hero_sub_title">{{ section.settings.sub_title }}</span>
+      <h1 class="hm_hero_h1_title">{{ section.settings.h1_title }}</h1>
+      <ul class="hm_hero_ul">
+        {% for block in section.blocks %}
+        <li class="hm_hero_li"><span class="fas fa-check"></span>{{ block.settings.ul_li }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="hm_hero_url">
+      <a href="{{ section.settings.hero_url }}">{{ section.settings.hero_url_txt }} <span class="fa fa-angle-double-right"></span></a>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+  {
+    "name": "Hero Banner",
+    "settings": [
+		{
+		"type": "image_picker",
+		"id": "hero_bg",
+		"label": "Background"
+		},
+		{
+		"type": "color",
+		"id": "sub_title_color",
+		"label": "Sub Title Color",
+		"default": "#fff"
+		},
+		{
+		"type": "color",
+		"id": "title_color",
+		"label": "Title_Color",
+		"default": "#fff"
+		},
+		{
+		"type": "color",
+		"id": "listed_color",
+		"label": "Listed Color",
+		"default": "#fff"
+		},
+		{
+		"type": "color",
+		"id": "listed_icon_color",
+		"label": "Listed Icon Color",
+		"default": "#e1d8bd"
+		},
+		{
+		"type": "color",
+		"id": "button_bg_color",
+		"label": "Button Background Color",
+		"default": "#00583b"
+		},
+		{
+		"type": "color",
+		"id": "button_bg_hover_color",
+		"label": "Button Hover Color",
+		"default": "#2c2c2c"
+		},
+		{
+		"type": "color",
+		"id": "button_text_color",
+		"label": "Button Text Color",
+		"default": "#fff"
+		},
+		{
+		"type": "color",
+		"id": "button_icon_color",
+		"label": "Button Icon Color",
+		"default": "#fff"
+		},
+		{
+		"type": "text",
+		"id": "sub_title",
+		"label": "Sub-Title"
+		},
+		{
+		"type": "text",
+		"id": "h1_title",
+		"label": "Title"
+		},
+		{
+		"type": "url",
+		"id": "hero_url",
+		"label": "URL"
+		},
+		{
+		"type": "text",
+		"id": "hero_url_txt",
+		"label": "Button Name"
+		}
+	],
+	"blocks": [
+		{
+		"type": "select",
+		"name": "Add list",
+		"settings": [
+				{
+				"type": "text",
+				"id": "ul_li",
+				"label": "list"
+				}
+			]
+		}
+	]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

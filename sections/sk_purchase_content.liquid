@@ -1,0 +1,170 @@
+<div class="page_text_content">
+    {% for block in section.blocks %}
+      {% case block.type %}
+      
+      {% when 'select' %}
+      <div class="h2_content">
+          <h2>{{ block.settings.abt_h2 }}</h2>
+          <p>{{ block.settings.abt_p }}</p>
+      </div>
+      
+      {% when 'select-text' %}
+        <div class="textes">{{ block.settings.select-text-p }}</div>
+      
+      {% when 'testimonial' %}
+      <div class="list_ul_box">
+          {{ block.settings.list_ul }}
+      </div>
+
+      {% when 'select-big-ul' %}  
+      <div class="big_ul_list">
+          <h2>{{ block.settings.ul_heading }}</h2>
+          <div class="big_ul">
+              {{ block.settings.big_list_ul }}
+          </div>
+      </div>
+
+      {% when 'select-install' %} 
+      <div class="install_proc">
+        <div class="single_i_p">
+          {% if block.settings.image1 %}
+            <img src="{{ block.settings.image1 | image_url }}">
+          {% endif %}
+            <p>{{ block.settings.process1 }}</p>
+        </div>
+        <div class="single_i_p">
+            {% if block.settings.image2 %}
+            <img src="{{ block.settings.image2 | image_url }}">
+          {% endif %}
+            <p>{{ block.settings.process2 }}</p>
+        </div>
+        <div class="single_i_p">
+            {% if block.settings.image3 %}
+            <img src="{{ block.settings.image3 | image_url }}">
+          {% endif %}
+            <p>{{ block.settings.process3 }}</p>
+        </div>
+        <div class="single_i_p">
+            {% if block.settings.image4 %}
+            <img src="{{ block.settings.image4 | image_url }}">
+          {% endif %}
+            <p>{{ block.settings.process4 }}</p>
+        </div>
+    </div>
+       
+      {% endcase %}
+    {% endfor %}
+</div>
+
+
+{% schema %}
+  {
+    "name": "Purchase Content",
+    "settings": [
+
+    ],
+	"blocks": [
+		{
+		"type": "select",
+      	"name": "Content",
+		"settings": [
+			{
+			"type": "text",
+			"id": "abt_h2",
+			"label": "Heading"
+			},
+			{
+			"type": "html",
+			"id": "abt_p",
+			"label": "Content"
+			}
+		 ]
+	   },
+	   {
+		"type": "select-text",
+      	"name": "Text",
+		"settings": [
+			{
+			"type": "html",
+			"id": "select-text-p",
+			"label": "Text"
+			}
+		 ]
+	   },
+      {
+		"type": "testimonial",
+      	"name": "Ul List",
+		"settings": [
+			{
+			"type": "html",
+			"id": "list_ul",
+			"label": "Ul List"
+			}
+		 ]
+	   },
+      {
+        "type": "select-big-ul",
+        "name": "Big Ul List",
+        "settings": [
+            {
+            "type": "text",
+            "id": "ul_heading",
+            "label": "Heading"
+            },
+            {
+            "type": "html",
+            "id": "big_list_ul",
+            "label": "Html ul list"
+            }
+         ]
+    },
+      {
+        "type": "select-install",
+        "name": "Installation Process",
+        "settings": [
+            {
+            "type": "image_picker",
+            "id": "image1",
+            "label": "Process Image 1"
+            },
+            {
+            "type": "text",
+            "id": "process1",
+            "label": "Process text 1"
+            },
+            {
+            "type": "image_picker",
+            "id": "image2",
+            "label": "Process Image 2"
+            },
+            {
+            "type": "text",
+            "id": "process2",
+            "label": "Process text 2"
+            },
+            {
+            "type": "image_picker",
+            "id": "image3",
+            "label": "Process Image 3"
+            },
+            {
+            "type": "text",
+            "id": "process3",
+            "label": "Process text 3"
+            },
+            {
+            "type": "image_picker",
+            "id": "image4",
+            "label": "Process Image 4"
+            },
+            {
+            "type": "text",
+            "id": "process4",
+            "label": "Process text 4"
+            }
+        ]
+    }
+      
+    ]
+  }
+{% endschema %}

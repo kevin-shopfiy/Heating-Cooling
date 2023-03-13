@@ -1,0 +1,84 @@
+<div class="warranty_section">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+                <div class="warranty_box desk_tab_only">
+                    <img src="{{ settings.war_icon | image_url }}" />
+                    <div class="war_content">
+                        <h2>{{ settings.war_title }}</h2>
+                        <div class="btn_and_condition">
+                            <a class="inline-btn" href="{{ settings.war_btn_url }}">{{ settings.war_btn_text }}</a>
+                            <p>{{ settings.war_conteiion }}</p>
+                        </div>
+                    </div>
+                </div>
+                <a class="warranty_box mobile_only" href="{{ settings.war_btn_url }}">
+                    <img src="{{ settings.war_icon | image_url }}" />
+                    <div class="war_content">
+                        <h2>{{ settings.war_title }}</h2>
+                        <div class="btn_and_condition">
+                            
+                            <p>{{ settings.war_conteiion }}</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+{% schema %}
+  {
+    "name": "SK Warranty",
+    "settings": [
+      {
+    	"type": "text",
+    	"id": "war_title",
+    	"label": "Title",
+        "default": "Free 10 year parts and labour warranty on new installations*"
+    	},
+      {
+    	"type": "text",
+    	"id": "war_conteiion",
+    	"label": "Condition Text",
+        "default": "*Conditions apply."
+      },
+      {
+    	"type": "text",
+    	"id": "war_btn_text",
+    	"label": "Button Text",
+        "default": "See all promotions"
+      },
+      {
+    	"type": "url",
+    	"id": "war_btn_url",
+    	"label": "Buton url"
+      },
+      {
+    	"type": "image_picker",
+    	"id": "war_icon",
+    	"label": "Uplaod Icon"
+      },
+      {
+    	"type": "color",
+    	"id": "war_bg_color",
+    	"label": "Section Background Color",
+        "default": "#f5f5f5"
+      }
+    ],
+	"presets": [
+	{
+	"name": "SK Warranty",
+	"category": "Custom Content"
+	}
+	]
+  }
+{% endschema %}
+
+
+
+
+<style>
+  .warranty_section { background-color: {{ settings.war_bg_color }}; }
+</style>

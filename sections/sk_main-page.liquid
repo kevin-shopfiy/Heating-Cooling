@@ -1,0 +1,73 @@
+<div class="page_content_wrpper">
+    <div class="page_header_warp">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1 class="page_title">{{page.title}}</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<style>
+  .page_header_warp { background-color: {{ section.settings.sec_header_bg_color }};}
+</style>
+
+{% schema %}
+  {
+    "name": "SK Page Content",
+    "settings": [
+        {
+		"type": "image_picker",
+		"id": "sec_banner_img",
+		"label": "Banner Image"
+		},
+      {
+		"type": "color",
+		"id": "sec_header_bg_color",
+		"label": "Background Color",
+        "default": "#474747"
+		}
+    ],
+	"blocks": [
+		{
+		"type": "select",
+      	"name": "Content",
+		"settings": [
+			{
+			"type": "text",
+			"id": "abt_h2",
+			"label": "Heading"
+			},
+			{
+			"type": "html",
+			"id": "abt_p",
+			"label": "Content"
+			}
+		 ]
+	   },
+	   {
+		"type": "select-text",
+      	"name": "Text",
+		"settings": [
+			{
+			"type": "html",
+			"id": "select-text-p",
+			"label": "Text"
+			}
+		 ]
+	   },
+      {
+		"type": "testimonial",
+      	"name": "Ul List",
+		"settings": [
+			{
+			"type": "html",
+			"id": "list_ul",
+			"label": "Ul List"
+			}
+		 ]
+	   }
+    ]
+  }
+{% endschema %}

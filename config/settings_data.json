@@ -1,0 +1,2973 @@
+{
+  "current": {
+    "phone_number": "555-555-5555",
+    "enable_cta_box": true,
+    "cta_desc": "Our team of experts are ready to answer your questions!",
+    "cta_phone": "555-555-555",
+    "cta_email_address": "shopify:\/\/pages\/contact-us",
+    "tp_title": "$50 off any repair*",
+    "tp_sub_title": "Repair Promotion",
+    "tp_condition_url": "shopify:\/\/pages\/whats-included-with-your-purchase",
+    "tp_sub_icon": "shopify:\/\/shop_images\/sell-3.png",
+    "section_title": "Get a Free Estimate",
+    "postal_code": "* Zip Code",
+    "submitted_img": "shopify:\/\/shop_images\/check_circle.png",
+    "pf_section_class": "",
+    "pf_section_title": "Get a Free Estimate",
+    "pf_form_button_name": "Submit",
+    "m_section_title": "Get a Free Estimate",
+    "m_testi_icon": "shopify:\/\/shop_images\/format_quote.png",
+    "m_testi_icon_mobile": "shopify:\/\/shop_images\/format_quote_fb6d6170-c6eb-416e-9768-b9b6fcc11d60.png",
+    "m_author_text": "Patty S.",
+    "m_testi_desc": "\"I have been working with Just Right Air and Jason for several years. He is always courteous, efficient, and very helpful. Thanks to him we no longer have thermostat wars, it's just always comfortable in our house. And the energy bills have gone down. I'm grateful we found Just Right Air.\"",
+    "install_icon": "shopify:\/\/shop_images\/handyman.png",
+    "intall_desc": "<p>Pricing includes equipment, material and installation time required to professionally install a new system. To ensure optimal performance, we adhere to the manufacturer’s recommended specification to match the right equipment to your home. All new systems are tested and commissioned on site.<\/p>",
+    "iwr_war_icon": "shopify:\/\/shop_images\/new_releases.png",
+    "war_desc": "<p>We stand behind the quality of our workmanship and the equipment we choose to install. This is why the systems we provide come with some of the most comprehensive warranty coverage in the industry. Your installed price includes standard manufacturer’s warranty that can be extended to cover any labor fees should you require a repair. <\/p>",
+    "google_icon": "shopify:\/\/shop_images\/Group_101.png",
+    "war_btn_text": "See installations promotions",
+    "war_btn_url": "shopify:\/\/pages\/whats-included-with-your-purchase",
+    "war_icon": "shopify:\/\/shop_images\/sell_1.png",
+    "review_text": "<strong>What Our Customers \n<\/strong>Have To Say",
+    "review_box_url": "\/pages\/about-us#reviews",
+    "finace_box_url": "shopify:\/\/pages\/financing",
+    "test_class": "m_padding",
+    "testi_icon": "shopify:\/\/shop_images\/format_quote.png",
+    "testi_icon_mobile": "shopify:\/\/shop_images\/format_quote.png",
+    "author_text": "Kristen M.",
+    "testi_desc": "\"Our old air conditioner broke and Button’s Heating and Air Conditioning came to our rescue when other companies didn’t. Todd Button was very thorough when explaining all of my different options for new air conditioners and took the time to answer all of my questions. Their install of our new air conditioner was neat and tidy and they did a good job of cleaning up their work space once the job was done. Thank you!! Highly recommend Button’s Heating and Air Conditioning!!!\"",
+    "testi_btn_url": "\/pages\/about-us\/#reviews",
+    "f_fo_class": "mm_0",
+    "f_testi_desc": "We understand the importance of having fast, flexible, and straight-forward options that allow you to make the best long-term decision when replacing or upgrading your equipment.",
+    "ser_title": "Services & Solutions",
+    "promo_title": "Repair Promotion:",
+    "promo_sub_title": "$20 off any service visit when you join our preventative maintenance plan*",
+    "promo_btn_url": "shopify:\/\/pages\/promotion",
+    "enable_contact": true,
+    "con_text": "Send us a Message",
+    "con_url": "shopify:\/\/pages\/contact-us",
+    "wdg1_ser_link": "shopify:\/\/pages\/heating",
+    "wdg2_ser_title": "Cooling",
+    "wdg2_ser_link": "shopify:\/\/pages\/air-conditioning",
+    "enable_wdg3": true,
+    "wdg3_ser_title": "Ductless",
+    "wdg3_ser_info": "Repair & Service",
+    "wdg3_ser_link": "shopify:\/\/pages\/ductless",
+    "wdg4_ser_title": "Air Quality",
+    "wdg4_ser_info": "Indoor Solutions",
+    "wdg4_ser_link": "shopify:\/\/pages\/air-quality",
+    "enable_wdg5": true,
+    "wdg5_ser_link": "shopify:\/\/pages\/maintenance",
+    "color_primary": "#176ea3",
+    "color_second": "#be1930",
+    "color_third": "#f5f5f5",
+    "header_color_bg": "#ffffff",
+    "type_accent_family": "open_sans_n8",
+    "type_accent_spacing": false,
+    "type_accent_transform": false,
+    "type_base_family": "open_sans_n4",
+    "type_base_size": "14px",
+    "type_nav_size": "15px",
+    "type_nav_spacing": false,
+    "type_nav_transform": false,
+    "product_vendor_enable": false,
+    "social_facebook_link": "",
+    "favicon": "shopify:\/\/shop_images\/favicon_1.png",
+    "checkout_logo_image": "shopify:\/\/shop_images\/footer_logo.png",
+    "checkout_accent_color": "#00583b",
+    "checkout_button_color": "#00583b",
+    "wdg1_service_d_icon": "shopify:\/\/shop_images\/heating_40cf00f2-8f82-4927-932a-cf1ec58c0a53.png",
+    "wdg2_service_d_icon": "shopify:\/\/shop_images\/cooling_a3937060-3f04-4456-b106-02ab0b167d2d.png",
+    "wdg3_service_d_icon": "shopify:\/\/shop_images\/airqua.png",
+    "wdg4_service_d_icon": "shopify:\/\/shop_images\/ductles_black.png",
+    "wdg5_service_d_icon": "shopify:\/\/shop_images\/maintenance_357e6148-de7e-4e0e-9e07-87e039d09b6e.png",
+    "h1_title": "Looking For Financing Options?",
+    "h1_desc": "<ul>\n<li>Lorem Ipsum<\/li>\n<li>Lorem Ipsum<\/li>\n<\/ul>",
+    "fo_btn_text": "See Financing Options",
+    "fo_btn_url": "shopify:\/\/pages\/financing",
+    "color_footer_bg": "#213236",
+    "color_footer_text": "#fff",
+    "color_hero_text": "#fff",
+    "color_hero_bg": "#00583b",
+    "color_body_bg": "#f7f7f7",
+    "color_content_bg": "#ffffff",
+    "color_body_headings": "#000000",
+    "color_body_text": "#000000",
+    "color_button_bg": "#0d6579",
+    "color_button_text": "#fff",
+    "color_header_bg": "#213236",
+    "color_header_links": "#ffffff",
+    "checkout_banner_background_color": "#fff",
+    "checkout_call_to_action_color": "#f4743c",
+    "checkout_use_header_image": false,
+    "color_newsletter_input": "#425154",
+    "sections": {
+      "slideshow": {
+        "type": "slideshow",
+        "disabled": true,
+        "blocks": {
+          "placeholder-0": {
+            "type": "slide",
+            "settings": {
+              "image_position": "center center",
+              "title": "Slide",
+              "button_label": "View all products",
+              "button_link": ""
+            }
+          },
+          "placeholder-1": {
+            "type": "slide",
+            "settings": {
+              "image_position": "center center",
+              "title": "Slide",
+              "button_label": "View all products",
+              "button_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "placeholder-0",
+          "placeholder-1"
+        ],
+        "settings": {
+          "hero_home_height": "small",
+          "hero_home_auto": false,
+          "hero_home_auto_speed": 5
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "linklist": {
+            "type": "menu",
+            "settings": {
+              "link_list": "footer"
+            }
+          },
+          "social": {
+            "type": "social",
+            "settings": {
+              "title": "Follow us",
+              "align": "left"
+            }
+          }
+        },
+        "block_order": [
+          "linklist",
+          "social"
+        ],
+        "settings": {
+          "show_payment_icons": true
+        }
+      },
+      "featured-collections": {
+        "type": "featured-collections",
+        "disabled": true,
+        "blocks": {
+          "featured-collections-0": {
+            "type": "collection",
+            "settings": {
+              "collection": ""
+            }
+          },
+          "featured-collections-1": {
+            "type": "collection",
+            "settings": {
+              "collection": ""
+            }
+          },
+          "featured-collections-2": {
+            "type": "collection",
+            "settings": {
+              "collection": ""
+            }
+          },
+          "bc1b5ac7-4365-486e-a483-7256a961a9ac": {
+            "type": "collection",
+            "settings": {
+              "collection": ""
+            }
+          }
+        },
+        "block_order": [
+          "featured-collections-0",
+          "featured-collections-1",
+          "featured-collections-2",
+          "bc1b5ac7-4365-486e-a483-7256a961a9ac"
+        ],
+        "settings": {
+          "stretch_collection_image": false
+        }
+      },
+      "featured-products": {
+        "type": "featured-products",
+        "disabled": true,
+        "settings": {
+          "collection": "frontpage",
+          "rows": 2
+        }
+      },
+      "image-content": {
+        "type": "image-content",
+        "disabled": true,
+        "blocks": {
+          "image-content-0": {
+            "type": "image_block",
+            "settings": {}
+          },
+          "image-content-1": {
+            "type": "text_block",
+            "settings": {
+              "title": "Image with text",
+              "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+              "align": "left"
+            }
+          }
+        },
+        "block_order": [
+          "image-content-0",
+          "image-content-1"
+        ],
+        "settings": {}
+      },
+      "header": {
+        "type": "header",
+        "blocks": {
+          "ec62ca81-73e6-44bf-bc3f-93843482ff3b": {
+            "type": "select",
+            "settings": {
+              "header_txt_class": "",
+              "header_url": "",
+              "header_sub_txt_sm": "",
+              "header_sub_txt_lg": ""
+            }
+          },
+          "7b683d00-7dd6-4378-9f1b-88b98b44073c": {
+            "type": "select",
+            "settings": {
+              "header_txt_class": "",
+              "header_url": "",
+              "header_sub_txt_sm": "",
+              "header_sub_txt_lg": ""
+            }
+          }
+        },
+        "block_order": [
+          "ec62ca81-73e6-44bf-bc3f-93843482ff3b",
+          "7b683d00-7dd6-4378-9f1b-88b98b44073c"
+        ],
+        "settings": {
+          "logo": "shopify:\/\/shop_images\/buttons-logo-3a22827125_1.png",
+          "logo_max_width": "450",
+          "main_linklist": "update-main-menu",
+          "header_txt_class": "",
+          "header_url": "",
+          "header_icon_class": "shopify:\/\/shop_images\/Google_Material_Icons.png",
+          "header_icon_m_class": "shopify:\/\/shop_images\/Google_Material_Icons.png",
+          "header_sub_txt_sm": "Pickering, ON",
+          "header_sub_txt_lg": "",
+          "p_header_txt_class": "",
+          "p_header_url": "tel:555-555-5555",
+          "p_header_icon_class": "shopify:\/\/shop_images\/Google_Material_Icons_1.png",
+          "p_header_icon_m_class": "shopify:\/\/shop_images\/Google_Material_Icons_1.png",
+          "p_header_sub_txt_sm": "Call us now",
+          "p_header_sub_txt_lg": "",
+          "nav_bg": "{{ shop.brand.colors.primary[0].background }}",
+          "icon_color": "{{ shop.brand.colors.primary[0].background }}",
+          "icon_bordercolor": "#000000",
+          "icon_desk_text_color": "#000000",
+          "icon_mob_text_color": "#ffffff",
+          "nav_text_color": "#ffffff",
+          "nav_icon_color": "#ffffff",
+          "header_emergency": "24\/7 Emergency Service",
+          "header_emergency_url": "shopify:\/\/pages\/contact-us"
+        }
+      },
+      "footer_new": {
+        "type": "footer_new",
+        "blocks": {
+          "bfe7b5aa-c397-4ffa-b765-79e99d3f457c": {
+            "type": "select",
+            "settings": {
+              "ft_txt_class": "ft_place"
+            }
+          },
+          "3ad276fd-21d2-47e6-9c8c-94a7b2452540": {
+            "type": "select",
+            "settings": {
+              "ft_txt_class": "ft_phonee"
+            }
+          }
+        },
+        "block_order": [
+          "bfe7b5aa-c397-4ffa-b765-79e99d3f457c",
+          "3ad276fd-21d2-47e6-9c8c-94a7b2452540"
+        ],
+        "settings": {
+          "ft_logo": "shopify:\/\/shop_images\/buttons-logo-3a22827125_1_1.png",
+          "background_color": "#0d6579",
+          "icon_border_color": "#ffffff",
+          "icon_color": "#ffffff",
+          "icon_text_color": "#ffffff",
+          "copyright_bg_color": "#1e1e1e",
+          "copyright_text_color": "#ffffff",
+          "text_footer": "State License ROC 309388",
+          "loc_url": "shopify:\/\/pages\/contact-us",
+          "loc_icon_class": "shopify:\/\/shop_images\/Google_Material_Icons_2.png",
+          "loc_sub_txt_sm": "",
+          "loc_sub_txt_lg": "Pickering, ON",
+          "ft_url": "shopify:\/\/blogs\/news",
+          "ft_icon_class": "shopify:\/\/shop_images\/Google_Material_Icons_3.png",
+          "ft_sub_txt_sm": "Call us now",
+          "ft_sub_txt_lg": ""
+        }
+      },
+      "collection-filters": {
+        "type": "collection-filters",
+        "settings": {
+          "product_tags_enable": true,
+          "product_sorting_enable": true
+        }
+      },
+      "product-template": {
+        "type": "product-template",
+        "settings": {
+          "enable_ajax": false,
+          "stock_enable": true,
+          "enable_payment_button": false,
+          "social_sharing_products": false
+        }
+      },
+      "product-recommendations": {
+        "type": "product-recommendations",
+        "settings": {
+          "show_product_recommendations": true,
+          "heading": "You may also like"
+        }
+      },
+      "about-us-hero": {
+        "type": "about-us-hero",
+        "settings": {}
+      },
+      "common_collection": {
+        "type": "common_collection",
+        "blocks": {
+          "762ac6fe-ae91-4ace-8a6c-e4382e108110": {
+            "type": "collection",
+            "settings": {
+              "collection": "air-conditioning"
+            }
+          },
+          "5faa500c-2827-4947-8061-d80141e9cec6": {
+            "type": "collection",
+            "settings": {
+              "collection": "furnaces"
+            }
+          },
+          "116e0947-d955-492f-98f7-fe7798c76071": {
+            "type": "collection",
+            "settings": {
+              "collection": "water-heaters"
+            }
+          },
+          "e24f2bfb-e1cd-4872-ae00-b5778141816a": {
+            "type": "collection",
+            "settings": {
+              "collection": "ductless-systems"
+            }
+          }
+        },
+        "block_order": [
+          "762ac6fe-ae91-4ace-8a6c-e4382e108110",
+          "5faa500c-2827-4947-8061-d80141e9cec6",
+          "116e0947-d955-492f-98f7-fe7798c76071",
+          "e24f2bfb-e1cd-4872-ae00-b5778141816a"
+        ],
+        "settings": {
+          "cmm_collection_h2": "24\/7 Heating & Cooling Services In Kent"
+        }
+      },
+      "cmm_cooling_special": {
+        "type": "cmm_cooling_special",
+        "settings": {
+          "cmm_cool_h2": "Your local heating & cooling specialist",
+          "cmm_cool_p": "<p>Walter Zainey started the Greenwood Furnace Co. in the Greenwood neighborhood of Seattle in 1918 and quickly built a reputation for providing quality products and services.<\/p>\n<p>We are committed to complete customer satisfaction and have a mission to be ‘The Most Trusted and Respected Home Services Company’ by providing the Highest Quality Air Conditioning and Heating products and services, and then backing it up with the industries best warranties and guarantees.<\/p>\n<p>Today we have nearly 100 dedicated professionals with the single mission of 100% Customer Satisfaction.<\/p>",
+          "cmm_cool_url": "shopify:\/\/pages\/about-us",
+          "cmm_cool_a": "Learn More About Us"
+        }
+      },
+      "cmm_testimonial": {
+        "type": "cmm_testimonial",
+        "settings": {
+          "cmm_test_blockquote": "\"When my hot water heater started leaking, I immediately called Greenwood, a company I rely on to maintain my furnace and water heater, both of which had been installed by Greenwood. I received a speedy call back, courteous service and the information I needed to take steps back to water heater health! I am so impressed by this company.\"",
+          "cmm_test_author": "Rae Ann E.",
+          "cmm_test_url": "\/pages\/about-us#customer-review",
+          "cmm_test_a": "Read More"
+        }
+      },
+      "cmm_brand": {
+        "type": "cmm_brand",
+        "blocks": {
+          "8fd9bdd0-f1ac-4edc-8fe7-21e15805745c": {
+            "type": "select",
+            "settings": {}
+          },
+          "5412d8a8-7e57-47d6-ae40-9e67ab460734": {
+            "type": "select",
+            "settings": {}
+          },
+          "48355d1f-8db6-4273-8a1c-ec4dcff58d44": {
+            "type": "select",
+            "settings": {}
+          }
+        },
+        "block_order": [
+          "8fd9bdd0-f1ac-4edc-8fe7-21e15805745c",
+          "5412d8a8-7e57-47d6-ae40-9e67ab460734",
+          "48355d1f-8db6-4273-8a1c-ec4dcff58d44"
+        ],
+        "settings": {}
+      },
+      "about-us-text": {
+        "type": "about-us-text",
+        "blocks": {
+          "cc637997-3128-4055-8a85-f57f4d0fc3b8": {
+            "type": "select",
+            "settings": {
+              "abt_h2": "24\/7 Emergency Services",
+              "abt_p": "In need of an urgent repair? We are available day and night to take your call."
+            }
+          },
+          "cc40008d-6f02-449b-b214-55611971f675": {
+            "type": "select",
+            "settings": {
+              "abt_h2": "Why Choose Us?",
+              "abt_p": "<div class=\"abt-list-items\"> <ul class=\"list\"> <li>\n<span class=\"icon fa fa-check\"><\/span>24\/7 emergency services<\/li> <li>\n<span class=\"icon fa fa-check\"><\/span>Next day installations<\/li> <li>\n<span class=\"icon fa fa-check\"><\/span>Weekend installations <\/li> <li>\n<span class=\"icon fa fa-check\"><\/span>Priority appointment scheduling<\/li> <li>\n<span class=\"icon fa fa-check\"><\/span>Free in-home estimates<\/li> <li>\n<span class=\"icon fa fa-check\"><\/span>Financing available<\/li> <li>\n<span class=\"icon fa fa-check\"><\/span>Drug tested \/ background checked employees<\/li> <li>\n<span class=\"icon fa fa-check\"><\/span>Weekly in-house training for employees<\/li> <li>\n<span class=\"icon fa fa-check\"><\/span>Oldest heating company in Washington<\/li> <li>\n<span class=\"icon fa fa-check\"><\/span>Licensed, bonded, and insured<\/li> <li>\n<span class=\"icon fa fa-check\"><\/span>Over 20 guarantees to protect homeowners<\/li> <li>\n<span class=\"icon fa fa-check\"><\/span>Lifetime craftsmanship warranty<\/li> <li>\n<span class=\"icon fa fa-check\"><\/span>100% satisfaction guarantee<\/li> <\/ul> <\/div>"
+            }
+          },
+          "1a78738c-d320-42a2-a754-9679acabcd86": {
+            "type": "select",
+            "settings": {
+              "abt_h2": "Awards and Accomplishments",
+              "abt_p": "<div class=\"abt-list-items\"> <ul class=\"list\"> <li>\n<span class=\"icon fa fa-check\"><\/span>A+ rating with the Better Business Bureau<\/li> <li>\n<span class=\"icon fa fa-check\"><\/span>Mitsubishi Diamond Dealer<\/li> <li>\n<span class=\"icon fa fa-check\"><\/span>Angie’s List Super Service Award Winner (over 10 years in a row)<\/li> <\/ul> <\/div>"
+            }
+          },
+          "075ef0a9-1fbb-40e3-84ce-08cf3b447929": {
+            "type": "select-text",
+            "settings": {
+              "select-text_p": "<p>Give us a call today to schedule a repair or installation or to learn more about our services.<\/p>\n<div id=\"customer-review\"><\/div>"
+            }
+          },
+          "cd6b7800-80f2-4076-9b3b-33a9f7c72fc0": {
+            "type": "testimonial",
+            "settings": {
+              "abt_us_text_p": "When my hot water heater started leaking, I immediately called Greenwood, a company I rely on to maintain my furnace and water heater, both of which had been installed by Greenwood. I received a speedy call back, courteous service and the information I needed to take steps back to water heater health! I am so impressed by this company.",
+              "abt_us_author": "Rae Ann E.",
+              "abt_range": 5
+            }
+          },
+          "7ced6a57-6931-43f0-b06c-cfe8f1aa5589": {
+            "type": "testimonial",
+            "settings": {
+              "abt_us_text_p": "Greenwood provided us with a superior customer experience from start to finish. The Greenwood sales rep was the best in terms of explaining the problem and our options in easy to understand language. The installation was quickly scheduled. The installers were courteous and made sure to cover our floors to protect them from any outside dirt and debris. Overall, highly recommended.",
+              "abt_us_author": "Krisjs1767",
+              "abt_range": 5
+            }
+          },
+          "05048517-f29a-4c9a-bda0-1ba880b7ea49": {
+            "type": "testimonial",
+            "settings": {
+              "abt_us_text_p": "Installed a new heating vent, as well as ran the gas line from the exterior of my home to the fireplace. I called the day before, and they were here the next day. Not only were they on-time, they got the job done quickly, and overall I found the price to be great. I would definitely recommend Greenwood moving forward.",
+              "abt_us_author": "Carson M.",
+              "abt_range": 5
+            }
+          },
+          "6a3efc67-d6c5-44b5-a2ef-9a297847027c": {
+            "type": "testimonial",
+            "settings": {
+              "abt_us_text_p": "Both the main office and the technician were responsive, scheduled me during a very busy time, and repaired and got my gas furnace back and running. I was without heat for less than a whole day. Great service, incredible documentation and feedback, and exceptionally reasonable prices.",
+              "abt_us_author": "Chas R.",
+              "abt_range": 5
+            }
+          },
+          "fd139251-095b-4725-88ea-58404e051a76": {
+            "type": "testimonial",
+            "settings": {
+              "abt_us_text_p": "Greenwood Heating is the best. They send you notice of service tech on the way and you can track the truck on a mobile phone so you can time arrival with your schedule. Thorough service and explanation and plan to keep furnace running great.",
+              "abt_us_author": "Kevin K.",
+              "abt_range": 5
+            }
+          },
+          "b1af210d-766d-4485-8981-87092d61cd3a": {
+            "type": "testimonial",
+            "settings": {
+              "abt_us_text_p": "Everyone you deal with is very professional. They gave me a great deal on a new furnace. The installers went above and beyond, fixing all the wiring, fabricating a door for the air filter, and much more.",
+              "abt_us_author": "Hugo Y.",
+              "abt_range": 5
+            }
+          }
+        },
+        "block_order": [
+          "cc637997-3128-4055-8a85-f57f4d0fc3b8",
+          "cc40008d-6f02-449b-b214-55611971f675",
+          "1a78738c-d320-42a2-a754-9679acabcd86",
+          "075ef0a9-1fbb-40e3-84ce-08cf3b447929",
+          "cd6b7800-80f2-4076-9b3b-33a9f7c72fc0",
+          "7ced6a57-6931-43f0-b06c-cfe8f1aa5589",
+          "05048517-f29a-4c9a-bda0-1ba880b7ea49",
+          "6a3efc67-d6c5-44b5-a2ef-9a297847027c",
+          "fd139251-095b-4725-88ea-58404e051a76",
+          "b1af210d-766d-4485-8981-87092d61cd3a"
+        ],
+        "settings": {
+          "abt_us_text_p": "Established over 100 years ago, we are proud to be a locally owned and operated company serving the heating and cooling needs of local residential customers. Every job is personally customized in order to provide you with complete satisfaction.",
+          "abt_bld": "Ready for your next heating, cooling, or electrical project?",
+          "abt_bld_p": "Our professional technicians and staff are ready to help!",
+          "abt_phn_url": "tel:206-202-9516",
+          "abt_phn_txt": "206-202-9516",
+          "abt_email_url": "shopify:\/\/pages\/contact-us",
+          "abt_email_txt": "Email Us",
+          "abt_memcom_h2": "Compare Plans",
+          "abt_memcom_url": "shopify:\/\/pages\/select-your-club-membership",
+          "abt_memcom_a": "Learn More",
+          "abt_review_des": "<div class=\"review-boxx\"> \n\t<a href=\"#customer-review\"> \n\t\t<div class=\"starss\"> \n\t\t\t<span class=\"ratingg\">\n\t\t\t\t<span class=\"fa fa-star\"><\/span>\n\t\t\t\t<span class=\"fa fa-star\"><\/span>\n\t\t\t\t<span class=\"fa fa-star\"><\/span>\n\t\t\t\t<span class=\"fa fa-star\"><\/span>\n\t\t\t\t<span class=\"fa fa-star\"><\/span>\n\t\t\t<\/span> \n\t\t<\/div> \n\t\t<span class=\"review-boxx_h5\">Real Reviews from Real Customers <span class=\"fas fa-arrow-right\"><\/span><\/span> \n\t<\/a> \n<\/div>",
+          "abt_quick_des": "<div class=\"s-box-small text-center\"> \n\t<h4>Special financing is available<\/h4> \n\t<a href=\"\/pages\/financing\" class=\"btn-normal btn-oval\">Learn More <span class=\"fa fa-angle-double-right\"><\/span><\/a> \n<\/div>",
+          "club_enroll_url": "",
+          "club_enroll": ""
+        }
+      },
+      "about-us-guarante": {
+        "type": "about-us-guarante",
+        "blocks": {
+          "a69fc62b-77cc-4545-9497-263a4031d617": {
+            "type": "select",
+            "settings": {
+              "abt_gurante_item": "<span class=\"abt_gut_item_des\">25% off service calls<sup>*<\/sup><br><small><sup>*<\/sup>available for Green Maintenance Plan Members<\/small><\/span>"
+            }
+          },
+          "d91ae0be-0a65-4ac1-bedb-74ec14d9179e": {
+            "type": "select",
+            "settings": {
+              "abt_gurante_item": "<span class=\"abt_gut_item_des\">1 year labor warranty on completed repairs<\/span>"
+            }
+          },
+          "6b249aef-7d76-4b5a-8a9c-81e09b4a4783": {
+            "type": "select",
+            "settings": {
+              "abt_gurante_item": "<span class=\"abt_gut_item_des\">Lifetime craftsmanship warranty on completed repairs<\/span>"
+            }
+          }
+        },
+        "block_order": [
+          "a69fc62b-77cc-4545-9497-263a4031d617",
+          "d91ae0be-0a65-4ac1-bedb-74ec14d9179e",
+          "6b249aef-7d76-4b5a-8a9c-81e09b4a4783"
+        ],
+        "settings": {
+          "abt_gurante_h2": "Our Repair Guarantees",
+          "abt_gurante_p": "Take advantage of these great offers",
+          "abt_gur_btn_url": "shopify:\/\/pages\/contact-us",
+          "abt_gur_btn": "Connect with a Specialist"
+        }
+      },
+      "our-history-text": {
+        "type": "our-history-text",
+        "blocks": {
+          "7cbe30c6-25b5-4b22-bcdb-6d6b73526299": {
+            "type": "select",
+            "settings": {
+              "abt_h2": "Our History",
+              "abt_p": "Greenwood Furnace Co. was founded by Walter Zainey in the Greenwood neighborhood of Seattle in 1918 and quickly earned a reputation for providing quality products and services to its customers."
+            }
+          },
+          "7084ff39-7e0a-4cae-9120-8dafa71a1559": {
+            "type": "select",
+            "settings": {
+              "abt_h2": "Over 100 Years of Quality Service",
+              "abt_p": "For years, we were under the impression that Greenwood was established in 1921. However, we recently discovered it was actually founded in 1918 thanks to a newspaper clipping from Walter’s granddaughter from a newspaper ad published in 1968 ."
+            }
+          },
+          "d4fd0bfb-fbbf-4ad4-be1c-2bc1e47b3478": {
+            "type": "select",
+            "settings": {
+              "abt_h2": "Business Expansion",
+              "abt_p": "In 1990, we were purchased by Pat Martin. Over the next 7 years, we quickly expanded and became the 46th fastest growing company in Washington. In 1999, we were sold to Service Experts, a national chain of service companies with over 200 locations controlled by Lennox International."
+            }
+          },
+          "086ace8a-ab62-48b8-b26c-c0a5e6bab862": {
+            "type": "select",
+            "settings": {
+              "abt_h2": "Back To Our Roots",
+              "abt_p": "In December of 2004, we changed hands again and went back to our Puget Sound roots of being owned by a local Seattle resident. Today we have nearly 100 dedicated professionals with the single mission of 100% customer satisfaction."
+            }
+          },
+          "ea1ec293-3f60-4a9b-a27d-716ae02271dd": {
+            "type": "select",
+            "settings": {
+              "abt_h2": "Our Core Values",
+              "abt_p": "<p>We are proud to be founded on the following core values:<\/p>\n<div class=\"abt-list-items\"> \n<ul class=\"list\"> <li>\n<span class=\"icon fa fa-check\"><\/span>A+ rating with the Better Business Bureau<\/li> <li>\n<span class=\"icon fa fa-check\"><\/span>Mitsubishi Diamond Dealer<\/li> <li>\n<span class=\"icon fa fa-check\"><\/span>Angie’s List Super Service Award Winner (over 10 years in a row)<\/li> <\/ul> <\/div>"
+            }
+          }
+        },
+        "block_order": [
+          "7cbe30c6-25b5-4b22-bcdb-6d6b73526299",
+          "7084ff39-7e0a-4cae-9120-8dafa71a1559",
+          "d4fd0bfb-fbbf-4ad4-be1c-2bc1e47b3478",
+          "086ace8a-ab62-48b8-b26c-c0a5e6bab862",
+          "ea1ec293-3f60-4a9b-a27d-716ae02271dd"
+        ],
+        "settings": {
+          "abt_us_text_img": "shopify:\/\/shop_images\/our-hist_txt_img.jpg",
+          "abt_us_text_p": "",
+          "abt_bld": "Ready for your next heating, cooling, or electrical project?",
+          "abt_bld_p": "Our professional technicians and staff are ready to help!",
+          "abt_phn_url": "tel:206-202-9516",
+          "abt_phn_txt": "206-202-9516",
+          "abt_email_url": "shopify:\/\/pages\/contact-us",
+          "abt_email_txt": "Email Us",
+          "abt_memcom_h2": "Compare Memberships",
+          "abt_memcom_url": "shopify:\/\/pages\/club-membership",
+          "abt_memcom_a": "Learn More",
+          "abt_review_des": "<div class=\"review-boxx\"> \n\t<a href=\"\/pages\/about-us#customer-review\"> \n\t\t<div class=\"starss\"> \n\t\t\t<span class=\"ratingg\">\n\t\t\t\t<span class=\"fa fa-star\"><\/span>\n\t\t\t\t<span class=\"fa fa-star\"><\/span>\n\t\t\t\t<span class=\"fa fa-star\"><\/span>\n\t\t\t\t<span class=\"fa fa-star\"><\/span>\n\t\t\t\t<span class=\"fa fa-star\"><\/span>\n\t\t\t<\/span> \n\t\t<\/div> \n\t\t<span class=\"review-boxx_h5\">Real Reviews from Real Customers <span class=\"fas fa-arrow-right\"><\/span><\/span> \n\t<\/a> \n<\/div>",
+          "abt_quick_hero_bg": "shopify:\/\/shop_images\/sidebar-cta.jpg",
+          "abt_quick_des": "<div class=\"s-box-small text-center\"> \n\t<h4>Special financing is available<\/h4> \n\t<a href=\"\/pages\/financing\" class=\"btn-normal btn-oval\">Learn More <span class=\"fa fa-angle-double-right\"><\/span><\/a> \n<\/div>",
+          "club_enroll_url": "",
+          "club_enroll": ""
+        }
+      },
+      "club-membership-text": {
+        "type": "club-membership-text",
+        "blocks": {
+          "a979ad14-73b8-421f-88d9-76913b6f910f": {
+            "type": "select",
+            "settings": {
+              "abt_h2": "This maintenance plan includes benefits such as:",
+              "abt_p": "<div class=\"abt-list-items\"> <ul class=\"list\"> <li>\n<span class=\"icon fa fa-check\"><\/span><strong>Priority Customer Status:<\/strong><br> During the hot and cold months of the year, we offer our Planned Service Members the guarantee of servicing emergency situations. Ask us how to receive 24 hour and Same Day service in emergency situations.<\/li> <li>\n<span class=\"icon fa fa-check\"><\/span><strong>Discounts On Repairs:<\/strong><br> Sometimes repairs are necessary. Joining our Club Membership will give you the benefit of a huge savings on all repairs that need to be done on your unit<\/li> <li>\n<span class=\"icon fa fa-check\"><\/span><strong>Avoid Overtime Charges:<\/strong><br> Ask our team about how to save by never paying an afterhours diagnostic fee!<\/li> <li>\n<span class=\"icon fa fa-check\"><\/span><strong>Lower utility bills:<\/strong><br> Regular yearly maintenance helps HVAC units run more efficiently, lowering the cost of utility bills<\/li> <li>\n<span class=\"icon fa fa-check\"><\/span><strong>5% Discount On Any New Equipment:<\/strong><br> Joining our higher tier memberships offers you the luxury of accruing credits every year towards new equipment or 5% off new equipment.<\/li> <li>\n<span class=\"icon fa fa-check\"><\/span><strong>Club Concierge:<\/strong><br> Being a Club Member means having dedicated team member to provide service to you.<\/li> <li>\n<span class=\"icon fa fa-check\"><\/span><strong>Annual Reminders:<\/strong><br> Coming up on the time of year for service? We will send you a postcard, text message, email, or phone call; whichever you prefer!<\/li> <li>\n<span class=\"icon fa fa-check\"><\/span><strong>Air Filters:<\/strong><br> Our Club Members receive an assortment of different kinds of filters, ranging from a 1” pleated filter, to a hospital grade MERV 16 filter. Ask your concierge how to save on these upgraded filters.<\/li> <li>\n<span class=\"icon fa fa-check\"><\/span><strong>Extended Equipment life and Fewer Repairs:<\/strong><br> Regular yearly maintenance is recommended by all HVAC manufacturers. Even if your unit may be working fine now, maintenance can help prolong its life by catching problems early before they lead to expensive repairs.<\/li> <li>\n<span class=\"icon fa fa-check\"><\/span><strong>Inflation Protection:<\/strong><br> In the event of a change of price, your prepaid maintenance plan will not change.<\/li> <li>\n<span class=\"icon fa fa-check\"><\/span><strong>Agreement is transferable:<\/strong><br> Moving houses? Buying new equipment? The maintenance plan is 100% transferable.<\/li> <li>\n<span class=\"icon fa fa-check\"><\/span><strong>Improved safety:<\/strong><br> Maintenance and checkups on your equipment regularly can sometimes mean catching potentially dangerous situations from arising such as carbon monoxide or gas leaks.<\/li> <\/ul> <\/div>"
+            }
+          },
+          "36b40808-b8e2-4fd5-8994-e33c28e6e8da": {
+            "type": "select-text",
+            "settings": {
+              "select-text_p": "<p>For any questions regarding prices, please <a href=\"\/pages\/contact-us\">contact us<\/a>.<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "a979ad14-73b8-421f-88d9-76913b6f910f",
+          "36b40808-b8e2-4fd5-8994-e33c28e6e8da"
+        ],
+        "settings": {
+          "abt_us_text_img": "shopify:\/\/shop_images\/club-txt-img.jpg",
+          "abt_us_text_p": "Like changing the oil in your car, maintaining your heating and cooling system is important to prolonging its life, efficiency, and cost effectiveness. During the hot summer months and cold winter months, your unit works harder and maintenance is very important.\n<br><br>\nGreenwood Heating &amp; Home Services offers a discounted Club Membership maintenance plan that can provide you with regular, yearly maintenance for a cheaper, safer, and more efficient cost. This planned service is available for all equipment and can be purchased at any time.",
+          "abt_bld": "Ready for your next heating, cooling, or electrical project?",
+          "abt_bld_p": "Our professional technicians and staff are ready to help!",
+          "abt_phn_url": "tel:206-202-9516",
+          "abt_phn_txt": "206-202-9516",
+          "abt_email_url": "shopify:\/\/pages\/contact-us",
+          "abt_email_txt": "Email Us",
+          "abt_memcom_h2": "Compare Plans",
+          "abt_memcom_url": "shopify:\/\/pages\/select-your-club-membership",
+          "abt_memcom_a": "Learn More",
+          "abt_review_des": "<div class=\"review-boxx\"> \n\t<a href=\"\/pages\/about-us#customer-review\"> \n\t\t<div class=\"starss\"> \n\t\t\t<span class=\"ratingg\">\n\t\t\t\t<span class=\"fa fa-star\"><\/span>\n\t\t\t\t<span class=\"fa fa-star\"><\/span>\n\t\t\t\t<span class=\"fa fa-star\"><\/span>\n\t\t\t\t<span class=\"fa fa-star\"><\/span>\n\t\t\t\t<span class=\"fa fa-star\"><\/span>\n\t\t\t<\/span> \n\t\t<\/div> \n\t\t<span class=\"review-boxx_h5\">Real Reviews from Real Customers <span class=\"fas fa-arrow-right\"><\/span><\/span> \n\t<\/a> \n<\/div>",
+          "abt_quick_hero_bg": "shopify:\/\/shop_images\/sidebar-cta.jpg",
+          "abt_quick_des": "<div class=\"s-box-small text-center\"> \n\t<h4>Special financing is available<\/h4> \n\t<a href=\"\/pages\/financing\" class=\"btn-normal btn-oval\">Learn More <span class=\"fa fa-angle-double-right\"><\/span><\/a> \n<\/div>",
+          "club_enroll_url": "",
+          "club_enroll": ""
+        }
+      },
+      "financing-text": {
+        "type": "financing-text",
+        "blocks": {
+          "eac85d39-9529-422a-8b16-24f18e2fee2a": {
+            "type": "select",
+            "settings": {
+              "abt_h2": "0% Financing Available",
+              "abt_p": "We offer zero interest financing plans for your new system purchase. Give us a call for details."
+            }
+          },
+          "3f10b410-c689-4a2e-9677-3189e3d1e5ba": {
+            "type": "select",
+            "settings": {
+              "abt_h2": "Benefits of Financing Your New System",
+              "abt_p": "<div class=\"abt-list-items\"> <ul class=\"list\"> <li>\n<span class=\"icon fa fa-check\"><\/span>Low, predictable monthly payments<\/li> <li>\n<span class=\"icon fa fa-check\"><\/span>Ability to purchase a new system in spite of available cash<\/li> <li>\n<span class=\"icon fa fa-check\"><\/span>Save on energy bills with a more efficient system<\/li> <li>\n<span class=\"icon fa fa-check\"><\/span>Increase your home’s value <\/li> <li>\n<span class=\"icon fa fa-check\"><\/span>Cleaner, healthier air with a new system<\/li> <\/ul> <\/div>"
+            }
+          }
+        },
+        "block_order": [
+          "eac85d39-9529-422a-8b16-24f18e2fee2a",
+          "3f10b410-c689-4a2e-9677-3189e3d1e5ba"
+        ],
+        "settings": {
+          "abt_us_text_img": "shopify:\/\/shop_images\/finacing-txt-img.jpg",
+          "abt_us_text_p": "Broken air conditioner or furnace? We understand that purchasing a new heating or cooling system is a major expense, which is why we offer flexible financing options that are geared to suit our customer’s unique needs and budget.",
+          "abt_bld": "Ready for your next heating, cooling, or electrical project?",
+          "abt_bld_p": "Our professional technicians and staff are ready to help!",
+          "abt_phn_url": "tel:206-202-9516",
+          "abt_phn_txt": "206-202-9516",
+          "abt_email_url": "shopify:\/\/pages\/contact-us",
+          "abt_email_txt": "Email Us",
+          "abt_memcom_h2": "Compare Plans",
+          "abt_memcom_url": "shopify:\/\/pages\/select-your-club-membership",
+          "abt_memcom_a": "Learn More",
+          "abt_review_des": "<div class=\"review-boxx\"> \n\t<a href=\"\/pages\/about-us#customer-review\"> \n\t\t<div class=\"starss\"> \n\t\t\t<span class=\"ratingg\">\n\t\t\t\t<span class=\"fa fa-star\"><\/span>\n\t\t\t\t<span class=\"fa fa-star\"><\/span>\n\t\t\t\t<span class=\"fa fa-star\"><\/span>\n\t\t\t\t<span class=\"fa fa-star\"><\/span>\n\t\t\t\t<span class=\"fa fa-star\"><\/span>\n\t\t\t<\/span> \n\t\t<\/div> \n\t\t<span class=\"review-boxx_h5\">Real Reviews from Real Customers <span class=\"fas fa-arrow-right\"><\/span><\/span> \n\t<\/a> \n<\/div>",
+          "abt_quick_hero_bg": "shopify:\/\/shop_images\/sidebar-cta.jpg",
+          "abt_quick_des": "<div class=\"s-box-small text-center\"> \n\t<h4>Special financing is available<\/h4> \n\t<a href=\"\/pages\/financing\" class=\"btn-normal btn-oval\">Learn More <span class=\"fa fa-angle-double-right\"><\/span><\/a> \n<\/div>",
+          "club_enroll_url": "",
+          "club_enroll": ""
+        }
+      },
+      "promotions-text": {
+        "type": "promotions-text",
+        "blocks": {
+          "b39cfc98-cbc2-4928-92a4-edec4138cd02": {
+            "type": "select",
+            "settings": {
+              "prom_coupon_class": "prom_coupons1",
+              "prom_h2": "Up to $1700 off",
+              "prom_subhead": "ductless installation!",
+              "prom_con_small": "",
+              "prom_small": "Expires: June 30, 2021"
+            }
+          },
+          "107eabe8-70be-4318-a233-2cfa3c78fbb2": {
+            "type": "select",
+            "settings": {
+              "prom_coupon_class": "prom_coupons2",
+              "prom_h2": "Free",
+              "prom_subhead": "Wi-Fi thermostat*",
+              "prom_con_small": "",
+              "prom_small": "*with installations. Expires: June 30, 2021"
+            }
+          },
+          "f15c9a69-198a-4644-9569-3d523eaca5e0": {
+            "type": "select",
+            "settings": {
+              "prom_coupon_class": "prom_coupons3",
+              "prom_h2": "Free",
+              "prom_subhead": "MERV 13 filter*",
+              "prom_con_small": "",
+              "prom_small": "*on complete system installations. Expires: June 30, 2021"
+            }
+          },
+          "2ad5c514-5096-44ac-a42c-ae2d0649141d": {
+            "type": "select",
+            "settings": {
+              "prom_coupon_class": "prom_coupons4",
+              "prom_h2": "0% financing",
+              "prom_subhead": "for 72 months*",
+              "prom_con_small": "",
+              "prom_small": "*on complete system installations. Expires: June 30, 2021"
+            }
+          },
+          "b6ea4794-8a16-42cb-8065-16dffac07d6a": {
+            "type": "select",
+            "settings": {
+              "prom_coupon_class": "prom_coupons5",
+              "prom_h2": "0% interest",
+              "prom_subhead": "and no payments for 12 months",
+              "prom_con_small": "",
+              "prom_small": "Expires: June 30, 2021"
+            }
+          },
+          "7ad773b7-2c13-46ff-a3bd-a103f93fce7a": {
+            "type": "select",
+            "settings": {
+              "prom_coupon_class": "prom_coupons6",
+              "prom_h2": "25% off service calls*",
+              "prom_subhead": "",
+              "prom_con_small": "*available for Green Maintenance Plan Members",
+              "prom_small": "Expires: June 30, 2021"
+            }
+          },
+          "4fc34d71-053c-4b56-a86c-1712dd9219b0": {
+            "type": "select",
+            "settings": {
+              "prom_coupon_class": "prom_coupons7",
+              "prom_h2": "1 year labor warranty on completed repairs",
+              "prom_subhead": "",
+              "prom_con_small": "",
+              "prom_small": ""
+            }
+          },
+          "8694e309-a8df-4a50-b277-ce8aef0d6cfb": {
+            "type": "select",
+            "settings": {
+              "prom_coupon_class": "prom_coupons8",
+              "prom_h2": "Lifetime craftsmanship warranty on completed repairs",
+              "prom_subhead": "",
+              "prom_con_small": "",
+              "prom_small": ""
+            }
+          }
+        },
+        "block_order": [
+          "b39cfc98-cbc2-4928-92a4-edec4138cd02",
+          "107eabe8-70be-4318-a233-2cfa3c78fbb2",
+          "f15c9a69-198a-4644-9569-3d523eaca5e0",
+          "2ad5c514-5096-44ac-a42c-ae2d0649141d",
+          "b6ea4794-8a16-42cb-8065-16dffac07d6a",
+          "7ad773b7-2c13-46ff-a3bd-a103f93fce7a",
+          "4fc34d71-053c-4b56-a86c-1712dd9219b0",
+          "8694e309-a8df-4a50-b277-ce8aef0d6cfb"
+        ],
+        "settings": {
+          "abt_us_text_p": "",
+          "abt_bld": "Ready for your next heating, cooling, or electrical project?",
+          "abt_bld_p": "Our professional technicians and staff are ready to help!",
+          "abt_phn_url": "tel:206-202-9516",
+          "abt_phn_txt": "206-202-9516",
+          "abt_email_url": "shopify:\/\/pages\/contact-us",
+          "abt_email_txt": "Email Us",
+          "abt_memcom_h2": "Compare Memberships",
+          "abt_memcom_url": "shopify:\/\/pages\/select-your-club-membership",
+          "abt_memcom_a": "Learn More",
+          "abt_review_des": "<div class=\"review-boxx\"> \n\t<a href=\"\/pages\/about-us#customer-review\"> \n\t\t<div class=\"starss\"> \n\t\t\t<span class=\"ratingg\">\n\t\t\t\t<span class=\"fa fa-star\"><\/span>\n\t\t\t\t<span class=\"fa fa-star\"><\/span>\n\t\t\t\t<span class=\"fa fa-star\"><\/span>\n\t\t\t\t<span class=\"fa fa-star\"><\/span>\n\t\t\t\t<span class=\"fa fa-star\"><\/span>\n\t\t\t<\/span> \n\t\t<\/div> \n\t\t<span class=\"review-boxx_h5\">Real Reviews from Real Customers <span class=\"fas fa-arrow-right\"><\/span><\/span> \n\t<\/a> \n<\/div>",
+          "abt_quick_hero_bg": "shopify:\/\/shop_images\/sidebar-cta.jpg",
+          "abt_quick_des": "<div class=\"s-box-small text-center\"> \n\t<h4>Special financing is available<\/h4> \n\t<a href=\"\/pages\/financing\" class=\"btn-normal btn-oval\">Learn More <span class=\"fa fa-angle-double-right\"><\/span><\/a> \n<\/div>",
+          "club_enroll_url": "",
+          "club_enroll": ""
+        }
+      },
+      "air-conditioners-text": {
+        "type": "air-conditioners-text",
+        "blocks": {
+          "e0b9258b-2b65-45c6-a278-9165b841f22e": {
+            "type": "select",
+            "settings": {
+              "abt_h2": "Installations and Repairs",
+              "abt_p": "If your system is broken beyond repair or you are looking to upgrade to a new unit, our skilled technicians will help you choose from a range of high quality options to determine which new system is right for your home."
+            }
+          },
+          "5f2349ca-e3fe-4e36-b326-40ab5af8a0c1": {
+            "type": "select",
+            "settings": {
+              "abt_h2": "High-Efficiency Upgrades",
+              "abt_p": "Increased utility costs may mean it is time to consider having a new, high-efficiency unit installed. We can help you determine which brand and system is right for your home."
+            }
+          },
+          "db4a6df4-5de8-4d2e-b96f-bd9b88f29c14": {
+            "type": "select",
+            "settings": {
+              "abt_h2": "Preventative Maintenance",
+              "abt_p": "Whether you need a seasonal tune-up or not sure when your system was last checked, we can help."
+            }
+          },
+          "9690723a-01f1-4cd0-8b76-c0218dc80be4": {
+            "type": "select-text",
+            "settings": {
+              "select-text_p": "<div class=\"abt-list-items\"> <ul class=\"list\"> <li>\n<span class=\"icon fa fa-check\"><\/span>Avoid frequent repairs and the likelihood for system failure<\/li> <li>\n<span class=\"icon fa fa-check\"><\/span>Maintain energy-efficiency and keep energy bills down<\/li> <li>\n<span class=\"icon fa fa-check\"><\/span>Keep your air clean and healthy<\/li> <\/ul> <\/div>"
+            }
+          }
+        },
+        "block_order": [
+          "e0b9258b-2b65-45c6-a278-9165b841f22e",
+          "5f2349ca-e3fe-4e36-b326-40ab5af8a0c1",
+          "db4a6df4-5de8-4d2e-b96f-bd9b88f29c14",
+          "9690723a-01f1-4cd0-8b76-c0218dc80be4"
+        ],
+        "settings": {
+          "abt_us_text_img": "shopify:\/\/shop_images\/air-conditioning-txt-img.jpg",
+          "abt_us_text_p": "Having a reliable, well-maintained air conditioner can mean the difference between expensive, unexpected, and inconvenient repairs or breakdowns and comfort during the heat.\n<br>\n<br>\nOur team of licensed and insured technicians are dedicated to providing our customers with reliable air conditioner installations, repairs, and maintenance services for all makes and models.",
+          "abt_bld": "Ready for your next heating, cooling, or electrical project?",
+          "abt_bld_p": "Our professional technicians and staff are ready to help!",
+          "abt_phn_url": "tel:206-202-9516",
+          "abt_phn_txt": "206-202-9516",
+          "abt_email_url": "shopify:\/\/pages\/contact-us",
+          "abt_email_txt": "Email Us",
+          "abt_memcom_h2": "Compare Plans",
+          "abt_memcom_url": "shopify:\/\/pages\/select-your-club-membership",
+          "abt_memcom_a": "Learn More",
+          "abt_review_des": "<div class=\"review-boxx\"> \n\t<a href=\"\/pages\/about-us#customer-review\"> \n\t\t<div class=\"starss\"> \n\t\t\t<span class=\"ratingg\">\n\t\t\t\t<span class=\"fa fa-star\"><\/span>\n\t\t\t\t<span class=\"fa fa-star\"><\/span>\n\t\t\t\t<span class=\"fa fa-star\"><\/span>\n\t\t\t\t<span class=\"fa fa-star\"><\/span>\n\t\t\t\t<span class=\"fa fa-star\"><\/span>\n\t\t\t<\/span> \n\t\t<\/div> \n\t\t<span class=\"review-boxx_h5\">Real Reviews from Real Customers <span class=\"fas fa-arrow-right\"><\/span><\/span> \n\t<\/a> \n<\/div>",
+          "abt_quick_hero_bg": "shopify:\/\/shop_images\/sidebar-cta.jpg",
+          "abt_quick_des": "<div class=\"s-box-small text-center\"> \n\t<h4>Special financing is available<\/h4> \n\t<a href=\"\/pages\/financing\" class=\"btn-normal btn-oval\">Learn More <span class=\"fa fa-angle-double-right\"><\/span><\/a> \n<\/div>",
+          "club_enroll_url": "shopify:\/\/pages\/select-your-club-membership",
+          "club_enroll": "Enroll in Club Membership Today"
+        }
+      },
+      "furnaces-text": {
+        "type": "furnaces-text",
+        "blocks": {
+          "319a35a9-c47e-4540-9ac9-0fa18ebc69b2": {
+            "type": "select",
+            "settings": {
+              "abt_h2": "Installations and Repairs",
+              "abt_p": "If your system is broken beyond repair or you are looking to upgrade to a new unit, our skilled technicians will help you choose from a range of high quality options to determine which new system is right for your home."
+            }
+          },
+          "d2a05952-6a6c-48e9-bf8c-6e8427eab47e": {
+            "type": "select",
+            "settings": {
+              "abt_h2": "High-Efficiency Upgrades",
+              "abt_p": "Increased utility costs may mean it is time to consider having a new, high-efficiency unit installed. We can help you determine which brand and system is right for your home."
+            }
+          },
+          "fde55c6d-057d-4538-87bb-ce5a1aff2b17": {
+            "type": "select",
+            "settings": {
+              "abt_h2": "Preventative Maintenance",
+              "abt_p": "Whether you need a seasonal tune-up or not sure when your system was last checked, we can help."
+            }
+          },
+          "21b65f93-80bc-4995-91fb-9bc9bac40cf6": {
+            "type": "select-text",
+            "settings": {
+              "select-text_p": "<div class=\"abt-list-items\"> <ul class=\"list\"> <li>\n<span class=\"icon fa fa-check\"><\/span>Avoid frequent repairs and the likelihood for system failure<\/li> <li>\n<span class=\"icon fa fa-check\"><\/span>Maintain energy-efficiency and keep energy bills down<\/li> <li>\n<span class=\"icon fa fa-check\"><\/span>Keep your air clean and healthy<\/li> <\/ul> <\/div>"
+            }
+          }
+        },
+        "block_order": [
+          "319a35a9-c47e-4540-9ac9-0fa18ebc69b2",
+          "d2a05952-6a6c-48e9-bf8c-6e8427eab47e",
+          "fde55c6d-057d-4538-87bb-ce5a1aff2b17",
+          "21b65f93-80bc-4995-91fb-9bc9bac40cf6"
+        ],
+        "settings": {
+          "abt_us_text_img": "shopify:\/\/shop_images\/furnaces-txt-img.jpg",
+          "abt_us_text_p": "When the cold weather arrives, it’s important to have a heating system you can trust. If you’re thinking of a new furnace, we are the experts to turn to. We specialize in installations and repairs of high quality furnaces from major brands that are designed to last for years to come.",
+          "abt_bld": "Ready for your next heating, cooling, or electrical project?",
+          "abt_bld_p": "Our professional technicians and staff are ready to help!",
+          "abt_phn_url": "tel:206-202-9516",
+          "abt_phn_txt": "206-202-9516",
+          "abt_email_url": "shopify:\/\/pages\/contact-us",
+          "abt_email_txt": "Email Us",
+          "abt_memcom_h2": "Compare Memberships",
+          "abt_memcom_url": "shopify:\/\/pages\/club-membership",
+          "abt_memcom_a": "Learn More",
+          "abt_review_des": "<div class=\"review-boxx\"> \n\t<a href=\"\/pages\/about-us#customer-review\"> \n\t\t<div class=\"starss\"> \n\t\t\t<span class=\"ratingg\">\n\t\t\t\t<span class=\"fa fa-star\"><\/span>\n\t\t\t\t<span class=\"fa fa-star\"><\/span>\n\t\t\t\t<span class=\"fa fa-star\"><\/span>\n\t\t\t\t<span class=\"fa fa-star\"><\/span>\n\t\t\t\t<span class=\"fa fa-star\"><\/span>\n\t\t\t<\/span> \n\t\t<\/div> \n\t\t<span class=\"review-boxx_h5\">Real Reviews from Real Customers <span class=\"fas fa-arrow-right\"><\/span><\/span> \n\t<\/a> \n<\/div>",
+          "abt_quick_hero_bg": "shopify:\/\/shop_images\/sidebar-cta.jpg",
+          "abt_quick_des": "<div class=\"s-box-small text-center\"> \n\t<h4>Special financing is available<\/h4> \n\t<a href=\"\/pages\/financing\" class=\"btn-normal btn-oval\">Learn More <span class=\"fa fa-angle-double-right\"><\/span><\/a> \n<\/div>",
+          "club_enroll_url": "shopify:\/\/pages\/club-membership",
+          "club_enroll": "Enroll in Club Membership Today"
+        }
+      },
+      "gas-boilers-text": {
+        "type": "gas-boilers-text",
+        "blocks": {
+          "30879381-1f06-4475-868e-ea8cf50de31d": {
+            "type": "select",
+            "settings": {
+              "abt_h2": "Installations and Repairs",
+              "abt_p": "If your system is broken beyond repair or you are looking to upgrade to a new unit, our skilled technicians will help you choose from a range of high quality options to determine which new system is right for your home."
+            }
+          },
+          "11aa2a7a-1954-454b-899c-d3555935e8a8": {
+            "type": "select",
+            "settings": {
+              "abt_h2": "High-Efficiency Upgrades",
+              "abt_p": "Increased utility costs may mean it is time to consider having a new, high-efficiency unit installed. We can help you determine which brand and system is right for your home."
+            }
+          },
+          "b7c47cbe-7595-4899-b984-067ddc198f57": {
+            "type": "select",
+            "settings": {
+              "abt_h2": "Preventative Maintenance",
+              "abt_p": "Whether you need a seasonal tune-up or not sure when your system was last checked, we can help."
+            }
+          },
+          "d1763529-9fbd-43cb-bfd4-21fd74c6ec41": {
+            "type": "select-text",
+            "settings": {
+              "select-text_p": "<div class=\"abt-list-items\"> <ul class=\"list\"> <li>\n<span class=\"icon fa fa-check\"><\/span>Avoid frequent repairs and the likelihood for system failure<\/li> <li>\n<span class=\"icon fa fa-check\"><\/span>Maintain energy-efficiency and keep energy bills down<\/li> <li>\n<span class=\"icon fa fa-check\"><\/span>Keep your air clean and healthy<\/li> <\/ul> <\/div>"
+            }
+          }
+        },
+        "block_order": [
+          "30879381-1f06-4475-868e-ea8cf50de31d",
+          "11aa2a7a-1954-454b-899c-d3555935e8a8",
+          "b7c47cbe-7595-4899-b984-067ddc198f57",
+          "d1763529-9fbd-43cb-bfd4-21fd74c6ec41"
+        ],
+        "settings": {
+          "abt_us_text_img": "shopify:\/\/shop_images\/gas-boilers-txt-img.jpg",
+          "abt_us_text_p": "A gas boiler is one of the most economical and clean ways to generate heat and can significantly reduce your monthly heating bills. We install energy-efficient boilers that work with all hydronic appliances, including solar heat.",
+          "abt_bld": "Ready for your next heating, cooling, or electrical project?",
+          "abt_bld_p": "Our professional technicians and staff are ready to help!",
+          "abt_phn_url": "tel:206-202-9516",
+          "abt_phn_txt": "206-202-9516",
+          "abt_email_url": "shopify:\/\/pages\/contact-us",
+          "abt_email_txt": "Email Us",
+          "abt_memcom_h2": "Compare Plans",
+          "abt_memcom_url": "shopify:\/\/pages\/select-your-club-membership",
+          "abt_memcom_a": "Learn More",
+          "abt_review_des": "<div class=\"review-boxx\"> \n\t<a href=\"\/pages\/about-us#customer-review\"> \n\t\t<div class=\"starss\"> \n\t\t\t<span class=\"ratingg\">\n\t\t\t\t<span class=\"fa fa-star\"><\/span>\n\t\t\t\t<span class=\"fa fa-star\"><\/span>\n\t\t\t\t<span class=\"fa fa-star\"><\/span>\n\t\t\t\t<span class=\"fa fa-star\"><\/span>\n\t\t\t\t<span class=\"fa fa-star\"><\/span>\n\t\t\t<\/span> \n\t\t<\/div> \n\t\t<span class=\"review-boxx_h5\">Real Reviews from Real Customers <span class=\"fas fa-arrow-right\"><\/span><\/span> \n\t<\/a> \n<\/div>",
+          "abt_quick_hero_bg": "shopify:\/\/shop_images\/sidebar-cta.jpg",
+          "abt_quick_des": "<div class=\"s-box-small text-center\"> \n\t<h4>Special financing is available<\/h4> \n\t<a href=\"\/pages\/financing\" class=\"btn-normal btn-oval\">Learn More <span class=\"fa fa-angle-double-right\"><\/span><\/a> \n<\/div>",
+          "club_enroll_url": "shopify:\/\/pages\/club-membership",
+          "club_enroll": "Enroll in Club Membership Today"
+        }
+      },
+      "heat-pumps-text": {
+        "type": "heat-pumps-text",
+        "blocks": {
+          "dbbb67a0-f884-4fd1-a831-313bc824622a": {
+            "type": "select",
+            "settings": {
+              "abt_h2": "Benefits of a Heat Pump",
+              "abt_p": "<div class=\"abt-list-items\"> <ul class=\"list\"> <li>\n<span class=\"icon fa fa-check\"><\/span>They provide both heating and cooling<\/li> <li>\n<span class=\"icon fa fa-check\"><\/span>They are energy efficient<\/li> <li>\n<span class=\"icon fa fa-check\"><\/span>They are low maintenance<\/li> <li>\n<span class=\"icon fa fa-check\"><\/span>They are electric, making them a safe heating option<\/li> <li>\n<span class=\"icon fa fa-check\"><\/span>They have a long lifespan<\/li> <\/ul> <\/div>"
+            }
+          },
+          "454543df-3fe9-485f-ad9e-0c5953f49b67": {
+            "type": "select",
+            "settings": {
+              "abt_h2": "Installations and Repairs",
+              "abt_p": "If your system is broken beyond repair or you are looking to upgrade to a new unit, our skilled technicians will help you choose from a range of high quality options to determine which new system is right for your home."
+            }
+          },
+          "072179c8-2f63-4873-a4d8-ff7d1d3aa120": {
+            "type": "select",
+            "settings": {
+              "abt_h2": "Preventative Maintenance",
+              "abt_p": "Whether you need a seasonal tune-up or not sure when your system was last checked, we can help."
+            }
+          },
+          "b17c1bd2-5b2c-4cec-9f64-63c98bbb1b45": {
+            "type": "select-text",
+            "settings": {
+              "select-text_p": "<div class=\"abt-list-items\"> <ul class=\"list\"> <li>\n<span class=\"icon fa fa-check\"><\/span>Avoid frequent repairs and the likelihood for system failure<\/li> <li>\n<span class=\"icon fa fa-check\"><\/span>Maintain energy-efficiency and keep energy bills down<\/li> <li>\n<span class=\"icon fa fa-check\"><\/span>Keep your air clean and healthy<\/li> <\/ul> <\/div>"
+            }
+          }
+        },
+        "block_order": [
+          "dbbb67a0-f884-4fd1-a831-313bc824622a",
+          "454543df-3fe9-485f-ad9e-0c5953f49b67",
+          "072179c8-2f63-4873-a4d8-ff7d1d3aa120",
+          "b17c1bd2-5b2c-4cec-9f64-63c98bbb1b45"
+        ],
+        "settings": {
+          "abt_us_text_img": "shopify:\/\/shop_images\/heat-pumps-txt-img.png",
+          "abt_us_text_p": "Looking for a comfort system that provides both heating and cooling? Heat pumps look and function like traditional air conditioners for cooling, however in cool months, they reverse operation to provide warmth. These systems provide year-round comfort and offer a heating solution for homes with no access to natural gas.",
+          "abt_bld": "Ready for your next heating, cooling, or electrical project?",
+          "abt_bld_p": "Our professional technicians and staff are ready to help!",
+          "abt_phn_url": "tel:206-202-9516",
+          "abt_phn_txt": "206-202-9516",
+          "abt_email_url": "shopify:\/\/pages\/contact-us",
+          "abt_email_txt": "Email Us",
+          "abt_memcom_h2": "Compare Plans",
+          "abt_memcom_url": "shopify:\/\/pages\/select-your-club-membership",
+          "abt_memcom_a": "Learn More",
+          "abt_review_des": "<div class=\"review-boxx\"> \n\t<a href=\"\/pages\/about-us#customer-review\"> \n\t\t<div class=\"starss\"> \n\t\t\t<span class=\"ratingg\">\n\t\t\t\t<span class=\"fa fa-star\"><\/span>\n\t\t\t\t<span class=\"fa fa-star\"><\/span>\n\t\t\t\t<span class=\"fa fa-star\"><\/span>\n\t\t\t\t<span class=\"fa fa-star\"><\/span>\n\t\t\t\t<span class=\"fa fa-star\"><\/span>\n\t\t\t<\/span> \n\t\t<\/div> \n\t\t<span class=\"review-boxx_h5\">Real Reviews from Real Customers <span class=\"fas fa-arrow-right\"><\/span><\/span> \n\t<\/a> \n<\/div>",
+          "abt_quick_hero_bg": "shopify:\/\/shop_images\/sidebar-cta.jpg",
+          "abt_quick_des": "<div class=\"s-box-small text-center\"> \n\t<h4>Special financing is available<\/h4> \n\t<a href=\"\/pages\/financing\" class=\"btn-normal btn-oval\">Learn More <span class=\"fa fa-angle-double-right\"><\/span><\/a> \n<\/div>",
+          "club_enroll_url": "shopify:\/\/pages\/club-membership",
+          "club_enroll": "Enroll in Club Membership Today"
+        }
+      },
+      "ductless-systems-text": {
+        "type": "ductless-systems-text",
+        "blocks": {
+          "3a2b3c6e-2476-4d47-a8d9-a0144e6143e0": {
+            "type": "select",
+            "settings": {
+              "abt_h2": "Why Mitsubishi",
+              "abt_p": "<div class=\"abt-list-items\"> <ul class=\"list\"> <li>\n<span class=\"icon fa fa-check\"><\/span><strong>The Right System for you<\/strong><br> Whether you have a single uncomfortable room or you are changing out your current heating and cooling system, Mitsubishi Electric has a Zoned Comfort Solution™ that fits your unique needs. Because Mitsubishi systems focus on individual living spaces rather than treating every room the same, it’s more customizable, more energy efficient and easier to install.<\/li> <li>\n<span class=\"icon fa fa-check\"><\/span><strong>Diamond Contractor<\/strong><br> Purchasers of Mitsubishi products through Greenwood Heating will enjoy the assurance that comes from choosing a contractor who has committed to a code of ethical business conduct and met key training and compliance standards.<\/li> <li>\n<span class=\"icon fa fa-check\"><\/span><strong>Hot Spot \/ Cold Spot<\/strong><br> Why put up with rooms that are too hot or too cold? A ductless from Mitsubishi Electric gives you the ability to set and maintain the ideal temperature in any individual room in your home.<\/li> <li>\n<span class=\"icon fa fa-check\"><\/span><strong>Zoned Comfort in a Small Package<\/strong><br> Rather than tying into your existing HVAC system that treats every room in your house the same, Mitsubishi ductless systems control each room independently. The small compact design of the unit leaves a small footprint physically, environmentally, and sonically.<\/li> <li>\n<span class=\"icon fa fa-check\"><\/span><strong>Multi-Zone System<\/strong><br> Multi-zone Mitsubishi ductless systems are perfect for the whole family to get cozy, even with different preferences on what temperature qualifies “cozy”. See how in this short video.<\/li> <li>\n<span class=\"icon fa fa-check\"><\/span><strong>Single-Zone System<\/strong><br> Do you have one room that is too hot, too cold, or both depending on the time of year? A single-zone ductless system from Mitsubishi is the perfect way to get that pesky room to the perfect temperature. See how in this short video.<\/li> <li>\n<span class=\"icon fa fa-check\"><\/span><strong>H2I®<\/strong><br> Designed to provide comfortable indoor temperatures in extreme cold-climate conditions (as low as -13° F) while saving energy and money.<\/li> <li>\n<span class=\"icon fa fa-check\"><\/span><strong>Minimal Energy Consumption<\/strong><br> INVERTER zoning systems deliver only the amount of hot air needed to achieve the desired temperature: no more, no less.<\/li> <li>\n<span class=\"icon fa fa-check\"><\/span><strong>Instant Hot-Start<\/strong><br> Hot-Start technology ensures you feel warm air immediately.<\/li> <li>\n<span class=\"icon fa fa-check\"><\/span><strong>No Ducts, No Problem<\/strong><br> Mitsubishi ductless solutions and short-run ducted systems deliver cooled and heated air directly to the rooms they serve, without the need for noisy fans. No central air system turning on and off means no clunking and clanking, just quiet and seamless heating and cooling.<\/li> <li>\n<span class=\"icon fa fa-check\"><\/span><strong>Anytime, Anywhere<\/strong><br> With a variety of options to choose from, including our new kumo cloud™ app, Mitsubishi Electric makes it easy to manage your cooling and heating systems from just about any smartphone or tablet, no matter where you are.<\/li> <li>\n<span class=\"icon fa fa-check\"><\/span><strong>Remote Control<\/strong><br> Remotely adjust your settings so every room in your home is the perfect temperature, avoiding unexpected cold and hot surprises upon your return. Schedule programming is as easy as ever; set up what temperature you want each room during certain times of the day.<\/li> <li>\n<span class=\"icon fa fa-check\"><\/span><strong>Financing<\/strong><br> Affordable monthly payment plans are available when choosing to purchase a Mitsubishi Ductless Heating system. Several options available, ask your Greenwood Heating Comfort Advisor for more information or click here to apply for financing, subject to credit approval.<\/li> <li>\n<span class=\"icon fa fa-check\"><\/span><strong>Rebates<\/strong><br> Take advantage of rebates and save when purchasing a Mitsubishi Ductless Heating system through Greenwood Heating. Ask our Comfort Advisors about how these rebates can be applied and what you can qualify for!<\/li> <\/ul> <\/div>"
+            }
+          }
+        },
+        "block_order": [
+          "3a2b3c6e-2476-4d47-a8d9-a0144e6143e0"
+        ],
+        "settings": {
+          "abt_us_text_img": "shopify:\/\/shop_images\/ductless-system-txt-img.png",
+          "abt_us_text_p": "Whole-home comfort systems, such as central air conditioners and furnaces, are not always the best fit for every space. In older buildings, having a traditional heating or cooling system installed might not be possible due to a lack of ductwork.\n<br><br>\nWith ductless heating and cooling systems, there is no need for ductwork, so they can easily be installed in almost any building type or room. We specialize in installations, repairs, and maintenance of ductless systems.\n<br><br>\nUnlike older, inefficient heat pumps, there is no cold air delivery with Mitsubishi Electric’s Cooling &amp; Heating systems. The Hot StartTM system does not activate the fan until the desired temperature is reached, so it never blows cold air. These models give true year-round comfort from a single system.",
+          "abt_bld": "Ready for your next heating, cooling, or electrical project?",
+          "abt_bld_p": "Our professional technicians and staff are ready to help!",
+          "abt_phn_url": "tel:206-202-9516",
+          "abt_phn_txt": "206-202-9516",
+          "abt_email_url": "shopify:\/\/pages\/contact-us",
+          "abt_email_txt": "Email Us",
+          "abt_memcom_h2": "Compare Plans",
+          "abt_memcom_url": "shopify:\/\/pages\/select-your-club-membership",
+          "abt_memcom_a": "Learn More",
+          "abt_review_des": "<div class=\"review-boxx\"> \n\t<a href=\"\/pages\/about-us#customer-review\"> \n\t\t<div class=\"starss\"> \n\t\t\t<span class=\"ratingg\">\n\t\t\t\t<span class=\"fa fa-star\"><\/span>\n\t\t\t\t<span class=\"fa fa-star\"><\/span>\n\t\t\t\t<span class=\"fa fa-star\"><\/span>\n\t\t\t\t<span class=\"fa fa-star\"><\/span>\n\t\t\t\t<span class=\"fa fa-star\"><\/span>\n\t\t\t<\/span> \n\t\t<\/div> \n\t\t<span class=\"review-boxx_h5\">Real Reviews from Real Customers <span class=\"fas fa-arrow-right\"><\/span><\/span> \n\t<\/a> \n<\/div>",
+          "abt_quick_hero_bg": "shopify:\/\/shop_images\/sidebar-cta.jpg",
+          "abt_quick_des": "<div class=\"s-box-small text-center\"> \n\t<h4>Special financing is available<\/h4> \n\t<a href=\"\/pages\/financing\" class=\"btn-normal btn-oval\">Learn More <span class=\"fa fa-angle-double-right\"><\/span><\/a> \n<\/div>",
+          "club_enroll_url": "shopify:\/\/pages\/club-membership",
+          "club_enroll": "Enroll in Club Membership Today"
+        }
+      },
+      "air-handlers-text": {
+        "type": "air-handlers-text",
+        "blocks": {
+          "bd6bb366-d3ec-41e7-8824-1c2e476b4d37": {
+            "type": "select",
+            "settings": {
+              "abt_h2": "Installations and Repairs",
+              "abt_p": "If your system is broken beyond repair or you are looking to upgrade to a new unit, our skilled technicians will help you choose from a range of high quality options to determine which new system is right for your home."
+            }
+          },
+          "c4d4d380-9336-43e3-907f-42d121abc385": {
+            "type": "select",
+            "settings": {
+              "abt_h2": "Preventative Maintenance",
+              "abt_p": "Whether you need a seasonal tune-up or not sure when your system was last checked, we can help."
+            }
+          },
+          "47d6203b-e256-411d-affd-76ed9b6febaa": {
+            "type": "select-text",
+            "settings": {
+              "select-text_p": "<div class=\"abt-list-items\"> <ul class=\"list\"> <li>\n<span class=\"icon fa fa-check\"><\/span>Avoid frequent repairs and the likelihood for system failure<\/li> <li>\n<span class=\"icon fa fa-check\"><\/span>Maintain energy-efficiency and keep energy bills down<\/li> <li>\n<span class=\"icon fa fa-check\"><\/span>Keep your air clean and healthy<\/li> <\/ul> <\/div>"
+            }
+          }
+        },
+        "block_order": [
+          "bd6bb366-d3ec-41e7-8824-1c2e476b4d37",
+          "c4d4d380-9336-43e3-907f-42d121abc385",
+          "47d6203b-e256-411d-affd-76ed9b6febaa"
+        ],
+        "settings": {
+          "abt_us_text_img": "shopify:\/\/shop_images\/air-handlers-txt-img.jpg",
+          "abt_us_text_p": "Air handlers are designed to efficiently circulate warm and cool air throughout your home.\n<br><br>\nWhether you’re looking for a new installation, a repair to your existing unit, or a routine maintenance check, we’ve got your covered with professional services from our licensed and insured technicians.",
+          "abt_bld": "Ready for your next heating, cooling, or electrical project?",
+          "abt_bld_p": "Our professional technicians and staff are ready to help!",
+          "abt_phn_url": "tel:206-202-9516",
+          "abt_phn_txt": "206-202-9516",
+          "abt_email_url": "shopify:\/\/pages\/contact-us",
+          "abt_email_txt": "Email Us",
+          "abt_memcom_h2": "Compare Plans",
+          "abt_memcom_url": "shopify:\/\/pages\/select-your-club-membership",
+          "abt_memcom_a": "Learn More",
+          "abt_review_des": "<div class=\"review-boxx\"> \n\t<a href=\"\/pages\/about-us#customer-review\"> \n\t\t<div class=\"starss\"> \n\t\t\t<span class=\"ratingg\">\n\t\t\t\t<span class=\"fa fa-star\"><\/span>\n\t\t\t\t<span class=\"fa fa-star\"><\/span>\n\t\t\t\t<span class=\"fa fa-star\"><\/span>\n\t\t\t\t<span class=\"fa fa-star\"><\/span>\n\t\t\t\t<span class=\"fa fa-star\"><\/span>\n\t\t\t<\/span> \n\t\t<\/div> \n\t\t<span class=\"review-boxx_h5\">Real Reviews from Real Customers <span class=\"fas fa-arrow-right\"><\/span><\/span> \n\t<\/a> \n<\/div>",
+          "abt_quick_hero_bg": "shopify:\/\/shop_images\/sidebar-cta.jpg",
+          "abt_quick_des": "<div class=\"s-box-small text-center\"> \n\t<h4>Special financing is available<\/h4> \n\t<a href=\"\/pages\/financing\" class=\"btn-normal btn-oval\">Learn More <span class=\"fa fa-angle-double-right\"><\/span><\/a> \n<\/div>",
+          "club_enroll_url": "shopify:\/\/pages\/club-membership",
+          "club_enroll": "Enroll in Club Membership Today"
+        }
+      },
+      "indoor-air-quality-text": {
+        "type": "indoor-air-quality-text",
+        "blocks": {
+          "3a4b1faf-0c99-4c90-869b-650dd621f422": {
+            "type": "select-text",
+            "settings": {
+              "select-text_p": "<div class=\"abt-list-items\"> <ul class=\"list\"> <li>\n<span class=\"icon fa fa-check\"><\/span>Respiratory problems<\/li> <li>\n<span class=\"icon fa fa-check\"><\/span>Irritated skin and eyes<\/li> <li>\n<span class=\"icon fa fa-check\"><\/span>Headaches<\/li> <li>\n<span class=\"icon fa fa-check\"><\/span>Mold and mildew<\/li> <li>\n<span class=\"icon fa fa-check\"><\/span>Dry, brittle furniture and nosebleeds<\/li> <\/ul> <\/div>"
+            }
+          },
+          "4e814515-a0d4-4c58-8f13-256d18df1a1e": {
+            "type": "select-text",
+            "settings": {
+              "select-text_p": "<p>There a number of ways to remove these unwanted elements:<\/p>\n<div class=\"abt-list-items\"> <ul class=\"list\"> <li>\n<span class=\"icon fa fa-check\"><\/span>Whole home air cleaners<\/li> <li>\n<span class=\"icon fa fa-check\"><\/span>Humidifiers and dehumidifiers<\/li> <li>\n<span class=\"icon fa fa-check\"><\/span>UV treatment<\/li> <li>\n<span class=\"icon fa fa-check\"><\/span>And more<\/li> <\/ul> <\/div>\n<p><strong><a href=\"#\">Contact us today<\/a><\/strong> to learn more about how we can help you identify and solve your indoor air quality needs.<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "3a4b1faf-0c99-4c90-869b-650dd621f422",
+          "4e814515-a0d4-4c58-8f13-256d18df1a1e"
+        ],
+        "settings": {
+          "abt_us_text_img": "shopify:\/\/shop_images\/air-quality-txt-img.jpg",
+          "abt_us_text_p": "While having the right temperature is critical to your comfort, the quality of the air circulating can have a significant impact on your comfort and health as well.\n<br><br>\nAllergens, dust, pet dander, chemicals, and other contaminants pollute your indoor air and continue to circulate until they are removed. Too much or too little moisture can also cause a number of issues. Below are some signs that you may benefit from improved indoor air quality.",
+          "abt_bld": "Ready for your next heating, cooling, or electrical project?",
+          "abt_bld_p": "Our professional technicians and staff are ready to help!",
+          "abt_phn_url": "tel:206-202-9516",
+          "abt_phn_txt": "206-202-9516",
+          "abt_email_url": "shopify:\/\/pages\/contact-us",
+          "abt_email_txt": "Email Us",
+          "abt_memcom_h2": "Compare Plans",
+          "abt_memcom_url": "shopify:\/\/pages\/select-your-club-membership",
+          "abt_memcom_a": "Learn More",
+          "abt_review_des": "<div class=\"review-boxx\"> \n\t<a href=\"\/pages\/about-us#customer-review\"> \n\t\t<div class=\"starss\"> \n\t\t\t<span class=\"ratingg\">\n\t\t\t\t<span class=\"fa fa-star\"><\/span>\n\t\t\t\t<span class=\"fa fa-star\"><\/span>\n\t\t\t\t<span class=\"fa fa-star\"><\/span>\n\t\t\t\t<span class=\"fa fa-star\"><\/span>\n\t\t\t\t<span class=\"fa fa-star\"><\/span>\n\t\t\t<\/span> \n\t\t<\/div> \n\t\t<span class=\"review-boxx_h5\">Real Reviews from Real Customers <span class=\"fas fa-arrow-right\"><\/span><\/span> \n\t<\/a> \n<\/div>",
+          "abt_quick_hero_bg": "shopify:\/\/shop_images\/sidebar-cta.jpg",
+          "abt_quick_des": "<div class=\"s-box-small text-center\"> \n\t<h4>Special financing is available<\/h4> \n\t<a href=\"\/pages\/financing\" class=\"btn-normal btn-oval\">Learn More <span class=\"fa fa-angle-double-right\"><\/span><\/a> \n<\/div>",
+          "club_enroll_url": "shopify:\/\/pages\/club-membership",
+          "club_enroll": "Enroll in Club Membership Today"
+        }
+      },
+      "water-heaters-text": {
+        "type": "water-heaters-text",
+        "blocks": {
+          "7b1abd2f-1726-44fd-80b4-3273aade377a": {
+            "type": "select",
+            "settings": {
+              "abt_h2": "There are several choices when it comes to water heaters, including:",
+              "abt_p": "<div class=\"abt-list-items\"> <ul class=\"list\"> <li>\n<span class=\"icon fa fa-check\"><\/span><strong>Solar Hot Water Tanks:<\/strong> A solar tank incorporated either electric or a boiler for back up with solar heat from panels on the roof to provide domestic hot water<\/li> <li>\n<span class=\"icon fa fa-check\"><\/span><strong>Tankless Water Heaters:<\/strong> As the name implies there is no tank and the water is heated as it passes through the unit. You receive endless amounts of hot water, smaller footprint than a standard tank and up to 98% efficient<\/li> <li>\n<span class=\"icon fa fa-check\"><\/span><strong>High Efficient Tanks:<\/strong> These look like a standard style tank but they have the energy efficiency of a tankless system and qualify for energy rebates<\/li> <li>\n<span class=\"icon fa fa-check\"><\/span><strong>Power Vented:<\/strong> These tanks are for homes that do not have space to vent through the roof or are too far from an exterior wall<\/li> <li>\n<span class=\"icon fa fa-check\"><\/span><strong>Direct Vent:<\/strong> These tanks are installed when venting cannot go through the roof and the tank can be placed right next to an outside wall<\/li> <li>\n<span class=\"icon fa fa-check\"><\/span><strong>Standard Tank:<\/strong> This is the tank that most people are familiar with, unfortunately even the best tanks are only about 62% efficient<\/li> <\/ul> <\/div>"
+            }
+          },
+          "b0baeea8-9898-40b9-9ffa-50dab312e80d": {
+            "type": "select",
+            "settings": {
+              "abt_h2": "Installations and Repairs",
+              "abt_p": "If your system is broken beyond repair or you are looking to upgrade to a new unit, our skilled technicians will help you choose from a range of high quality options to determine which new system is right for your home."
+            }
+          },
+          "24d323c8-2c12-4034-b616-e5359f3c949e": {
+            "type": "select",
+            "settings": {
+              "abt_h2": "Preventative Maintenance",
+              "abt_p": "Whether you need a seasonal tune-up or not sure when your system was last checked, we can help."
+            }
+          },
+          "33468eed-dee2-4b15-bc9e-d4412668b8e0": {
+            "type": "select-text",
+            "settings": {
+              "select-text_p": "<div class=\"abt-list-items\"> <ul class=\"list\"> <li>\n<span class=\"icon fa fa-check\"><\/span>Avoid frequent repairs and the likelihood for system failure<\/li> <li>\n<span class=\"icon fa fa-check\"><\/span>Maintain energy-efficiency and keep energy bills down<\/li> <li>\n<span class=\"icon fa fa-check\"><\/span>Keep your air clean and healthy<\/li> <\/ul> <\/div>"
+            }
+          }
+        },
+        "block_order": [
+          "7b1abd2f-1726-44fd-80b4-3273aade377a",
+          "b0baeea8-9898-40b9-9ffa-50dab312e80d",
+          "24d323c8-2c12-4034-b616-e5359f3c949e",
+          "33468eed-dee2-4b15-bc9e-d4412668b8e0"
+        ],
+        "settings": {
+          "abt_us_text_img": "shopify:\/\/shop_images\/water-heaters-txt-img.jpg",
+          "abt_us_text_p": "Water heaters come in a variety of options, from traditional tank boilers to tankless gas or electric boilers. We provide repair, maintenance, and installation for all types.",
+          "abt_bld": "Ready for your next heating, cooling, or electrical project?",
+          "abt_bld_p": "Our professional technicians and staff are ready to help!",
+          "abt_phn_url": "tel:206-202-9516",
+          "abt_phn_txt": "206-202-9516",
+          "abt_email_url": "shopify:\/\/pages\/contact-us",
+          "abt_email_txt": "Email Us",
+          "abt_memcom_h2": "Compare Plans",
+          "abt_memcom_url": "shopify:\/\/pages\/select-your-club-membership",
+          "abt_memcom_a": "Learn More",
+          "abt_review_des": "<div class=\"review-boxx\"> \n\t<a href=\"\/pages\/about-us#customer-review\"> \n\t\t<div class=\"starss\"> \n\t\t\t<span class=\"ratingg\">\n\t\t\t\t<span class=\"fa fa-star\"><\/span>\n\t\t\t\t<span class=\"fa fa-star\"><\/span>\n\t\t\t\t<span class=\"fa fa-star\"><\/span>\n\t\t\t\t<span class=\"fa fa-star\"><\/span>\n\t\t\t\t<span class=\"fa fa-star\"><\/span>\n\t\t\t<\/span> \n\t\t<\/div> \n\t\t<span class=\"review-boxx_h5\">Real Reviews from Real Customers <span class=\"fas fa-arrow-right\"><\/span><\/span> \n\t<\/a> \n<\/div>",
+          "abt_quick_hero_bg": "shopify:\/\/shop_images\/sidebar-cta.jpg",
+          "abt_quick_des": "<div class=\"s-box-small text-center\"> \n\t<h4>Special financing is available<\/h4> \n\t<a href=\"\/pages\/financing\" class=\"btn-normal btn-oval\">Learn More <span class=\"fa fa-angle-double-right\"><\/span><\/a> \n<\/div>",
+          "club_enroll_url": "shopify:\/\/pages\/club-membership",
+          "club_enroll": "Enroll in Club Membership Today"
+        }
+      },
+      "privacy-policy-text": {
+        "type": "privacy-policy-text",
+        "blocks": {
+          "3dc6fe24-5476-45a4-8e77-bcd802ad51ec": {
+            "type": "select",
+            "settings": {
+              "abt_h2": "Information Collected From Normal Browsing",
+              "abt_p": "Like many websites, we collect certain information when you access our site. When you browse, read, or download information from this site, data is collected by us, including but not limited to your IP address, URL request, browser type, web pages visited, and date and time of your request. We use this information to generate statistics and measure site activity, so that we can improve the usefulness of the site to our visitors and for other business purposes. For example, we track which pages are most popular among visitors. Currently, we handle this information on an aggregated basis and do not use this information to identify any users.\n<br>\n<br>\nWe often use analytics companies, such as Webtrends, Google Analytics and others, to assist us, and we may use additional or different service providers in the future."
+            }
+          },
+          "49ba0b16-9b12-4579-99ac-17e73e8a6bac": {
+            "type": "select",
+            "settings": {
+              "abt_h2": "Information You Provide",
+              "abt_p": "At several places on the site, Greenwood Heating &amp; Home Services asks you to provide additional information so that we can respond to inquiries from you. For example, we may ask for your name, your email address, and your location, or may ask for other information about you. We will use this information to contact you, administer mailing lists or online communities, or other activities related to the mission or services of Greenwood Heating &amp; Home Services. You do not have to provide us with this information to use many features of the site, but we will be unable to provide you with certain information unless you do so. We will manage and store this information as an ordinary business record. Should you wish to unsubscribe from receiving future communications from Greenwood Heating &amp; Home Services, submit a request to be removed from our mailing list."
+            }
+          },
+          "9397efb1-75b6-4879-8b0b-dab57213e3b3": {
+            "type": "select",
+            "settings": {
+              "abt_h2": "Disclosure Of Information",
+              "abt_p": "Available log records, account information, and all data stored on servers hosting this website, our blogs and any other online sites we use may be accessed by our system administrators who may make the information available to other Greenwood Heating &amp; Home Services personnel for business purposes.\n<br>\n<br>\nGreenwood Heating &amp; Home Services may share information that you have provided to us, including your name and email address, with our affiliated franchisors and with the companies that provide analytical services to us in support of the website. In some circumstances, we may share information that you have provided to one or more of our franchisees located in your area.\n<br>\n<br>\nIn addition, we may share information that you have provided to us with non-affiliated third parties where we think doing so may allow you to receive information regarding products or and services that may be useful to you.\n<br>\n<br>\nFinally, we will provide information that you have given us when required by legal process to do so, such as by a subpoena."
+            }
+          },
+          "fbc3e425-6ee9-434e-90ff-afe7d31e59aa": {
+            "type": "select",
+            "settings": {
+              "abt_h2": "Cookies",
+              "abt_p": "Cookies are small computer files placed on your computer by our site. Our site may use both session and permanent cookies. Session cookies make it easier to use our site by, for example, enabling you to move through the site without having to re-enter your personal information on each page. Session cookies are deleted automatically when you close your browser.\n<br>\n<br>\nIn addition, our site also uses permanent cookies to facilitate our registration and login functions, we may also use cookies to recognize when you return to our website. In addition, some cookies may be set by advertising networks that provide advertising services on our website. In some instances, cookies set by those networks may trigger specific advertisements based on the parts of our site, and other websites, that your browser visits."
+            }
+          },
+          "cd1eb0c1-63ed-4b71-9a2e-3215d5db1bc8": {
+            "type": "select",
+            "settings": {
+              "abt_h2": "Posting",
+              "abt_p": "Posting or updating content is a public action, and all content may be publicly visible. All content may be retained for restorative, archival, research or business purposes by Greenwood Heating &amp; Home Services."
+            }
+          },
+          "e8dfa637-4880-4f59-b628-967a0e690b03": {
+            "type": "select",
+            "settings": {
+              "abt_h2": "Security",
+              "abt_p": "Greenwood Heating &amp; Home Services employs reasonable administrative and technical security measures in place to help protect against loss, misuse and alteration of the information under our control. However, as with any Internet website, it is not possible to guarantee that the site will not be attacked or that information you provided may not be compromised."
+            }
+          },
+          "ffa2f0cd-6abe-4ebf-ae79-ba65f01cb428": {
+            "type": "select",
+            "settings": {
+              "abt_h2": "Other Websites",
+              "abt_p": "This website may contain links to independently run websites outside of the this one. Greenwood Heating &amp; Home Services is not responsible for the privacy practices or content of such websites. We encourage you to read the privacy policies of any websites you visit from this website and its accompanying blog."
+            }
+          }
+        },
+        "block_order": [
+          "3dc6fe24-5476-45a4-8e77-bcd802ad51ec",
+          "49ba0b16-9b12-4579-99ac-17e73e8a6bac",
+          "9397efb1-75b6-4879-8b0b-dab57213e3b3",
+          "fbc3e425-6ee9-434e-90ff-afe7d31e59aa",
+          "cd1eb0c1-63ed-4b71-9a2e-3215d5db1bc8",
+          "e8dfa637-4880-4f59-b628-967a0e690b03",
+          "ffa2f0cd-6abe-4ebf-ae79-ba65f01cb428"
+        ],
+        "settings": {
+          "abt_us_text_p": "The following discloses the information gathering and dissemination practices for Greenwood Heating &amp; Home Services. We reserve the right to modify the information contained herein at anytime without prior notice. If we do make changes to our privacy policies, we will modify this page accordingly.",
+          "abt_bld": "Ready for your next heating, cooling, or electrical project?",
+          "abt_bld_p": "Our professional technicians and staff are ready to help!",
+          "abt_phn_url": "tel:206-202-9516",
+          "abt_phn_txt": "206-202-9516",
+          "abt_email_url": "shopify:\/\/pages\/contact-us",
+          "abt_email_txt": "Email Us",
+          "abt_memcom_h2": "Compare Memberships",
+          "abt_memcom_url": "shopify:\/\/pages\/club-membership",
+          "abt_memcom_a": "Compare Memberships",
+          "abt_review_des": "<div class=\"review-boxx\"> \n\t<a href=\"\/pages\/about-us#customer-review\"> \n\t\t<div class=\"starss\"> \n\t\t\t<span class=\"ratingg\">\n\t\t\t\t<span class=\"fa fa-star\"><\/span>\n\t\t\t\t<span class=\"fa fa-star\"><\/span>\n\t\t\t\t<span class=\"fa fa-star\"><\/span>\n\t\t\t\t<span class=\"fa fa-star\"><\/span>\n\t\t\t\t<span class=\"fa fa-star\"><\/span>\n\t\t\t<\/span> \n\t\t<\/div> \n\t\t<span class=\"review-boxx_h5\">Real Reviews from Real Customers <span class=\"fas fa-arrow-right\"><\/span><\/span> \n\t<\/a> \n<\/div>",
+          "abt_quick_hero_bg": "shopify:\/\/shop_images\/sidebar-cta.jpg",
+          "abt_quick_des": "<div class=\"s-box-small text-center\"> \n\t<h4>Special financing is available<\/h4> \n\t<a href=\"\/pages\/financing\" class=\"btn-normal btn-oval\">Learn More <span class=\"fa fa-angle-double-right\"><\/span><\/a> \n<\/div>",
+          "club_enroll_url": "",
+          "club_enroll": ""
+        }
+      },
+      "ac-installations-banner": {
+        "type": "ac-installations-banner",
+        "settings": {
+          "service_hero_bg": "shopify:\/\/shop_images\/ac-installations_banner.png",
+          "service_h1": "Looking at New Cooling Options?",
+          "service_p": "We'll help you find the right air conditioner for your needs.",
+          "service_hero_pattern": "shopify:\/\/shop_images\/service_pattern.png",
+          "service_h2": "300 Discount*",
+          "service_condition": "*with the purchase of an AC system.",
+          "service_bann_url": "#contact-us",
+          "service_bann_a": "Speak with a home comfort specialist to learn more"
+        }
+      },
+      "ac-installations-tabs": {
+        "type": "ac-installations-tabs",
+        "blocks": {
+          "d0434ba0-3dfa-4751-9097-e8efbf8078e5": {
+            "type": "select",
+            "settings": {
+              "testi_name": "Rae Ann E.",
+              "testi_desc": "When my hot water heater started leaking, I immediately called Greenwood, a company I rely on to maintain my furnace and water heater, both of which had been installed by Greenwood. I received a speedy call back, courteous service and the information I needed to take steps back to water heater health! I am so impressed by this company.",
+              "testi_active": "active"
+            }
+          },
+          "040b956f-f08b-49cd-a5ef-f086961b4433": {
+            "type": "select",
+            "settings": {
+              "testi_name": "Krisjs1767",
+              "testi_desc": "Greenwood provided us with a superior customer experience from start to finish. The Greenwood sales rep was the best in terms of explaining the problem and our options in easy to understand language. The installation was quickly scheduled. The installers were courteous and made sure to cover our floors to protect them from any outside dirt and debris. Overall, highly recommended.",
+              "testi_active": ""
+            }
+          },
+          "91fd664b-d755-429e-a473-41dd35084a04": {
+            "type": "select",
+            "settings": {
+              "testi_name": "Carson M.",
+              "testi_desc": "Installed a new heating vent, as well as ran the gas line from the exterior of my home to the fireplace. I called the day before, and they were here the next day. Not only were they on-time, they got the job done quickly, and overall I found the price to be great. I would definitely recommend Greenwood moving forward.",
+              "testi_active": ""
+            }
+          },
+          "9840bd05-13cd-445d-9873-cc4529300de4": {
+            "type": "select",
+            "settings": {
+              "testi_name": "Chas R.",
+              "testi_desc": "Both the main office and the technician were responsive, scheduled me during a very busy time, and repaired and got my gas furnace back and running. I was without heat for less than a whole day. Great service, incredible documentation and feedback, and exceptionally reasonable prices.",
+              "testi_active": ""
+            }
+          },
+          "4fe74d89-81cc-47b9-a2d9-785117ef06d9": {
+            "type": "select",
+            "settings": {
+              "testi_name": "Kevin K.",
+              "testi_desc": "Greenwood Heating is the best. They send you notice of service tech on the way and you can track the truck on a mobile phone so you can time arrival with your schedule. Thorough service and explanation and plan to keep furnace running great.",
+              "testi_active": ""
+            }
+          },
+          "02c6a913-0316-42c0-8e05-316cb0084f93": {
+            "type": "select",
+            "settings": {
+              "testi_name": "Hugo Y.",
+              "testi_desc": "Everyone you deal with is very professional. They gave me a great deal on a new furnace. The installers went above and beyond, fixing all the wiring, fabricating a door for the air filter, and much more.",
+              "testi_active": ""
+            }
+          }
+        },
+        "block_order": [
+          "d0434ba0-3dfa-4751-9097-e8efbf8078e5",
+          "040b956f-f08b-49cd-a5ef-f086961b4433",
+          "91fd664b-d755-429e-a473-41dd35084a04",
+          "9840bd05-13cd-445d-9873-cc4529300de4",
+          "4fe74d89-81cc-47b9-a2d9-785117ef06d9",
+          "02c6a913-0316-42c0-8e05-316cb0084f93"
+        ],
+        "settings": {
+          "serv_tabs_h2": "Learn about your options",
+          "serv_tabs_p": "Did you know the average lifespan of a home air conditioner is 12-15 years? If your unit is approaching or has exceeded this time frame, you are likely considering a new HVAC system. Learn how we can help you save with our rebates and special offers.",
+          "serv_testi_bg": "shopify:\/\/shop_images\/testimonial-bg.jpg"
+        }
+      },
+      "furnace-installations-banner": {
+        "type": "furnace-installations-banner",
+        "settings": {
+          "service_hero_bg": "shopify:\/\/shop_images\/furnace-installations_banner.jpg",
+          "service_h1": "Looking at New Furnace Options?",
+          "service_p": "We'll help you find the right furnace for your needs.",
+          "service_hero_pattern": "shopify:\/\/shop_images\/service_pattern.png",
+          "service_h2": "300 Discount*",
+          "service_condition": "*with the purchase of a furnace system.",
+          "service_bann_url": "#",
+          "service_bann_a": "Speak with a home comfort specialist to learn more"
+        }
+      },
+      "ductless-installations-banner": {
+        "type": "ductless-installations-banner",
+        "settings": {
+          "service_hero_bg": "shopify:\/\/shop_images\/ductless-installations_banner.jpg",
+          "service_h1": "Looking at New Ductless Options?",
+          "service_p": "We’ll help you find the right ductless system for your needs.",
+          "service_hero_pattern": "shopify:\/\/shop_images\/service_pattern.png",
+          "service_h2": "UP TO $1700 OFF ductless installation!",
+          "service_condition": "",
+          "service_bann_url": "#",
+          "service_bann_a": "Speak with a home comfort specialist to learn more"
+        }
+      },
+      "green-plan-text": {
+        "type": "green-plan-text",
+        "blocks": {
+          "d7a5f8d2-c3ec-49a4-9b0d-9b26f009912c": {
+            "type": "select-text",
+            "settings": {
+              "select-text_p": "Regular maintenance will:"
+            }
+          },
+          "a315dfbb-dfbe-4101-8ed6-d1c625c4fdd5": {
+            "type": "select-text",
+            "settings": {
+              "select-text_p": "<div class=\"abt-list-items\"> <ul class=\"list\"> <li>\n<span class=\"icon fa fa-check\"><\/span>A+ rating with the Better Business Bureau<\/li> <li>\n<span class=\"icon fa fa-check\"><\/span>Mitsubishi Diamond Dealer<\/li> <li>\n<span class=\"icon fa fa-check\"><\/span>Angie’s List Super Service Award Winner (over 10 years in a row)<\/li> <\/ul> <\/div>"
+            }
+          },
+          "689f0b02-8a20-43d3-b7d1-8124a6d35e39": {
+            "type": "select",
+            "settings": {
+              "abt_h2": "What we do during a Performance Tune-Up:",
+              "abt_p": "<div class=\"accrodin_rte panel-group\" id=\"accordion\" role=\"tablist\" aria-multiselectable=\"true\">\n<div class=\"panell\">\n<div class=\"panel-heading\">\n<h3><a data-toggle=\"collapse\" href=\"#control1\" class=\"collapsed\" aria-controls=\"control\">Performance Furnace Tune-Up <i class=\"fas fa-chevron-right\"><\/i> <\/a><\/h3>\n<\/div>\n<div id=\"control1\" class=\"panel-collapse collapse\">\n<div class=\"panel-body\">\n<div class=\"abt-list-items\">\n<ul class=\"list\">\n<li>\n<span class=\"icon fa fa-check\"><\/span>Test for carbon monoxide leaks<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Clean burner assembly<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Clean ignition assembly<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Clean blower motor<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Inspect filtration system<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Adjust blower components<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Test and adjust safety controls<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Tighten electrical connections<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Check flue draft<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Check combustion<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Inspect vent piping<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Inspect humidification system<\/li>\n<\/ul>\n<\/div>\n<\/div>\n<\/div>\n<\/div>\n<div class=\"panell\">\n<div class=\"panel-heading\">\n<h3><a data-toggle=\"collapse\" href=\"#control2\" class=\"collapsed\" aria-controls=\"control\">Performance Air Conditioner Tune-Up <i class=\"fas fa-chevron-right\"><\/i> <\/a><\/h3>\n<\/div>\n<div id=\"control2\" class=\"panel-collapse collapse\">\n<div class=\"panel-body\">\n<div class=\"abt-list-items\">\n<ul class=\"list\">\n<li>\n<span class=\"icon fa fa-check\"><\/span>Clean condenser coil<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Inspect evaporator coil if accessible<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Clean condensate drain<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Clean blower motor<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Inspect filtration system<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Adjust blower components<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Inspect for refrigerant leaks<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Test condensate pump<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Tighten electrical connections<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Test starting capabilities<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Measure air temperature differential<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Monitor refrigerant pressure<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Measure amperage and voltage<\/li>\n<\/ul>\n<\/div>\n<\/div>\n<\/div>\n<\/div>\n<div class=\"panell\">\n<div class=\"panel-heading\">\n<h3><a data-toggle=\"collapse\" href=\"#control3\" class=\"collapsed\" aria-controls=\"control\">Performance Air Handler Tune-Up <i class=\"fas fa-chevron-right\"><\/i> <\/a><\/h3>\n<\/div>\n<div id=\"control3\" class=\"panel-collapse collapse\">\n<div class=\"panel-body\">\n<div class=\"abt-list-items\">\n<ul class=\"list\">\n<li>\n<span class=\"icon fa fa-check\"><\/span>Inspect evaporator coil<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Clean blower motor<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Inspect filtration system<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Adjust blower components<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Test and adjust safety controls<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Tighten electrical connections<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Inspect humidification system<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Inspect electrical heating elements<\/li>\n<\/ul>\n<\/div>\n<\/div>\n<\/div>\n<\/div>\n<\/div>"
+            }
+          },
+          "4dcbceee-fd0f-4c04-95b7-539f5c0800bb": {
+            "type": "select",
+            "settings": {
+              "abt_h2": "Service Agreements - \"The Smart Choice\"",
+              "abt_p": "Heating and cooling systems have a way of breaking down on the coldest day of a frigid winter, or during a sizzling summer heat wave. Regular check-ups will help to maximize the life expectancy of your system since unfortunately, even the best maintenance won’t prevent normal wear and tear. We also offer annual service agreements, which can reduce the cost of a performance tune-up or completely needing to replace your system."
+            }
+          },
+          "3497fae4-d55a-4d17-adfb-e64f8eae753a": {
+            "type": "select",
+            "settings": {
+              "abt_h2": "Your investment in our service agreement includes:",
+              "abt_p": "<div class=\"abt-list-items\"> \n\t<ul class=\"list\"> \n\t\t<li>\n\t\t\t<span class=\"icon fa fa-check\"><\/span>\n\t\t\t<strong>Two Performance Tune-Ups Per Year:<\/strong> Having your system checked regularly enables us to keep your unit running as efficiently as possible\n\t\t<\/li> \n\t\t<li>\n\t\t\t<span class=\"icon fa fa-check\"><\/span>\n\t\t\t<strong>Priority Service:<\/strong> Our commitment to program customers means we will have a technician to your door within 24 hours of calling our office.\n\t\t<\/li>\n\t\t<li>\n\t\t\t<span class=\"icon fa fa-check\"><\/span>\n\t\t\t<strong>Energy Saving Coil Cleaning:<\/strong> Dirty coils reduce efficiency and cause your unit to work harder, causing parts to wear out faster, and shorten the life expectancy of your unit.\n\t\t<\/li>\n\t\t<li>\n\t\t\t<span class=\"icon fa fa-check\"><\/span>\n\t\t\t<strong>Labor Warranty:<\/strong> All of our labor services are warranted for 30 days. If you have a problem within 30 days of service, there will be no charge to come back out and diagnose the problem.\n\t\t<\/li>\n\t\t<li>\n\t\t\t<span class=\"icon fas fa-check\"><\/span>\n\t\t\t<strong>Discounted Replacement Parts &amp; Labor:<\/strong> Our discounted rates save you money with every call.\n\t\t<\/li> \n\t<\/ul> \n<\/div>"
+            }
+          }
+        },
+        "block_order": [
+          "d7a5f8d2-c3ec-49a4-9b0d-9b26f009912c",
+          "a315dfbb-dfbe-4101-8ed6-d1c625c4fdd5",
+          "689f0b02-8a20-43d3-b7d1-8124a6d35e39",
+          "4dcbceee-fd0f-4c04-95b7-539f5c0800bb",
+          "3497fae4-d55a-4d17-adfb-e64f8eae753a"
+        ],
+        "settings": {
+          "abt_us_text_p": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+          "abt_bld": "Ready for your next heating, cooling, or electrical project?",
+          "abt_bld_p": "Our professional technicians and staff are ready to help!",
+          "abt_phn_url": "tel:206-202-9516",
+          "abt_phn_txt": "206-202-9516",
+          "abt_email_url": "shopify:\/\/pages\/contact-us",
+          "abt_email_txt": "Email Us"
+        }
+      },
+      "product-hero": {
+        "type": "product-hero",
+        "settings": {}
+      },
+      "gold-plan-text": {
+        "type": "gold-plan-text",
+        "blocks": {
+          "73c14c6c-222a-4383-bfe9-0a0f850a0142": {
+            "type": "select-text",
+            "settings": {
+              "select-text_p": "Regular maintenance will:"
+            }
+          },
+          "013e9fa8-2110-4114-bbb7-13e208cae3f6": {
+            "type": "select-text",
+            "settings": {
+              "select-text_p": "<div class=\"abt-list-items\"> <ul class=\"list\"> <li>\n<span class=\"icon fa fa-check\"><\/span>A+ rating with the Better Business Bureau<\/li> <li>\n<span class=\"icon fa fa-check\"><\/span>Mitsubishi Diamond Dealer<\/li> <li>\n<span class=\"icon fa fa-check\"><\/span>Angie’s List Super Service Award Winner (over 10 years in a row)<\/li> <\/ul> <\/div>"
+            }
+          },
+          "144ebd0a-c75c-402c-8b13-5b4ce0122188": {
+            "type": "select",
+            "settings": {
+              "abt_h2": "What we do during a Performance Tune-Up:",
+              "abt_p": "<div class=\"accrodin_rte panel-group\" id=\"accordion\" role=\"tablist\" aria-multiselectable=\"true\">\n<div class=\"panell\">\n<div class=\"panel-heading\">\n<h3><a data-toggle=\"collapse\" href=\"#control1\" class=\"collapsed\" aria-controls=\"control\">Performance Furnace Tune-Up <i class=\"fas fa-chevron-right\"><\/i> <\/a><\/h3>\n<\/div>\n<div id=\"control1\" class=\"panel-collapse collapse\">\n<div class=\"panel-body\">\n<div class=\"abt-list-items\">\n<ul class=\"list\">\n<li>\n<span class=\"icon fa fa-check\"><\/span>Test for carbon monoxide leaks<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Clean burner assembly<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Clean ignition assembly<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Clean blower motor<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Inspect filtration system<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Adjust blower components<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Test and adjust safety controls<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Tighten electrical connections<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Check flue draft<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Check combustion<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Inspect vent piping<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Inspect humidification system<\/li>\n<\/ul>\n<\/div>\n<\/div>\n<\/div>\n<\/div>\n<div class=\"panell\">\n<div class=\"panel-heading\">\n<h3><a data-toggle=\"collapse\" href=\"#control2\" class=\"collapsed\" aria-controls=\"control\">Performance Air Conditioner Tune-Up <i class=\"fas fa-chevron-right\"><\/i> <\/a><\/h3>\n<\/div>\n<div id=\"control2\" class=\"panel-collapse collapse\">\n<div class=\"panel-body\">\n<div class=\"abt-list-items\">\n<ul class=\"list\">\n<li>\n<span class=\"icon fa fa-check\"><\/span>Clean condenser coil<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Inspect evaporator coil if accessible<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Clean condensate drain<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Clean blower motor<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Inspect filtration system<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Adjust blower components<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Inspect for refrigerant leaks<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Test condensate pump<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Tighten electrical connections<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Test starting capabilities<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Measure air temperature differential<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Monitor refrigerant pressure<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Measure amperage and voltage<\/li>\n<\/ul>\n<\/div>\n<\/div>\n<\/div>\n<\/div>\n<div class=\"panell\">\n<div class=\"panel-heading\">\n<h3><a data-toggle=\"collapse\" href=\"#control3\" class=\"collapsed\" aria-controls=\"control\">Performance Air Handler Tune-Up <i class=\"fas fa-chevron-right\"><\/i> <\/a><\/h3>\n<\/div>\n<div id=\"control3\" class=\"panel-collapse collapse\">\n<div class=\"panel-body\">\n<div class=\"abt-list-items\">\n<ul class=\"list\">\n<li>\n<span class=\"icon fa fa-check\"><\/span>Inspect evaporator coil<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Clean blower motor<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Inspect filtration system<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Adjust blower components<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Test and adjust safety controls<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Tighten electrical connections<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Inspect humidification system<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Inspect electrical heating elements<\/li>\n<\/ul>\n<\/div>\n<\/div>\n<\/div>\n<\/div>\n<\/div>"
+            }
+          },
+          "223dee33-ffd3-4d5e-b171-5c01fe443e9e": {
+            "type": "select",
+            "settings": {
+              "abt_h2": "Service Agreements - \"The Smart Choice\"",
+              "abt_p": "Heating and cooling systems have a way of breaking down on the coldest day of a frigid winter, or during a sizzling summer heat wave. Regular check-ups will help to maximize the life expectancy of your system since unfortunately, even the best maintenance won’t prevent normal wear and tear. We also offer annual service agreements, which can reduce the cost of a performance tune-up or completely needing to replace your system."
+            }
+          },
+          "5941878b-7309-4fe0-89df-76b08a9e3a2d": {
+            "type": "select",
+            "settings": {
+              "abt_h2": "Your investment in our service agreement includes:",
+              "abt_p": "<div class=\"abt-list-items\"> \n\t<ul class=\"list\"> \n\t\t<li>\n\t\t\t<span class=\"icon fa fa-check\"><\/span>\n\t\t\t<strong>Two Performance Tune-Ups Per Year:<\/strong> Having your system checked regularly enables us to keep your unit running as efficiently as possible\n\t\t<\/li> \n\t\t<li>\n\t\t\t<span class=\"icon fa fa-check\"><\/span>\n\t\t\t<strong>Priority Service:<\/strong> Our commitment to program customers means we will have a technician to your door within 24 hours of calling our office.\n\t\t<\/li>\n\t\t<li>\n\t\t\t<span class=\"icon fa fa-check\"><\/span>\n\t\t\t<strong>Energy Saving Coil Cleaning:<\/strong> Dirty coils reduce efficiency and cause your unit to work harder, causing parts to wear out faster, and shorten the life expectancy of your unit.\n\t\t<\/li>\n\t\t<li>\n\t\t\t<span class=\"icon fa fa-check\"><\/span>\n\t\t\t<strong>Labor Warranty:<\/strong> All of our labor services are warranted for 30 days. If you have a problem within 30 days of service, there will be no charge to come back out and diagnose the problem.\n\t\t<\/li>\n\t\t<li>\n\t\t\t<span class=\"icon fas fa-check\"><\/span>\n\t\t\t<strong>Discounted Replacement Parts &amp; Labor:<\/strong> Our discounted rates save you money with every call.\n\t\t<\/li> \n\t<\/ul> \n<\/div>"
+            }
+          }
+        },
+        "block_order": [
+          "73c14c6c-222a-4383-bfe9-0a0f850a0142",
+          "013e9fa8-2110-4114-bbb7-13e208cae3f6",
+          "144ebd0a-c75c-402c-8b13-5b4ce0122188",
+          "223dee33-ffd3-4d5e-b171-5c01fe443e9e",
+          "5941878b-7309-4fe0-89df-76b08a9e3a2d"
+        ],
+        "settings": {
+          "abt_us_text_p": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+          "abt_bld": "Ready for your next heating, cooling, or electrical project?",
+          "abt_bld_p": "Our professional technicians and staff are ready to help!",
+          "abt_phn_url": "tel:206-202-9516",
+          "abt_phn_txt": "206-202-9516",
+          "abt_email_url": "shopify:\/\/pages\/contact-us",
+          "abt_email_txt": "Email Us"
+        }
+      },
+      "product-template-green": {
+        "type": "product-template-green",
+        "settings": {
+          "enable_ajax": true,
+          "abt_review_des": "<div class=\"review-boxx\"> \n\t<a href=\"#customer-review\"> \n\t\t<div class=\"starss\"> \n\t\t\t<span class=\"ratingg\">\n\t\t\t\t<span class=\"fa fa-star\"><\/span>\n\t\t\t\t<span class=\"fa fa-star\"><\/span>\n\t\t\t\t<span class=\"fa fa-star\"><\/span>\n\t\t\t\t<span class=\"fa fa-star\"><\/span>\n\t\t\t\t<span class=\"fa fa-star\"><\/span>\n\t\t\t<\/span> \n\t\t<\/div> \n\t\t<span class=\"review-boxx_h5\">Real Reviews from Real Customers <span class=\"fas fa-arrow-right\"><\/span><\/span> \n\t<\/a> \n<\/div>",
+          "abt_quick_des": "<div class=\"s-box-small text-center\"> \n\t<h4>Special financing is available<\/h4> \n\t<a href=\"\/pages\/financing\" class=\"btn-normal btn-oval\">Learn More <span class=\"fa fa-angle-double-right\"><\/span><\/a> \n<\/div>",
+          "club_enroll_url": "",
+          "club_enroll": "",
+          "stock_enable": false,
+          "enable_payment_button": true,
+          "social_sharing_products": true
+        }
+      },
+      "silver-plan-text": {
+        "type": "silver-plan-text",
+        "blocks": {
+          "3c29961b-a94e-4afa-861f-56e16b347eb0": {
+            "type": "select-text",
+            "settings": {
+              "select-text_p": "Regular maintenance will:"
+            }
+          },
+          "27f913bc-a877-4e38-a283-639de013a33a": {
+            "type": "select-text",
+            "settings": {
+              "select-text_p": "<div class=\"abt-list-items\"> <ul class=\"list\"> <li>\n<span class=\"icon fa fa-check\"><\/span>A+ rating with the Better Business Bureau<\/li> <li>\n<span class=\"icon fa fa-check\"><\/span>Mitsubishi Diamond Dealer<\/li> <li>\n<span class=\"icon fa fa-check\"><\/span>Angie’s List Super Service Award Winner (over 10 years in a row)<\/li> <\/ul> <\/div>"
+            }
+          },
+          "5c6571cb-8791-4ce9-9227-703127eaabf5": {
+            "type": "select",
+            "settings": {
+              "abt_h2": "What we do during a Performance Tune-Up:",
+              "abt_p": "<div class=\"accrodin_rte panel-group\" id=\"accordion\" role=\"tablist\" aria-multiselectable=\"true\">\n<div class=\"panell\">\n<div class=\"panel-heading\">\n<h3><a data-toggle=\"collapse\" href=\"#control1\" class=\"collapsed\" aria-controls=\"control\">Performance Furnace Tune-Up <i class=\"fas fa-chevron-right\"><\/i> <\/a><\/h3>\n<\/div>\n<div id=\"control1\" class=\"panel-collapse collapse\">\n<div class=\"panel-body\">\n<div class=\"abt-list-items\">\n<ul class=\"list\">\n<li>\n<span class=\"icon fa fa-check\"><\/span>Test for carbon monoxide leaks<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Clean burner assembly<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Clean ignition assembly<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Clean blower motor<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Inspect filtration system<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Adjust blower components<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Test and adjust safety controls<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Tighten electrical connections<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Check flue draft<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Check combustion<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Inspect vent piping<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Inspect humidification system<\/li>\n<\/ul>\n<\/div>\n<\/div>\n<\/div>\n<\/div>\n<div class=\"panell\">\n<div class=\"panel-heading\">\n<h3><a data-toggle=\"collapse\" href=\"#control2\" class=\"collapsed\" aria-controls=\"control\">Performance Air Conditioner Tune-Up <i class=\"fas fa-chevron-right\"><\/i> <\/a><\/h3>\n<\/div>\n<div id=\"control2\" class=\"panel-collapse collapse\">\n<div class=\"panel-body\">\n<div class=\"abt-list-items\">\n<ul class=\"list\">\n<li>\n<span class=\"icon fa fa-check\"><\/span>Clean condenser coil<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Inspect evaporator coil if accessible<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Clean condensate drain<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Clean blower motor<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Inspect filtration system<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Adjust blower components<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Inspect for refrigerant leaks<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Test condensate pump<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Tighten electrical connections<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Test starting capabilities<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Measure air temperature differential<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Monitor refrigerant pressure<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Measure amperage and voltage<\/li>\n<\/ul>\n<\/div>\n<\/div>\n<\/div>\n<\/div>\n<div class=\"panell\">\n<div class=\"panel-heading\">\n<h3><a data-toggle=\"collapse\" href=\"#control3\" class=\"collapsed\" aria-controls=\"control\">Performance Air Handler Tune-Up <i class=\"fas fa-chevron-right\"><\/i> <\/a><\/h3>\n<\/div>\n<div id=\"control3\" class=\"panel-collapse collapse\">\n<div class=\"panel-body\">\n<div class=\"abt-list-items\">\n<ul class=\"list\">\n<li>\n<span class=\"icon fa fa-check\"><\/span>Inspect evaporator coil<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Clean blower motor<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Inspect filtration system<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Adjust blower components<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Test and adjust safety controls<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Tighten electrical connections<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Inspect humidification system<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Inspect electrical heating elements<\/li>\n<\/ul>\n<\/div>\n<\/div>\n<\/div>\n<\/div>\n<\/div>"
+            }
+          },
+          "6e7aa51d-8d4a-47d2-b165-7f7eb6b9b90b": {
+            "type": "select",
+            "settings": {
+              "abt_h2": "Service Agreements - \"The Smart Choice\"",
+              "abt_p": "Heating and cooling systems have a way of breaking down on the coldest day of a frigid winter, or during a sizzling summer heat wave. Regular check-ups will help to maximize the life expectancy of your system since unfortunately, even the best maintenance won’t prevent normal wear and tear. We also offer annual service agreements, which can reduce the cost of a performance tune-up or completely needing to replace your system."
+            }
+          },
+          "08ff8a23-8399-4b51-8d9e-b35bfa8b2839": {
+            "type": "select",
+            "settings": {
+              "abt_h2": "Your investment in our service agreement includes:",
+              "abt_p": "<div class=\"abt-list-items\"> \n\t<ul class=\"list\"> \n\t\t<li>\n\t\t\t<span class=\"icon fa fa-check\"><\/span>\n\t\t\t<strong>Two Performance Tune-Ups Per Year:<\/strong> Having your system checked regularly enables us to keep your unit running as efficiently as possible\n\t\t<\/li> \n\t\t<li>\n\t\t\t<span class=\"icon fa fa-check\"><\/span>\n\t\t\t<strong>Priority Service:<\/strong> Our commitment to program customers means we will have a technician to your door within 24 hours of calling our office.\n\t\t<\/li>\n\t\t<li>\n\t\t\t<span class=\"icon fa fa-check\"><\/span>\n\t\t\t<strong>Energy Saving Coil Cleaning:<\/strong> Dirty coils reduce efficiency and cause your unit to work harder, causing parts to wear out faster, and shorten the life expectancy of your unit.\n\t\t<\/li>\n\t\t<li>\n\t\t\t<span class=\"icon fa fa-check\"><\/span>\n\t\t\t<strong>Labor Warranty:<\/strong> All of our labor services are warranted for 30 days. If you have a problem within 30 days of service, there will be no charge to come back out and diagnose the problem.\n\t\t<\/li>\n\t\t<li>\n\t\t\t<span class=\"icon fas fa-check\"><\/span>\n\t\t\t<strong>Discounted Replacement Parts &amp; Labor:<\/strong> Our discounted rates save you money with every call.\n\t\t<\/li> \n\t<\/ul> \n<\/div>"
+            }
+          }
+        },
+        "block_order": [
+          "3c29961b-a94e-4afa-861f-56e16b347eb0",
+          "27f913bc-a877-4e38-a283-639de013a33a",
+          "5c6571cb-8791-4ce9-9227-703127eaabf5",
+          "6e7aa51d-8d4a-47d2-b165-7f7eb6b9b90b",
+          "08ff8a23-8399-4b51-8d9e-b35bfa8b2839"
+        ],
+        "settings": {
+          "abt_us_text_p": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+          "abt_bld": "Ready for your next heating, cooling, or electrical project?",
+          "abt_bld_p": "Our professional technicians and staff are ready to help!",
+          "abt_phn_url": "tel:206-202-9516",
+          "abt_phn_txt": "206-202-9516",
+          "abt_email_url": "shopify:\/\/pages\/contact-us",
+          "abt_email_txt": "Email Us"
+        }
+      },
+      "contact_new-text": {
+        "type": "contact_new-text",
+        "settings": {
+          "abt_us_text_img": "shopify:\/\/shop_images\/air-quality-txt-img.jpg",
+          "abt_us_text_p": "<iframe src=\"https:\/\/www.google.com\/maps\/embed?pb=!1m18!1m12!1m3!1d2691.288244416279!2d-122.32454598437043!3d47.58163527918302!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54906a83087fcb03%3A0x2105e3267ec31269!2s825%20S%20Stacy%20St%2C%20Seattle%2C%20WA%2098134%2C%20USA!5e0!3m2!1sen!2sca!4v1636729421286!5m2!1sen!2sca\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\"><\/iframe>",
+          "abt_bld": "Get Started With a Free Quote Today!",
+          "abt_bld_p": "We would love to hear from you! If you have any comments, questions, or concerns, let us know, and we will get back to you right away.",
+          "abt_email_url": "https:\/\/www.google.ca\/maps\/place\/825%20S%20Stacy%20St,%20Seattle,%20WA%2098134",
+          "abt_email_txt": "825 S Stacy St, Seattle, WA 98134",
+          "abt_phn_url": "tel:206-202-9516",
+          "abt_phn_txt": "206-202-9516",
+          "abt_memcom_h2": "Compare Plans",
+          "abt_memcom_url": "shopify:\/\/pages\/select-your-club-membership",
+          "abt_memcom_a": "Learn More",
+          "abt_review_des": "<div class=\"review-boxx\"> \n\t<a href=\"\/pages\/about-us#customer-review\"> \n\t\t<div class=\"starss\"> \n\t\t\t<span class=\"ratingg\">\n\t\t\t\t<span class=\"fa fa-star\"><\/span>\n\t\t\t\t<span class=\"fa fa-star\"><\/span>\n\t\t\t\t<span class=\"fa fa-star\"><\/span>\n\t\t\t\t<span class=\"fa fa-star\"><\/span>\n\t\t\t\t<span class=\"fa fa-star\"><\/span>\n\t\t\t<\/span> \n\t\t<\/div> \n\t\t<span class=\"review-boxx_h5\">Real Reviews from Real Customers <span class=\"fas fa-arrow-right\"><\/span><\/span> \n\t<\/a> \n<\/div>",
+          "abt_quick_hero_bg": "shopify:\/\/shop_images\/sidebar-cta.jpg",
+          "abt_quick_des": "<div class=\"s-box-small text-center\"> \n\t<h4>Special financing is available<\/h4> \n\t<a href=\"\/pages\/financing\" class=\"btn-normal btn-oval\">Learn More <span class=\"fa fa-angle-double-right\"><\/span><\/a> \n<\/div>",
+          "club_enroll_url": "",
+          "club_enroll": ""
+        }
+      },
+      "club-membership-plan": {
+        "type": "club-membership-plan",
+        "blocks": {
+          "2ed57450-7a44-41da-8acd-21a2d5ec4453": {
+            "type": "select",
+            "settings": {
+              "club_mplan_url": "shopify:\/\/products\/green",
+              "club_mplan_a": "Green Plan"
+            }
+          },
+          "270bcf68-3e6f-41df-8793-2709b194995f": {
+            "type": "select",
+            "settings": {
+              "club_mplan_url": "shopify:\/\/products\/silver",
+              "club_mplan_a": "Silver Plan"
+            }
+          },
+          "4eabb61d-c51d-4846-a294-e7604d2a7f10": {
+            "type": "select",
+            "settings": {
+              "club_mplan_url": "shopify:\/\/products\/gold",
+              "club_mplan_a": "Gold Plan"
+            }
+          }
+        },
+        "block_order": [
+          "2ed57450-7a44-41da-8acd-21a2d5ec4453",
+          "270bcf68-3e6f-41df-8793-2709b194995f",
+          "4eabb61d-c51d-4846-a294-e7604d2a7f10"
+        ],
+        "settings": {
+          "club_mplan_h2": "Enroll in a Membership Plan Today"
+        }
+      },
+      "air-conditioning_featured_products": {
+        "type": "air-conditioning_featured_products",
+        "settings": {
+          "collection": "air-conditioning",
+          "rows": 1
+        }
+      },
+      "furnaces_featured_products": {
+        "type": "furnaces_featured_products",
+        "settings": {
+          "enable": true,
+          "collection": "furnaces",
+          "rows": 3
+        }
+      },
+      "gas-boilers_featured_products": {
+        "type": "gas-boilers_featured_products",
+        "settings": {
+          "collection": "air-conditioning",
+          "rows": 1
+        }
+      },
+      "heat-pumps_featured_products": {
+        "type": "heat-pumps_featured_products",
+        "settings": {
+          "collection": "air-conditioning",
+          "rows": 1
+        }
+      },
+      "ductless-systems_featured_products": {
+        "type": "ductless-systems_featured_products",
+        "settings": {
+          "collection": "ductless-systems",
+          "rows": 1
+        }
+      },
+      "air-handlers_featured_products": {
+        "type": "air-handlers_featured_products",
+        "settings": {
+          "enable": false,
+          "collection": "",
+          "rows": 3
+        }
+      },
+      "indoor-air-quality_featured_products": {
+        "type": "indoor-air-quality_featured_products",
+        "settings": {
+          "enable": false,
+          "collection": "",
+          "rows": 1
+        }
+      },
+      "water-heaters_featured_products": {
+        "type": "water-heaters_featured_products",
+        "settings": {
+          "enable": true,
+          "collection": "water-heaters",
+          "rows": 3
+        }
+      },
+      "newgreen-plan-text": {
+        "type": "newgreen-plan-text",
+        "blocks": {
+          "eb7e124c-eaab-46fb-8655-2945f7d0ded9": {
+            "type": "select",
+            "settings": {
+              "abt_h2": "Service Agreements- \"The Smart Choice\"",
+              "abt_p": "Heating and cooling systems have a way of breaking down on the coldest day of a frigid winter, or during a sizzing summer heat wave. Regular check-ups will help to maximize the life expectancy of your system since unfortunately, even the best maintenance won't prevent normal wear and tear. We also offer annual service agreements, which can reduce the cost of a performance tune-up or completely needing to replace your system."
+            }
+          },
+          "cbc1a21f-1389-4550-8ff0-a2556054ee81": {
+            "type": "select-text",
+            "settings": {
+              "select-text_p": "<div class=\"pdt_inn_bg\">\n<h2>Save up to 25% off on HVAC Service repairs<\/h2> \n<\/div>"
+            }
+          },
+          "7c2fe216-69c0-4253-8e9c-6bb16db8767f": {
+            "type": "select",
+            "settings": {
+              "abt_h2": "Key Benefits of our Maintenance Plan",
+              "abt_p": "<div class=\"abt-list-items new-abt-list-items\"> <ul class=\"list\"> <li>\n<span class=\"icon fa fa-check\"><\/span><strong>Priority Customer Service:<\/strong>  During the hot and cold months of the year, we offer our Planned Service Members the guarantee of servicing emergency situations within 24 hours.<\/li> <li>\n<span class=\"icon fa fa-check\"><\/span><strong>Two Performance Tune-Ups Per Year:<\/strong> Having your system checked regularly enables us to keep your unit running as efficiently as possible.<\/li> <li>\n<span class=\"icon fa fa-check\"><\/span><strong>25% Discount on Repairs:<\/strong> Sometimes repairs are necessary. Becoming part of our maintenance plan will give you the benefit of up to a 25% discount on repairs that need to be done on your unit.<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span><strong>No Overtime Charges:<\/strong> Being part of our Planned Service means that there will never be an overtime charge for after-hours emergency calls.<\/li> <\/ul> <\/div>"
+            }
+          },
+          "a913a4d9-1fd8-42fb-8831-58015edf4419": {
+            "type": "select",
+            "settings": {
+              "abt_h2": "Additional Benefits",
+              "abt_p": "<div class=\"new_prdt_add_ul prdt_add_ul\">\n<ul>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Priority Customer Status<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Annual Reminders<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Up to 25% Discount on Repairs<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Air Filters<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Never an Overtime Charge<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Extended Equipment Life &amp; Fewer Repairs<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Lower Utility Bills<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Inflation Protection<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Up to 5% Discount on New Equipment\n<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Agreement is Transferable<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Club Concierge<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Improved Safety<\/li>\n<\/ul>\n<\/div>"
+            }
+          },
+          "91736b17-7522-4479-a8b5-daa9667cce76": {
+            "type": "select",
+            "settings": {
+              "abt_h2": "What we do during a Performance Tune-Up:",
+              "abt_p": "<div class=\"accrodin_rte panel-group\" id=\"accordion\" role=\"tablist\" aria-multiselectable=\"true\">\n<div class=\"panell\">\n<div class=\"panel-heading\">\n<h3><a data-toggle=\"collapse\" href=\"#control1\" class=\"collapsed\" aria-controls=\"control\">Performance Furnace Tune-Up <i class=\"fas fa-chevron-right\"><\/i> <\/a><\/h3>\n<\/div>\n<div id=\"control1\" class=\"panel-collapse collapse\">\n<div class=\"panel-body\">\n<div class=\"abt-list-items\">\n<ul class=\"list\">\n<li>\n<span class=\"icon fa fa-check\"><\/span>Test for carbon monoxide leaks<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Clean burner assembly<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Clean ignition assembly<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Clean blower motor<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Inspect filtration system<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Adjust blower components<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Test and adjust safety controls<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Tighten electrical connections<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Check flue draft<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Check combustion<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Inspect vent piping<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Inspect humidification system<\/li>\n<\/ul>\n<\/div>\n<\/div>\n<\/div>\n<\/div>\n<div class=\"panell\">\n<div class=\"panel-heading\">\n<h3><a data-toggle=\"collapse\" href=\"#control2\" class=\"collapsed\" aria-controls=\"control\">Performance Air Conditioner Tune-Up <i class=\"fas fa-chevron-right\"><\/i> <\/a><\/h3>\n<\/div>\n<div id=\"control2\" class=\"panel-collapse collapse\">\n<div class=\"panel-body\">\n<div class=\"abt-list-items\">\n<ul class=\"list\">\n<li>\n<span class=\"icon fa fa-check\"><\/span>Clean condenser coil<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Inspect evaporator coil if accessible<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Clean condensate drain<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Clean blower motor<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Inspect filtration system<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Adjust blower components<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Inspect for refrigerant leaks<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Test condensate pump<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Tighten electrical connections<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Test starting capabilities<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Measure air temperature differential<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Monitor refrigerant pressure<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Measure amperage and voltage<\/li>\n<\/ul>\n<\/div>\n<\/div>\n<\/div>\n<\/div>\n<div class=\"panell\">\n<div class=\"panel-heading\">\n<h3><a data-toggle=\"collapse\" href=\"#control3\" class=\"collapsed\" aria-controls=\"control\">Performance Air Handler Tune-Up <i class=\"fas fa-chevron-right\"><\/i> <\/a><\/h3>\n<\/div>\n<div id=\"control3\" class=\"panel-collapse collapse\">\n<div class=\"panel-body\">\n<div class=\"abt-list-items\">\n<ul class=\"list\">\n<li>\n<span class=\"icon fa fa-check\"><\/span>Inspect evaporator coil<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Clean blower motor<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Inspect filtration system<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Adjust blower components<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Test and adjust safety controls<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Tighten electrical connections<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Inspect humidification system<\/li>\n<li>\n<span class=\"icon fa fa-check\"><\/span>Inspect electrical heating elements<\/li>\n<\/ul>\n<\/div>\n<\/div>\n<\/div>\n<\/div>\n<\/div>"
+            }
+          }
+        },
+        "block_order": [
+          "eb7e124c-eaab-46fb-8655-2945f7d0ded9",
+          "cbc1a21f-1389-4550-8ff0-a2556054ee81",
+          "7c2fe216-69c0-4253-8e9c-6bb16db8767f",
+          "a913a4d9-1fd8-42fb-8831-58015edf4419",
+          "91736b17-7522-4479-a8b5-daa9667cce76"
+        ],
+        "settings": {
+          "abt_us_text_p": "",
+          "abt_bld": "Ready for your next heating, cooling, or electrical project?",
+          "abt_bld_p": "Our professional technicians and staff are ready to help!",
+          "abt_phn_url": "tel:206-202-9516",
+          "abt_phn_txt": "206-202-9516",
+          "abt_email_url": "shopify:\/\/pages\/contact-us",
+          "abt_email_txt": "Email Us"
+        }
+      },
+      "featured-products-subsection": {
+        "type": "featured-products-subsection",
+        "settings": {
+          "collection": ""
+        }
+      },
+      "cart-template": {
+        "type": "cart-template",
+        "settings": {
+          "cart_notes_enable": true
+        }
+      },
+      "ac_installations_featured": {
+        "type": "ac_installations_featured",
+        "settings": {
+          "enable": true,
+          "collection": "air-conditioning",
+          "rows": 3
+        }
+      },
+      "furnace_installations_featured": {
+        "type": "furnace_installations_featured",
+        "settings": {
+          "enable": true,
+          "collection": "furnaces",
+          "rows": 3
+        }
+      },
+      "ductless_installations_featured": {
+        "type": "ductless_installations_featured",
+        "settings": {
+          "enable": true,
+          "collection": "ductless-systems",
+          "rows": 3
+        }
+      },
+      "air_conditioning_featured": {
+        "type": "air_conditioning_featured",
+        "settings": {
+          "enable": true,
+          "collection": "air-conditioning",
+          "rows": 3
+        }
+      },
+      "gas_boilers_featured": {
+        "type": "gas_boilers_featured",
+        "settings": {
+          "enable": false,
+          "collection": "",
+          "rows": 3
+        }
+      },
+      "heat_pumps_featured": {
+        "type": "heat_pumps_featured",
+        "settings": {
+          "enable": false,
+          "collection": "",
+          "rows": 3
+        }
+      },
+      "ductless_systems_featured": {
+        "type": "ductless_systems_featured",
+        "settings": {
+          "enable": true,
+          "collection": "ductless-systems",
+          "rows": 3
+        }
+      },
+      "refund-text": {
+        "type": "refund-text",
+        "settings": {
+          "abt_us_text_p": "<div class=\"rte\">\n        <p>We have a 30-day return policy, which means you have 30 days after receiving your item to request a return. <br><br>To be eligible for a return, your item must be in the same condition that you received it, unworn or unused, with tags, and in its original packaging. You’ll also need the receipt or proof of purchase. <br><br>To start a return, you can contact us at <a href=\"mailto:info@greenwoodheating.com\">info@greenwoodheating.com<\/a>. If your return is accepted, we’ll send you a return shipping label, as well as instructions on how and where to send your package. Items sent back to us without first requesting a return will not be accepted. <br><br>You can always contact us for any return question at <a href=\"mailto:info@greenwoodheating.com\">info@greenwoodheating.com<\/a>.<\/p>\n<br>\n<p><strong>Damages and issues<\/strong> <br>Please inspect your order upon reception and contact us immediately if the item is defective, damaged or if you receive the wrong item, so that we can evaluate the issue and make it right.<\/p>\n<br>\n<p><strong>Exceptions \/ non-returnable items<\/strong> <br>Certain types of items cannot be returned, like perishable goods (such as food, flowers, or plants), custom products (such as special orders or personalized items), and personal care goods (such as beauty products). We also do not accept returns for hazardous materials, flammable liquids, or gases. Please get in touch if you have questions or concerns about your specific item. <br><br>Unfortunately, we cannot accept returns on sale items or gift cards.<\/p>\n<br>\n<p><strong>Exchanges<\/strong> <br>The fastest way to ensure you get what you want is to return the item you have, and once the return is accepted, make a separate purchase for the new item.<\/p>\n<br>\n<p><strong>Refunds<\/strong> <br>We will notify you once we’ve received and inspected your return, and let you know if the refund was approved or not. If approved, you’ll be automatically refunded on your original payment method. Please remember it can take some time for your bank or credit card company to process and post the refund too.<\/p>\n    <\/div>",
+          "abt_bld": "Ready for your next heating, cooling, or electrical project?",
+          "abt_bld_p": "Our professional technicians and staff are ready to help!",
+          "abt_phn_url": "tel:206-202-9516",
+          "abt_phn_txt": "206-202-9516",
+          "abt_email_url": "shopify:\/\/pages\/contact-us",
+          "abt_email_txt": "Email Us",
+          "abt_memcom_h2": "Compare Plans",
+          "abt_memcom_url": "shopify:\/\/pages\/club-membership",
+          "abt_memcom_a": "Learn More",
+          "abt_review_des": "<div class=\"review-boxx\"> \n\t<a href=\"\/pages\/about-us#customer-review\"> \n\t\t<div class=\"starss\"> \n\t\t\t<span class=\"ratingg\">\n\t\t\t\t<span class=\"fa fa-star\"><\/span>\n\t\t\t\t<span class=\"fa fa-star\"><\/span>\n\t\t\t\t<span class=\"fa fa-star\"><\/span>\n\t\t\t\t<span class=\"fa fa-star\"><\/span>\n\t\t\t\t<span class=\"fa fa-star\"><\/span>\n\t\t\t<\/span> \n\t\t<\/div> \n\t\t<span class=\"review-boxx_h5\">Real Reviews from Real Customers <span class=\"fas fa-arrow-right\"><\/span><\/span> \n\t<\/a> \n<\/div>",
+          "abt_quick_hero_bg": "shopify:\/\/shop_images\/sidebar-cta.jpg",
+          "abt_quick_des": "<div class=\"s-box-small text-center\"> \n\t<h4>Special financing is available<\/h4> \n\t<a href=\"\/pages\/financing\" class=\"btn-normal btn-oval\">Learn More <span class=\"fa fa-angle-double-right\"><\/span><\/a> \n<\/div>",
+          "club_enroll_url": "",
+          "club_enroll": ""
+        }
+      },
+      "1660907520e86137e0": {
+        "type": "sk_hero_banner",
+        "blocks": {
+          "29adcdcc-e464-4282-880d-ae8c6bad8736": {
+            "type": "select",
+            "settings": {
+              "ul_li": "24\/7 emergency service"
+            }
+          },
+          "cbcdc65c-77f6-4650-93b9-c3518d59ef88": {
+            "type": "select",
+            "settings": {
+              "ul_li": "Free installation quote and estimates"
+            }
+          },
+          "591bb573-a886-4f66-a099-4a210d28ab46": {
+            "type": "select",
+            "settings": {
+              "ul_li": "Fast and friendly repair service"
+            }
+          },
+          "749168c2-4f59-43a1-802e-e12c6e1084f9": {
+            "type": "select",
+            "settings": {
+              "ul_li": "Comfort, satisfaction, system, and technician guarantee"
+            }
+          }
+        },
+        "block_order": [
+          "29adcdcc-e464-4282-880d-ae8c6bad8736",
+          "cbcdc65c-77f6-4650-93b9-c3518d59ef88",
+          "591bb573-a886-4f66-a099-4a210d28ab46",
+          "749168c2-4f59-43a1-802e-e12c6e1084f9"
+        ],
+        "settings": {
+          "hero_bg": "shopify:\/\/shop_images\/245911279_4807101059334958_4631558810894398222_n_1.png",
+          "h1_title": "Your Heating & Cooling  Experts",
+          "sub_title": "Family owned and operated since 1977",
+          "title_color": "#ffffff",
+          "list_color": "#000000",
+          "list_icon_color": "#fd9900",
+          "hero_url_txt": "Book an Appointment",
+          "hero_url": "shopify:\/\/pages\/contact-us",
+          "button_bg_color": "#fd9900",
+          "button_text_color": "#000000",
+          "button_hover_color": "#00677b",
+          "button_hover_color_text": "#ffffff"
+        }
+      },
+      "16609153272a9fd117": {
+        "type": "sk_services_solutions",
+        "settings": {}
+      },
+      "1660974245fd93f2a8": {
+        "type": "sk_specialist",
+        "settings": {
+          "image_text_bg": "shopify:\/\/shop_images\/download-2_1.png",
+          "img_text_bg_color": "#f5f5f5",
+          "img_text_title": "Why Choose Us",
+          "description": "<p>At Button’s Heating & Air Conditioning we provide, install, service, and repair HVAC products from world-class brands. Our team is available 24\/7 to help you through your HVAC emergencies.<br\/><br\/>With over 40 years in business, you can rely on our experienced and knowledgeable staff help you make the right decision for your budget and comfort needs.<\/p>",
+          "img_text_btn": "Learn more about us",
+          "img_text_url": "shopify:\/\/pages\/about-us"
+        }
+      },
+      "16609905354940626f": {
+        "type": "sk_home_testimonial",
+        "settings": {}
+      },
+      "1660992134937e81bb": {
+        "type": "sk_discover_products",
+        "blocks": {
+          "aa700688-9bb5-4ed5-8087-f4d10794bee4": {
+            "type": "collection",
+            "settings": {
+              "collection": "air-conditioners"
+            }
+          },
+          "2bd9826e-e106-4728-a3f5-da19c15120ee": {
+            "type": "collection",
+            "settings": {
+              "collection": "furnaces"
+            }
+          },
+          "1a961f24-c8e1-4fd4-893f-394c983f34ce": {
+            "type": "collection",
+            "settings": {
+              "collection": "heat-pumps"
+            }
+          }
+        },
+        "block_order": [
+          "aa700688-9bb5-4ed5-8087-f4d10794bee4",
+          "2bd9826e-e106-4728-a3f5-da19c15120ee",
+          "1a961f24-c8e1-4fd4-893f-394c983f34ce"
+        ],
+        "settings": {
+          "dp_class": "",
+          "ser_title": "Discover Our Products",
+          "ser_sub_title": "Need a New System?",
+          "ser_description": "Bring home a system built and tested to last—developed with longevity in mind, ensuring optimal comfort, regardless of outdoor temperatures.",
+          "sub_title_color": "#00677b",
+          "enable_promo": true,
+          "promo_title": "Installation Promotion:",
+          "promo_sub_title": "Free 10 year parts and labor warranty on new installations*",
+          "promo_condition": "*Conditions apply",
+          "promo_button": "See all promotions",
+          "promo_btn_url": "shopify:\/\/pages\/what-s-included-with-your-purchase",
+          "promo_hover_color": "#086579",
+          "enable_pro_btn": true,
+          "pro_btn_text": "View All Products",
+          "pro_btn_url": "shopify:\/\/pages\/shop",
+          "btn_bg_color": "#474747"
+        }
+      },
+      "list-collections-template": {
+        "type": "list-collections-template",
+        "settings": {
+          "display_type": "all",
+          "layout": "grid",
+          "sort": "alphabetical"
+        }
+      },
+      "sk_logo_list": {
+        "type": "sk_logo_list",
+        "blocks": {
+          "166984f2-ff06-4bab-8a37-e9607e6c7830": {
+            "type": "select",
+            "settings": {
+              "sk_c_logo": "shopify:\/\/shop_images\/Group_20.png"
+            }
+          },
+          "6cd730e5-0cb6-4024-99bd-601231190f3f": {
+            "type": "select",
+            "settings": {
+              "sk_c_logo": "shopify:\/\/shop_images\/trane-logo.png"
+            }
+          },
+          "a4909eaa-bbc6-4f4d-bb95-4d2a879b0f46": {
+            "type": "select",
+            "settings": {
+              "sk_c_logo": "shopify:\/\/shop_images\/trustedpros-952af43993_1.png"
+            }
+          }
+        },
+        "block_order": [
+          "166984f2-ff06-4bab-8a37-e9607e6c7830",
+          "6cd730e5-0cb6-4024-99bd-601231190f3f",
+          "a4909eaa-bbc6-4f4d-bb95-4d2a879b0f46"
+        ],
+        "settings": {}
+      },
+      "sk_financing_options": {
+        "type": "sk_financing_options",
+        "settings": {}
+      },
+      "sk_product_hero": {
+        "type": "sk_product_hero",
+        "settings": {
+          "helo_title": "Our Products",
+          "pro_desc": "Best HVAC Company is dedicated to keeping your home comfortable all year round. Shop our wide range of products, or reach out to our team of experts to discuss a tailored approach to your home comfort systems.",
+          "pro_img": "shopify:\/\/shop_images\/product_Image.png",
+          "pro_bg_color": "#474747"
+        }
+      },
+      "sk_warranty": {
+        "type": "sk_warranty",
+        "settings": {
+          "war_title": "Free 10 year parts and labour warranty on new installations*",
+          "war_conteiion": "*Conditions apply.",
+          "war_btn_text": "See installations promotions",
+          "war_btn_url": "shopify:\/\/pages\/what-s-included-with-your-purchase",
+          "war_icon": "shopify:\/\/shop_images\/sell_1.png",
+          "war_bg_color": "#f5f5f5"
+        }
+      },
+      "sk_collection_slider": {
+        "type": "sk_collection_slider",
+        "blocks": {
+          "e377a113-05e3-4d7c-a23e-18163c80c50a": {
+            "type": "product",
+            "settings": {
+              "product_item": "trane-xli18-heat-pump-3-ton"
+            }
+          },
+          "efe4d8e9-8883-4041-85f6-5f6667cb2564": {
+            "type": "product",
+            "settings": {
+              "product_item": "trane-s8x2-gas-furnace-80-000-btu"
+            }
+          },
+          "f40e6ea0-2ea8-492e-b9ca-068e9d2f9c29": {
+            "type": "product",
+            "settings": {
+              "product_item": "trane-xli18-air-conditioner-3-ton"
+            }
+          },
+          "5c389b84-646d-48ec-8e51-aabbe7998cfa": {
+            "type": "product",
+            "settings": {
+              "product_item": "xr14-air-conditioner-3-ton"
+            }
+          },
+          "90f435a4-c0c5-43bf-87ea-cc4158f8de76": {
+            "type": "product",
+            "settings": {
+              "product_item": "trane-xc95-modulating-furnace-60-000-btu"
+            }
+          }
+        },
+        "block_order": [
+          "e377a113-05e3-4d7c-a23e-18163c80c50a",
+          "efe4d8e9-8883-4041-85f6-5f6667cb2564",
+          "f40e6ea0-2ea8-492e-b9ca-068e9d2f9c29",
+          "5c389b84-646d-48ec-8e51-aabbe7998cfa",
+          "90f435a4-c0c5-43bf-87ea-cc4158f8de76"
+        ],
+        "settings": {
+          "cs_title": "Air Conditioners",
+          "cs_desc": "Lorem ipsum dolor sit amet. Sed voluptas adipisci et molestias modi et fugit voluptas! Non dolor esse rem quia mollitia eum iusto quibusdam qui molestias voluptatibus aut blanditiis officia.",
+          "cs_btn_text": "View all",
+          "cs_btn_url": "shopify:\/\/collections\/air-conditioners",
+          "prev_img_icon": "shopify:\/\/shop_images\/carousel-arrow.png",
+          "next_img_icon": "shopify:\/\/shop_images\/carousel-arrow-next.png",
+          "enable_autoplay": false,
+          "autoplay_time": 6
+        }
+      },
+      "sk_services_solutions": {
+        "type": "sk_services_solutions",
+        "settings": {}
+      },
+      "sk_page_content": {
+        "type": "sk_page_content",
+        "blocks": {
+          "8cc3b8b9-b310-41b1-b8b4-000c0806364a": {
+            "type": "select-text",
+            "settings": {
+              "select-text-p": "Having a reliable, well-maintained air conditioner can mean the difference between expensive, unexpected, and inconvenient repairs or breakdowns and comfort during the heat.\n<br><br>\nOur team of technicians and customer service representatives have the knowledge and expertise to help troubleshoot and solve any air conditioner issue or need you may have."
+            }
+          },
+          "9e00eaf4-5f0b-4d22-a64a-f159444c6b1c": {
+            "type": "select",
+            "settings": {
+              "abt_h2": "Repair and Installation",
+              "abt_p": "Between our friendly and knowledgeable customer service reps to our experienced technicians, we can help solve any repair or installation need you may have."
+            }
+          },
+          "958d3ad9-1038-4ad9-8e60-4a0c72f2e495": {
+            "type": "testimonial",
+            "settings": {
+              "list_ul": "<ul>\n    <li>We take into account the size of the space, your usage needs, and your budget to provide you with the most suitable options<\/li>\n    <li>We provide you with the information needed to help you make the right decision<\/li>\n    <li>Our technicians stay up-to-date with the latest technology and techniques to provide you with an efficient, precise repair or installation<\/li>\n<\/ul>"
+            }
+          },
+          "4a63b88a-0054-42da-ad9c-14c75590f812": {
+            "type": "select",
+            "settings": {
+              "abt_h2": "Preventative Maintenance",
+              "abt_p": "Whether you need a seasonal tune-up or not sure when your system was last checked, we can help. Keeping your systems in good working order is not only smart, but much more cost-effective than paying for repairs or replacement if repair is not possible."
+            }
+          },
+          "01e7e341-9295-40fc-bf2f-7b7b54c88225": {
+            "type": "testimonial",
+            "settings": {
+              "list_ul": "<ul>\n    <li>Avoid frequent repairs and the likelihood for system failure<\/li>\n    <li>Maintain energy-efficiency and keep energy bills down<\/li>\n    <li>Keep your air clean and healthy<\/li>\n<\/ul>"
+            }
+          }
+        },
+        "block_order": [
+          "8cc3b8b9-b310-41b1-b8b4-000c0806364a",
+          "9e00eaf4-5f0b-4d22-a64a-f159444c6b1c",
+          "958d3ad9-1038-4ad9-8e60-4a0c72f2e495",
+          "4a63b88a-0054-42da-ad9c-14c75590f812",
+          "01e7e341-9295-40fc-bf2f-7b7b54c88225"
+        ],
+        "settings": {
+          "sec_banner_img": "shopify:\/\/shop_images\/dining-living-room_1.png",
+          "sec_header_bg_color": "#474747"
+        }
+      },
+      "sk_top_promotion": {
+        "type": "sk_top_promotion",
+        "settings": {
+          "tp_title": "",
+          "tp_sub_title": "",
+          "tp_condition": "",
+          "tp_condition_btn": "More",
+          "tp_condition_url": "",
+          "tp_bg_color": "#086579",
+          "tp_border_color": "#f99d16"
+        }
+      },
+      "sk_sidebar_form": {
+        "type": "sk_sidebar_form",
+        "settings": {
+          "section_title": "",
+          "name_placeholder": "",
+          "email_placeholder": "",
+          "postal_code": "",
+          "message_placeholder": "",
+          "form_button_name": "",
+          "submitted_h1": "",
+          "submitted_p": "",
+          "submitted_close": ""
+        }
+      },
+      "sk_specialist": {
+        "type": "sk_specialist",
+        "settings": {
+          "image_text_bg": "shopify:\/\/shop_images\/specialist.png",
+          "img_text_bg_color": "#f5f5f5",
+          "img_text_title": "Your Local Heating & Cooling Specialist",
+          "description": "<p>We provide customer experience that goes beyond the ordinary and expected.<br\/><br\/>Our trained and certified technicians are trained to solve any heating or cooling need and stand behind our work with a 100% satisfaction guarantee.<\/p>",
+          "img_text_btn": "Learn more about us",
+          "img_text_url": "shopify:\/\/pages\/about-us"
+        }
+      },
+      "sk_home_testimonial": {
+        "type": "sk_home_testimonial",
+        "settings": {}
+      },
+      "sk_product_form": {
+        "type": "sk_product_form",
+        "settings": {}
+      },
+      "sk_contact_map": {
+        "type": "sk_contact_map",
+        "blocks": {
+          "14b6bb52-8100-43e4-aeec-8703fd31efbb": {
+            "type": "text",
+            "settings": {
+              "time_table_day": "Monday - Sunday: 24\/7 Service",
+              "time_table_time": ""
+            }
+          }
+        },
+        "block_order": [
+          "14b6bb52-8100-43e4-aeec-8703fd31efbb"
+        ],
+        "settings": {
+          "heading_bg_color": "#474747",
+          "contact_page_title": "Contact Us",
+          "maps_con": "<iframe src=\"https:\/\/www.google.com\/maps\/embed?pb=!1m18!1m12!1m3!1d3584.0399032837367!2d-80.36213318460668!3d26.064952283500027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9a7316409f275%3A0xa289539ac08117c6!2s4474%20Weston%20Rd%2C%20Davie%2C%20FL%2033331%2C%20USA!5e0!3m2!1sen!2sbd!4v1661927684723!5m2!1sen!2sbd\" width=\"100%\" height=\"500\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"><\/iframe>",
+          "contact_title": "Get Started With a Free Quote Today!",
+          "contact_desc": "We would love to hear from you! If you have any comments, questions, or concerns, let us know, and we will get back to you right away.",
+          "contact_location": "4474 Weston Rd # 233, Davie, FL 33331-3195",
+          "phone_icon": "shopify:\/\/shop_images\/call_f109afcb-3b54-45b1-983c-28e24c89bb84.png",
+          "contact_phone": "",
+          "time_icon": "shopify:\/\/shop_images\/schedule_dfd6eb82-5bb0-4751-99e0-e94044952cbe.png"
+        }
+      },
+      "sk_promotion_content": {
+        "type": "sk_promotion_content",
+        "blocks": {
+          "4be693b0-5222-42c2-aec2-505ed3d936f7": {
+            "type": "select",
+            "settings": {
+              "pro_title": "Pay As Little as $29 Per Month & No Credit Check Financing Available",
+              "show_expiry": true,
+              "expire_dates": "*on complete system installations.",
+              "bg_color": "#f5f5f5",
+              "content_bg_color": "#00677b"
+            }
+          },
+          "00158a36-9805-4109-89bb-3dff4f54ef81": {
+            "type": "select",
+            "settings": {
+              "pro_title": "Pay As Little as $29 Per Month & No Credit Check Financing Available",
+              "show_expiry": true,
+              "expire_dates": "*on complete system installations.",
+              "bg_color": "#f5f5f5",
+              "content_bg_color": "#00677b"
+            }
+          },
+          "47187919-f5c0-4a4b-a19c-bc7bd293091c": {
+            "type": "select",
+            "settings": {
+              "pro_title": "Free Estimates On New Installations",
+              "show_expiry": true,
+              "expire_dates": "",
+              "bg_color": "#f5f5f5",
+              "content_bg_color": "#00677b"
+            }
+          },
+          "dd95f972-3ff1-4f39-86bc-9502d0832dfe": {
+            "type": "select",
+            "settings": {
+              "pro_title": "Free Estimates On New Installations",
+              "show_expiry": true,
+              "expire_dates": "",
+              "bg_color": "#f5f5f5",
+              "content_bg_color": "#00677b"
+            }
+          }
+        },
+        "block_order": [
+          "4be693b0-5222-42c2-aec2-505ed3d936f7",
+          "00158a36-9805-4109-89bb-3dff4f54ef81",
+          "47187919-f5c0-4a4b-a19c-bc7bd293091c",
+          "dd95f972-3ff1-4f39-86bc-9502d0832dfe"
+        ],
+        "settings": {
+          "sec_header_bg_color": "#474747"
+        }
+      },
+      "sk_page_cta": {
+        "type": "sk_page_cta",
+        "settings": {
+          "enable_cta_box": true,
+          "cta_text": "",
+          "cta_desc": "",
+          "cta_phone": "",
+          "cta_email": "",
+          "cta_email_address": ""
+        }
+      },
+      "sk_about_content": {
+        "type": "sk_about_content",
+        "blocks": {
+          "79cbe910-04f6-4db5-89d0-73deac8e5552": {
+            "type": "select",
+            "settings": {
+              "abt_h2": "Duis Aute Irure Dolor",
+              "abt_p": ""
+            }
+          },
+          "4e0a328b-3711-415d-ab49-4afd617c79b2": {
+            "type": "testimonial",
+            "settings": {
+              "list_ul": "<ul class=\"about\">\n    <li>\n        <h3>Excepteur sint occaecat:<\/h3>\n        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<\/p>\n    <\/li>\n    <li>\n        <h3>Excepteur sint occaecat:<\/h3>\n        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<\/p>\n    <\/li>\n    <li>\n        <h3>Excepteur sint occaecat:<\/h3>\n        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<\/p>\n    <\/li>\n<\/ul>"
+            }
+          },
+          "391eb467-864d-4bee-bd73-d5938e285880": {
+            "type": "select",
+            "settings": {
+              "abt_h2": "Duis Aute Irure Dolor",
+              "abt_p": "Feugiat pretium nibh ipsum consequat nisl vel pretium lectus. Lorem ipsum dolor sit amet consectetur. Id semper risus in hendrerit gravida rutrum quisque non."
+            }
+          },
+          "8dbc9020-56d5-4316-b958-389e5043e816": {
+            "type": "select",
+            "settings": {
+              "abt_h2": "Duis Aute Irure Dolor",
+              "abt_p": "Feugiat pretium nibh ipsum consequat nisl vel pretium lectus. Lorem ipsum dolor sit amet consectetur. Id semper risus in hendrerit gravida rutrum quisque non. Posuere urna nec tincidunt praesent semper feugiat nibh.\n<br><br>\nLeo vel orci porta non pulvinar neque. Pharetra diam sit amet nisl suscipit adipiscing bibendum. Pulvinar pellentesque habitant morbi tristique. Hac habitasse platea dictumst quisque sagittis purus. Enim ut sem viverra aliquet eget sit amet."
+            }
+          }
+        },
+        "block_order": [
+          "79cbe910-04f6-4db5-89d0-73deac8e5552",
+          "4e0a328b-3711-415d-ab49-4afd617c79b2",
+          "391eb467-864d-4bee-bd73-d5938e285880",
+          "8dbc9020-56d5-4316-b958-389e5043e816"
+        ],
+        "settings": {
+          "sec_banner_img": "shopify:\/\/shop_images\/about_us.jpg",
+          "sec_header_bg_color": "#474747"
+        }
+      },
+      "sk_sidebar_review": {
+        "type": "sk_sidebar_review",
+        "settings": {
+          "review_text": "",
+          "review_box_url": ""
+        }
+      },
+      "sk_sidebar_finance": {
+        "type": "sk_sidebar_finance",
+        "settings": {
+          "finacne_text": "",
+          "finacne_btn_text": "",
+          "finace_box_url": "",
+          "btn_color": "#ffffff",
+          "btn_bg_color": "#086579"
+        }
+      },
+      "sk_reviews": {
+        "type": "sk_reviews",
+        "blocks": {
+          "76afdafd-92a8-42b4-a4bd-ab66922b1990": {
+            "type": "select",
+            "settings": {
+              "quote_icon": "shopify:\/\/shop_images\/Frame.png",
+              "author": "Lisa G.",
+              "review_text": "“This company has gone above and beyond for my needs. I have truly been blown away by the outstanding customer service. If you want your work done in a timely and professional manner then this company is the one for you! I highly recommend them. They took the time to care about what needed to be done and made sure their work was nothing short of amazing. Very respectful employees as well. Thank you so much Barrier Insulation. I am a very satisfied customer!.”",
+              "rating": 5
+            }
+          },
+          "4e566492-6d99-4590-9c8a-4d70d7d6d50e": {
+            "type": "select",
+            "settings": {
+              "quote_icon": "shopify:\/\/shop_images\/Frame.png",
+              "author": "Lisa G.",
+              "review_text": "“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut turpis dolor, laoreet ut leo nec, sodales porta purus. Cras dignissim quam quis purus malesuada lobortis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et lacus ante. Pellentesque sodales mollis ullamcorper. Donec non interdum dolor.”",
+              "rating": 5
+            }
+          },
+          "6b68084a-8e4a-4afd-80d1-5ccd9e18bdcb": {
+            "type": "select",
+            "settings": {
+              "quote_icon": "shopify:\/\/shop_images\/Frame.png",
+              "author": "Lisa G.",
+              "review_text": "“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut turpis dolor, laoreet ut leo nec, sodales porta purus. Cras dignissim quam quis purus malesuada lobortis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et lacus ante. Pellentesque sodales mollis ullamcorper. Donec non interdum dolor.”",
+              "rating": 5
+            }
+          }
+        },
+        "block_order": [
+          "76afdafd-92a8-42b4-a4bd-ab66922b1990",
+          "4e566492-6d99-4590-9c8a-4d70d7d6d50e",
+          "6b68084a-8e4a-4afd-80d1-5ccd9e18bdcb"
+        ],
+        "settings": {
+          "review_title": "What our customers think",
+          "review_btn_text": "Read More of Our Google Reviews",
+          "review_btn": "",
+          "btn_color": "#086579",
+          "btn_hoer_color": "#000000"
+        }
+      },
+      "sk_finance_content": {
+        "type": "sk_finance_content",
+        "blocks": {
+          "256e7457-2198-4a2f-b1f1-537cb1e54277": {
+            "type": "select-text",
+            "settings": {
+              "select-text-p": "Broken air conditioner or furnace? We understand that purchasing a new heating or cooling system is a major expense, which is why we offer flexible financing options that are geared to suit our customer’s unique needs and budget."
+            }
+          },
+          "8caca2fd-051c-4fd4-85aa-9c4569cd0e87": {
+            "type": "select",
+            "settings": {
+              "abt_h2": "0% Financing Available",
+              "abt_p": "We offer zero interest financing plans for your new system purchase. Give us a call for details."
+            }
+          },
+          "6efaead6-f381-4734-8680-34aeceee4d50": {
+            "type": "select",
+            "settings": {
+              "abt_h2": "Benefits of Financing Your New System",
+              "abt_p": ""
+            }
+          },
+          "8bd2d802-79b3-4b21-986b-35c902ce548a": {
+            "type": "testimonial",
+            "settings": {
+              "list_ul": "<ul>\n    <li>Low, predictable monthly payments<\/li>\n    <li>Ability to purchase a new system in spite of available cash<\/li>\n    <li>Save on energy bills with a more efficient system<\/li>\n    <li>Increase your home’s value<\/li>\n    <li>Cleaner, healthier air with a new system<\/li>\n<\/ul>"
+            }
+          },
+          "0d639b2c-8334-4119-abb8-b76caedea03a": {
+            "type": "select-finance",
+            "settings": {
+              "logo_img": "shopify:\/\/shop_images\/Frame_7754875c-4591-4d4f-b6b5-630bedc1b965.png",
+              "logo_title": "Methods of Financing Your New System",
+              "logo_desc": "A Wells Fargo Home Projects credit card is an easy and convenient way to pay for goods and services. Plus, as a Wells Fargo Home Projects card holder you can enjoy other great benefits throughout the year, such as:"
+            }
+          },
+          "ab8ab4ed-0299-445d-95cd-fba5c3d4e67d": {
+            "type": "testimonial",
+            "settings": {
+              "list_ul": "<ul>\n    <li>Special promotional offers where available<\/li>\n    <li>Revolving line of credit that you can use for future purchases<\/li>\n    <li>Quick credit decision<\/li>\n    <li>Convenient monthly payments to fit your budget<\/li>\n    <li>Easy-to-use online account management and bill payment options<\/li>\n<\/ul>"
+            }
+          },
+          "794e0a64-c839-467a-861f-3a47e056abf0": {
+            "type": "select-cta",
+            "settings": {
+              "bg_color": "#086579",
+              "cta_title": "Looking For Financing Options?",
+              "cta_sub_title": "Special Financing Available*",
+              "cta_condition": "*This Credit card is issued with approved credit by Wells Fargo Bank N.A.",
+              "cta_btn_text": "Apply Now",
+              "cta_condition_url": "#"
+            }
+          }
+        },
+        "block_order": [
+          "256e7457-2198-4a2f-b1f1-537cb1e54277",
+          "8caca2fd-051c-4fd4-85aa-9c4569cd0e87",
+          "6efaead6-f381-4734-8680-34aeceee4d50",
+          "8bd2d802-79b3-4b21-986b-35c902ce548a",
+          "0d639b2c-8334-4119-abb8-b76caedea03a",
+          "ab8ab4ed-0299-445d-95cd-fba5c3d4e67d",
+          "794e0a64-c839-467a-861f-3a47e056abf0"
+        ],
+        "settings": {
+          "sec_banner_img": "shopify:\/\/shop_images\/finacing-txt-img_1.jpg",
+          "sec_header_bg_color": "#474747"
+        }
+      },
+      "sk_purchase_hero": {
+        "type": "sk_purchase_hero",
+        "settings": {
+          "helo_title": "What’s included with your purchase?",
+          "pro_desc": "We’ll help you find the right product for your needs.",
+          "pro_img": "shopify:\/\/shop_images\/product_Image.png",
+          "pro_bg_color": "#474747"
+        }
+      },
+      "sk_purchase_content": {
+        "type": "sk_purchase_content",
+        "blocks": {
+          "6b89784f-4e71-4cd2-a8d4-f1012a20ccaa": {
+            "type": "select",
+            "settings": {
+              "abt_h2": "What’s included with your installation",
+              "abt_p": "Salami frankfurter pastrami kevin doner, beef ribs brisket tri-tip biltong alcatra tenderloin. Biltong ham picanha sausage andouille burgdoggen shank corned beef tongue ground round. Brisket beef ribs andouille prosciutto turducken."
+            }
+          },
+          "2709a135-c118-47c7-be7f-cb1e618a0584": {
+            "type": "testimonial",
+            "settings": {
+              "list_ul": "<ul>\n    <li>Avoid frequent repairs and the likelihood for system failure<\/li>\n    <li>Maintain energy-efficiency and keep energy bills down<\/li>\n    <li>Keep your air clean and healthy<\/li>\n<\/ul>"
+            }
+          },
+          "d0f83b3a-3f89-41be-ba96-b9a53908bc27": {
+            "type": "select-big-ul",
+            "settings": {
+              "ul_heading": "Bonus Offerings",
+              "big_list_ul": "<ul>\n    <li>Up to $2500 Off Installation of a Complete System<\/li>\n    <li>Free Wi-Fi Thermostat with Installation<\/li>\n    <li>1 year Free Maintenance with New Installation<\/li>\n    <li>Free MERV 13 Filter with Complete System Installation<\/li>\n    <li>$300 Off Air Conditioner Installation<\/li>\n    <li>Up to $1700 Off Ductless Installation<\/li>\n<\/ul>"
+            }
+          },
+          "81b0234c-ed93-4e40-a3cf-6cee75e9d9c3": {
+            "type": "select-big-ul",
+            "settings": {
+              "ul_heading": "Warranties",
+              "big_list_ul": "<ul>\n    <li>Trane 10 Year Manufacturer’s Warranty<\/li>\n    <li>Mitsubishi 12 Year Manufacturer’s Warranty<\/li>\n    <li>Up to 10 Year Labor Warranty*<\/li>\n    <li>1 Year Free Maintenance with New Installation<\/li>\n<\/ul>"
+            }
+          },
+          "69743c8e-5245-4718-8595-59b0821c6649": {
+            "type": "select-text",
+            "settings": {
+              "select-text-p": "*Call for more details."
+            }
+          },
+          "07d830c1-7632-46fb-89d6-2fe6f3e867d0": {
+            "type": "select",
+            "settings": {
+              "abt_h2": "What’s Included With a Maintenance Package?",
+              "abt_p": "Salami frankfurter pastrami kevin doner, beef ribs brisket tri-tip biltong alcatra tenderloin. Biltong ham picanha sausage andouille burgdoggen shank corned beef tongue ground round. Brisket beef ribs andouille prosciutto turducken."
+            }
+          },
+          "95607f29-391a-4d7e-9242-6f86bed1603f": {
+            "type": "select-text",
+            "settings": {
+              "select-text-p": "Salami frankfurter pastrami kevin doner, beef ribs brisket tri-tip biltong alcatra tenderloin. Biltong ham picanha sausage andouille burgdoggen shank corned beef tongue ground round. Brisket beef ribs andouille prosciutto turducken.  Salami frankfurter pastrami kevin doner, beef ribs brisket tri-tip biltong alcatra tenderloin. Biltong ham picanha sausage andouille burgdoggen shank corned beef tongue ground round. Brisket beef ribs andouille prosciutto turducken."
+            }
+          },
+          "b0ef2ec5-8ecd-48b8-82b5-39ca7c7a904a": {
+            "type": "select",
+            "settings": {
+              "abt_h2": "Our Installation Process",
+              "abt_p": "Salami frankfurter pastrami kevin doner, beef ribs brisket tri-tip biltong alcatra tenderloin. Biltong ham picanha sausage andouille burgdoggen shank corned beef tongue ground round. Brisket beef ribs andouille prosciutto turducken."
+            }
+          },
+          "9577e8da-5e19-43b3-a57f-07dc78de6543": {
+            "type": "select-install",
+            "settings": {
+              "process1": "Lorem Ipsum",
+              "process2": "Lorem Ipsum",
+              "process3": "Lorem Ipsum",
+              "process4": "Lorem Ipsum"
+            }
+          },
+          "b15e8177-ac60-4316-988b-3d0c21ef40e4": {
+            "type": "select-text",
+            "settings": {
+              "select-text-p": "Based on these factors and more, our experienced team of technicians can determine the perfect size unit for your home."
+            }
+          }
+        },
+        "block_order": [
+          "6b89784f-4e71-4cd2-a8d4-f1012a20ccaa",
+          "2709a135-c118-47c7-be7f-cb1e618a0584",
+          "d0f83b3a-3f89-41be-ba96-b9a53908bc27",
+          "81b0234c-ed93-4e40-a3cf-6cee75e9d9c3",
+          "69743c8e-5245-4718-8595-59b0821c6649",
+          "07d830c1-7632-46fb-89d6-2fe6f3e867d0",
+          "95607f29-391a-4d7e-9242-6f86bed1603f",
+          "b0ef2ec5-8ecd-48b8-82b5-39ca7c7a904a",
+          "9577e8da-5e19-43b3-a57f-07dc78de6543",
+          "b15e8177-ac60-4316-988b-3d0c21ef40e4"
+        ],
+        "settings": {}
+      },
+      "sk_discover_products": {
+        "type": "sk_discover_products",
+        "blocks": {
+          "33f2f7a8-19ca-4790-82e3-dc452b3e55ca": {
+            "type": "collection",
+            "settings": {
+              "collection": "furnaces"
+            }
+          },
+          "360c8896-b1a3-4f3a-97ce-62a2461a951e": {
+            "type": "collection",
+            "settings": {
+              "collection": "ductless"
+            }
+          },
+          "7abfdcd8-6508-4368-bd34-e23dc8c02cc9": {
+            "type": "collection",
+            "settings": {
+              "collection": "heat-pumps"
+            }
+          }
+        },
+        "block_order": [
+          "33f2f7a8-19ca-4790-82e3-dc452b3e55ca",
+          "360c8896-b1a3-4f3a-97ce-62a2461a951e",
+          "7abfdcd8-6508-4368-bd34-e23dc8c02cc9"
+        ],
+        "settings": {
+          "ser_title": "Discover Our Products",
+          "ser_sub_title": "Need a New System?",
+          "ser_description": "Bring home a system built and tested to last—developed with longevity in mind, ensuring optimal comfort, regardless of outdoor temperatures.",
+          "sub_title_color": "#0a6579",
+          "enable_promo": true,
+          "promo_title": "Main Installation Promotion:",
+          "promo_sub_title": "Free 10 year parts and labour warranty on new installations*",
+          "promo_condition": "*Conditions apply",
+          "promo_button": "See all promotions",
+          "promo_btn_url": "shopify:\/\/pages\/promotions",
+          "promo_hover_color": "#086579",
+          "enable_pro_btn": true,
+          "pro_btn_text": "View All Products",
+          "pro_btn_url": "",
+          "btn_bg_color": "#474747"
+        }
+      },
+      "sk_related_products": {
+        "type": "sk_related_products",
+        "settings": {
+          "related_products_enable": true,
+          "related_title": "Air Conditioners",
+          "section_subtitle": "Lorem ipsum dolor sit amet. Sed voluptas adipisci et molestias modi et fugit voluptas! Non dolor esse rem quia mollitia eum iusto quibusdam qui molestias voluptatibus aut blanditiis officia.",
+          "related_product_limit_handle": "10",
+          "cs_btn_text": "View all",
+          "cs_btn_url": "",
+          "prev_img_icon": "shopify:\/\/shop_images\/carousel-arrow.png",
+          "next_img_icon": "shopify:\/\/shop_images\/carousel-arrow-next.png"
+        }
+      },
+      "sk_cart_template": {
+        "type": "sk_cart_template",
+        "settings": {
+          "cart_notes_enable": false,
+          "cart_title": "Shopping Cart",
+          "cart_sub_title": "Add an item to your cart to checkout.",
+          "cart_btn_text": "View All Products",
+          "btn_url": "shopify:\/\/collections\/all",
+          "cart_phone_icon": "shopify:\/\/shop_images\/Icon_phone.png",
+          "phone_num": "555-555-5555",
+          "cart_email_icon": "shopify:\/\/shop_images\/mail_2x_29f840da-7ec8-4690-9a70-e601d6292dd0.png",
+          "cart_email_text": "shopify:\/\/pages\/contact-us",
+          "cart_contact_icon": "shopify:\/\/shop_images\/speaker_notes.png"
+        }
+      },
+      "sk_cart_popup": {
+        "type": "sk_cart_popup",
+        "blocks": {
+          "f711e8af-3a7b-49a4-919a-ed3ae4947519": {
+            "type": "select",
+            "settings": {
+              "popup_text": "Warranty",
+              "popup_desc": "Pricing includes equipment, material and installation time required to professionally install a new system. To ensure optimal performance, we adhere to the manufacturer’s recommended specification to match the right equipment to your home. All new systems are tested and commissioned on site."
+            }
+          },
+          "909f1e9b-994c-4764-b782-2884db5ab85c": {
+            "type": "select",
+            "settings": {
+              "popup_text": "Installation",
+              "popup_desc": "We stand behind the quality of our workmanship and the equipment we choose to install. This is why the systems we provide come with some of the most comprehensive warranty coverage in the industry. Your installed price includes standard manufacturer’s warranty that can be extended to cover any labor fees should you require a repair."
+            }
+          }
+        },
+        "block_order": [
+          "f711e8af-3a7b-49a4-919a-ed3ae4947519",
+          "909f1e9b-994c-4764-b782-2884db5ab85c"
+        ],
+        "settings": {
+          "enable_cart_popup": true
+        }
+      },
+      "sk_product_breadcrumb": {
+        "type": "sk_product_breadcrumb",
+        "settings": {
+          "bred_clas": ""
+        }
+      },
+      "sk_aircondition_slider": {
+        "type": "sk_aircondition_slider",
+        "settings": {
+          "enable_slider": true,
+          "cs_title": "Air Conditioners",
+          "cs_desc": "Keep your home cool and comfortable when the weather gets hot. Air conditioners are great at cooling homes in hot and mild climates, and provide chilly comfort in the height of summer.",
+          "cs_btn_text": "View all",
+          "cs_btn_url": "shopify:\/\/collections\/air-conditioners",
+          "collection": "air-conditioners",
+          "prev_img_icon": "shopify:\/\/shop_images\/Rectangle_56_1.png",
+          "enable_autoplay": false,
+          "autoplay_time": 5
+        }
+      },
+      "sk_furnaces_slider": {
+        "type": "sk_furnaces_slider",
+        "settings": {
+          "enable_slider": true,
+          "cs_title": "Furnaces",
+          "cs_desc": "Gas furnaces are crucial to your home comfort during cold seasons. Our knowledgeable service advisors are ready to help you choose the right energy-efficient furnace that meets your home and comfort needs.",
+          "cs_btn_text": "View all",
+          "cs_btn_url": "shopify:\/\/collections\/furnaces",
+          "collection": "furnaces",
+          "prev_img_icon": "shopify:\/\/shop_images\/Rectangle_56.png",
+          "next_img_icon": "shopify:\/\/shop_images\/Rectangle_56_1.png",
+          "enable_autoplay": false,
+          "autoplay_time": 5
+        }
+      },
+      "sk_ductless_slider": {
+        "type": "sk_ductless_slider",
+        "settings": {
+          "enable_slider": true,
+          "cs_title": "Ductless Systems",
+          "cs_desc": "Control heating and cooling across your home or in isolated spaces with our energy-efficient ductless systems.",
+          "cs_btn_text": "View all",
+          "cs_btn_url": "shopify:\/\/collections\/ductless",
+          "collection": "heat-pumps",
+          "prev_img_icon": "shopify:\/\/shop_images\/Rectangle_56.png",
+          "next_img_icon": "shopify:\/\/shop_images\/Rectangle_56_1.png",
+          "enable_autoplay": false,
+          "autoplay_time": 5
+        }
+      },
+      "sk_heat_pumps_slider": {
+        "type": "sk_heat_pumps_slider",
+        "settings": {
+          "enable_slider": true,
+          "cs_title": "Heat Pumps",
+          "cs_desc": "Heat pumps are the essential home comfort system providing both heating and cooling for moderate climates. Shop our collection or contact us if you are unsure if this product is right for you.",
+          "cs_btn_text": "View all",
+          "cs_btn_url": "shopify:\/\/collections\/heat-pumps",
+          "collection": "heat-pumps",
+          "prev_img_icon": "shopify:\/\/shop_images\/Rectangle_56.png",
+          "next_img_icon": "shopify:\/\/shop_images\/Rectangle_56_1.png",
+          "enable_autoplay": false,
+          "autoplay_time": 5
+        }
+      },
+      "sk_ductless_content": {
+        "type": "sk_ductless_content",
+        "blocks": {
+          "2148c9ba-c3e4-4f0f-98a2-954328ee8265": {
+            "type": "select-text",
+            "settings": {
+              "select-text-p": "Having a reliable, well-maintained air conditioner can mean the difference between expensive, unexpected, and inconvenient repairs or breakdowns and comfort during the heat.\n<br><br>\nOur team of technicians and customer service representatives have the knowledge and expertise to help troubleshoot and solve any air conditioner issue or need you may have."
+            }
+          },
+          "685a9b6c-1542-44b1-ba5f-9bd6766b7412": {
+            "type": "select",
+            "settings": {
+              "abt_h2": "Repair and Installation",
+              "abt_p": "Between our friendly and knowledgeable customer service reps to our experienced technicians, we can help solve any repair or installation need you may have."
+            }
+          },
+          "11a8ff01-94ad-452f-bd08-b3615d550829": {
+            "type": "testimonial",
+            "settings": {
+              "list_ul": "<ul>\n    <li>We take into account the size of the space, your usage needs, and your budget to provide you with the most suitable options<\/li>\n    <li>We provide you with the information needed to help you make the right decision<\/li>\n    <li>Our technicians stay up-to-date with the latest technology and techniques to provide you with an efficient, precise repair or installation<\/li>\n<\/ul>"
+            }
+          }
+        },
+        "block_order": [
+          "2148c9ba-c3e4-4f0f-98a2-954328ee8265",
+          "685a9b6c-1542-44b1-ba5f-9bd6766b7412",
+          "11a8ff01-94ad-452f-bd08-b3615d550829"
+        ],
+        "settings": {
+          "sec_banner_img": "shopify:\/\/shop_images\/trane-technician-8.png",
+          "sec_header_bg_color": "#474747"
+        }
+      },
+      "sk_maintenance_content": {
+        "type": "sk_maintenance_content",
+        "settings": {
+          "sec_header_bg_color": "#474747"
+        }
+      },
+      "sk_cart_slider": {
+        "type": "sk_cart_slider",
+        "settings": {
+          "enable_slider": true,
+          "cs_title": "Air Conditioners",
+          "cs_desc": "Lorem ipsum dolor sit amet. Sed voluptas adipisci et molestias modi et fugit voluptas! Non dolor esse rem quia mollitia eum iusto quibusdam qui molestias voluptatibus aut blanditiis.",
+          "cs_btn_text": "View all",
+          "cs_btn_url": "shopify:\/\/collections\/air-conditioners",
+          "collection": "air-conditioners",
+          "prev_img_icon": "shopify:\/\/shop_images\/carousel-arrow.png",
+          "next_img_icon": "shopify:\/\/shop_images\/carousel-arrow-next.png",
+          "enable_autoplay": false,
+          "autoplay_time": 5
+        }
+      },
+      "sk_heating_content": {
+        "type": "sk_heating_content",
+        "settings": {
+          "sec_header_bg_color": "#474747"
+        }
+      },
+      "00ae14b4-8abe-487a-9fff-1300a1014dda": {
+        "type": "sk_product_form",
+        "settings": {}
+      },
+      "sk_air_quality_content": {
+        "type": "sk_air_quality_content",
+        "settings": {
+          "sec_header_bg_color": "#474747"
+        }
+      },
+      "sk_sticky_form": {
+        "type": "sk_sticky_form",
+        "settings": {
+          "st_icon": "shopify:\/\/shop_images\/speaker_notes.png",
+          "st_icon_bg": "#be1930",
+          "sub_title": "Contact Us",
+          "section_title": "How Can We Help you?",
+          "name_placeholder": "* Full Name",
+          "email_placeholder": "* Email Address",
+          "postal_code": "* Zip Code",
+          "message_placeholder": "How can we help?",
+          "form_button_name": "Submit",
+          "submitted_h1": "Thank you for your message!",
+          "submitted_p": "One of our customer service representatives will get back to you soon.",
+          "submitted_close": "Close"
+        }
+      }
+    },
+    "content_for_index": [
+      "1660907520e86137e0",
+      "16609153272a9fd117",
+      "1660974245fd93f2a8",
+      "1660992134937e81bb",
+      "16609905354940626f",
+      "00ae14b4-8abe-487a-9fff-1300a1014dda"
+    ]
+  },
+  "presets": {
+    "Snowboards": {
+      "checkout_accent_color": "#006eff",
+      "checkout_banner_background_color": "#fff",
+      "checkout_button_color": "#006eff",
+      "checkout_call_to_action_color": "#006eff",
+      "checkout_use_header_image": false,
+      "color_body_bg": "#f7f7f7",
+      "color_body_headings": "#030303",
+      "color_body_text": "#666",
+      "color_button_bg": "#006eff",
+      "color_button_text": "#fff",
+      "color_content_bg": "#fff",
+      "color_footer_bg": "#030303",
+      "color_footer_text": "#fff",
+      "color_header_bg": "#030303",
+      "color_header_links": "#fff",
+      "color_hero_bg": "#006eff",
+      "color_hero_text": "#fff",
+      "color_newsletter_input": "#1a1a1a",
+      "type_accent_family": "unica_one_n4",
+      "type_accent_spacing": true,
+      "type_accent_transform": true,
+      "type_base_family": "karla_n4",
+      "type_base_size": "16px",
+      "type_nav_size": "14px",
+      "type_nav_spacing": true,
+      "type_nav_transform": true,
+      "sections": {
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "placeholder-0": {
+              "type": "slide",
+              "settings": {}
+            },
+            "placeholder-1": {
+              "type": "slide",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "placeholder-0",
+            "placeholder-1"
+          ],
+          "settings": {}
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "linklist": {
+              "type": "menu",
+              "settings": {}
+            },
+            "social": {
+              "type": "social",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "linklist",
+            "social"
+          ],
+          "settings": {}
+        },
+        "featured-collections": {
+          "type": "featured-collections",
+          "blocks": {
+            "featured-collections-0": {
+              "type": "collection",
+              "settings": {}
+            },
+            "featured-collections-1": {
+              "type": "collection",
+              "settings": {}
+            },
+            "featured-collections-2": {
+              "type": "collection",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "featured-collections-0",
+            "featured-collections-1",
+            "featured-collections-2"
+          ],
+          "settings": {}
+        },
+        "featured-products": {
+          "type": "featured-products",
+          "settings": {
+            "collection": "frontpage"
+          }
+        },
+        "image-content": {
+          "type": "image-content",
+          "blocks": {
+            "image-content-0": {
+              "type": "image_block",
+              "settings": {}
+            },
+            "image-content-1": {
+              "type": "text_block",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "image-content-0",
+            "image-content-1"
+          ],
+          "settings": {}
+        }
+      },
+      "content_for_index": [
+        "slideshow",
+        "featured-collections",
+        "featured-products",
+        "image-content"
+      ]
+    },
+    "Outdoors": {
+      "checkout_accent_color": "#f4743c",
+      "checkout_banner_background_color": "#fff",
+      "checkout_button_color": "#f4743c",
+      "checkout_call_to_action_color": "#f4743c",
+      "checkout_use_header_image": false,
+      "color_body_bg": "#f7f7f7",
+      "color_body_headings": "#1a1a1a",
+      "color_body_text": "#666",
+      "color_button_bg": "#c04f1d",
+      "color_button_text": "#fff",
+      "color_content_bg": "#ffffff",
+      "color_footer_bg": "#213236",
+      "color_footer_text": "#fff",
+      "color_header_bg": "#213236",
+      "color_header_links": "#ffffff",
+      "color_hero_bg": "#f4743c",
+      "color_hero_text": "#fff",
+      "color_newsletter_input": "#425154",
+      "type_accent_family": "lora_n7",
+      "type_accent_spacing": false,
+      "type_accent_transform": false,
+      "type_base_family": "roboto_n4",
+      "type_base_size": "14px",
+      "type_nav_size": "15px",
+      "type_nav_spacing": false,
+      "type_nav_transform": false
+    },
+    "Boxing": {
+      "checkout_accent_color": "#d8232f",
+      "checkout_banner_background_color": "#fff",
+      "checkout_button_color": "#d8232f",
+      "checkout_call_to_action_color": "#d8232f",
+      "checkout_use_header_image": false,
+      "color_body_bg": "#f0f0f0",
+      "color_body_headings": "#222222",
+      "color_body_text": "#666",
+      "color_button_bg": "#d8232f",
+      "color_button_text": "#fff",
+      "color_content_bg": "#ffffff",
+      "color_footer_bg": "#222222",
+      "color_footer_text": "#ffffff",
+      "color_header_bg": "#222222",
+      "color_header_links": "#ffffff",
+      "color_hero_bg": "#d8232f",
+      "color_hero_text": "#fff",
+      "color_newsletter_input": "#303030",
+      "type_accent_family": "open_sans_condensed_n7",
+      "type_accent_spacing": false,
+      "type_accent_transform": true,
+      "type_base_family": "source_sans_pro_n4",
+      "type_base_size": "17px",
+      "type_nav_size": "14px",
+      "type_nav_spacing": true,
+      "type_nav_transform": true
+    }
+  }
+}

@@ -1,0 +1,240 @@
+<style>
+  .discover_more {background-color: {{ section.settings.btn_bg_color }}; }
+  .discover_more:hover {
+    background-color: {{ settings.color_primary }};
+}
+</style>
+
+<section class="discover_products {{ section.settings.dp_class }}">
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <div class="sk_service_textes">
+                <h3 style="color: {{ settings.color_primary }}">{{ section.settings.ser_sub_title }}</h3>
+                <h2>{{ section.settings.ser_title }}</h2>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="serivce_desc_bg">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-8 col-md-12">
+                <div class="sk_service_textes desc">
+                    <p>{{ section.settings.ser_description }}</p>
+                </div>
+            </div>
+            {% if section.settings.enable_promo %}
+            <div class="col-lg-4 col-md-12 desktop_only">
+                <div class="sk_service_promo_box">
+                   <a class="full_boxs" href="{{ section.settings.promo_btn_url }}"></a>
+                    <p class="sk_promo_title"><span class="current_month"></span>{{ section.settings.promo_title }}</p>
+                    <p class="info">{{ section.settings.promo_sub_title }}</p>
+                    <div class="sk_promo_btn">
+                        <p class="condition_text">{{ section.settings.promo_condition }}</p>
+                        <a href="{{ section.settings.promo_btn_url }}" class="sk_service_pro_btn mobile_only">{{ section.settings.promo_button }}</a>
+                    </div>
+                </div>
+            </div>
+              {% endif %}
+        </div>
+    </div>
+</div>
+
+  <div class="container mobile_only tablet_only">
+    <div class="collection_sk_slider">
+      {% for block in section.blocks %}
+          {% assign collection = collections[block.settings.collection] %}
+
+          <a class="single_dis_pro" href="{{ collection.url }}">
+            <div class="product_img_dp">
+              <img src="{{ collection.products.first | img_url: 'master'  }}" />
+            </div>
+            <h3>{{ collection.title | escape }}</h3>
+          </a>
+  
+      {% endfor %}
+    </div>
+    <div class="slider_more">
+      <a class="discover_more_btn" href="{{ section.settings.pro_btn_url }}">
+          {{ section.settings.pro_btn_text }}
+      </a>
+    </div>
+  </div>
+  
+    <div class="container dis_pro desktop_only">
+        <div class="row">
+          {% for block in section.blocks %}
+            {% assign collection = collections[block.settings.collection] %}
+            <div class="col-md-3">
+                <a class="single_dis_pro" href="{{ collection.url }}">
+                  <div class="product_img_dp">
+                    <img src="{{ collection.products.first | img_url: 'master'  }}" />
+                  </div>
+                  <h3>{{ collection.title | escape }}</h3>
+                </a>
+            </div>
+          {% endfor %}
+          {% if section.settings.enable_pro_btn  %}
+            <div class="col-md-3">
+                <a class="discover_more" href="{{ section.settings.pro_btn_url }}">
+                    <h3>{{ section.settings.pro_btn_text }}</h3>
+                </a>
+            </div>
+            {% endif %}
+        </div>
+    </div>
+  <div class="sk_service_promo_box mobile_only">
+      <p class="sk_promo_title">{{ section.settings.promo_title }}</p>
+      <p class="info">{{ section.settings.promo_sub_title }}</p>
+      <div class="sk_promo_btn">
+          <p class="condition_text">{{ section.settings.promo_condition }}</p>
+          <!-- <a href="{{ section.settings.promo_btn_url }}" class="sk_service_pro_btn">{{ section.settings.promo_button }}</a> -->
+      </div>
+  </div>
+</section>
+
+
+{% schema %}
+  {
+    "name": "SK Discover Products",
+    "max_blocks": 5,
+    "settings": [
+      {
+		"type": "text",
+		"id": "dp_class",
+		"label": "Class Name"
+		},
+        {
+		"type": "text",
+		"id": "ser_title",
+		"label": "Title"
+		},
+        {
+		"type": "text",
+		"id": "ser_sub_title",
+		"label": "Sub Title"
+		},
+        {
+		"type": "textarea",
+		"id": "ser_description",
+		"label": "Description"
+		},
+        {
+        "type": "color",
+		"id": "sub_title_color",
+		"label": "Sub Title Color",
+		"default": "#0A6579"
+		},
+        {
+		"type": "checkbox",
+		"id": "enable_promo",
+		"label": "Show Promotion Box"
+		},
+        {
+		"type": "text",
+		"id": "promo_title",
+		"label": "Promotion Title"
+		},
+        {
+		"type": "textarea",
+		"id": "promo_sub_title",
+		"label": "Description"
+		},
+        {
+		"type": "text",
+		"id": "promo_condition",
+		"label": "Condition Text",
+        "default": "*Conditions apply"
+		},
+        {
+		"type": "text",
+		"id": "promo_button",
+		"label": "Promotion Button Text",
+        "default": "See all promotions"
+		},
+        {
+		"type": "url",
+		"id": "promo_btn_url",
+		"label": "Promotion Button Url"
+		},
+        {
+        "type": "color",
+		"id": "promo_hover_color",
+		"label": "Promotion Box Hover Color",
+		"default": "#086579"
+		},
+        {
+		"type": "checkbox",
+		"id": "enable_pro_btn",
+		"label": "Show All Products Button"
+		},
+        {
+		"type": "text",
+		"id": "pro_btn_text",
+		"label": "Button Text",
+          "default": "View All Products"
+		},
+       {
+		"type": "url",
+		"id": "pro_btn_url",
+		"label": "Button Url"
+		},
+        {
+		"type": "color",
+		"id": "btn_bg_color",
+		"label": "Background Color",
+          "default": "#474747"
+		}
+    ],
+    "blocks": [
+      {
+      "type": "collection",
+      "name": "collection",
+      "settings": [
+         {
+          "id": "collection",
+          "type": "collection",
+          "label": "Collection"
+          }
+       ]
+      }
+  ],
+	"presets": [
+	{
+	"name": "SK Discover Products",
+	"category": "Custom Content"
+	}
+	]
+  }
+{% endschema %}
+
+<script>
+/*start slick slider*/
+jQuery(document).ready(function(){
+jQuery('.collection_sk_slider').slick({
+  infinite: true,
+  autoplay: false,
+  slidesToShow: 1,
+  slidesToScroll: 1, 
+  arrows: true, 
+  prevArrow: '<svg width="20" height="59" viewBox="0 0 20 59" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.1832 58.4912L1.09735 30.0669C0.858773 29.6919 0.858773 29.1963 1.09735 28.8214L19.1832 0.397043" stroke="#B9B9B9"/></svg>',
+  nextArrow: '<svg width="20" height="60" viewBox="0 0 20 60" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0.816772 1.00001L18.9026 29.4243C19.1412 29.7993 19.1412 30.2949 18.9026 30.6698L0.816772 59.0942" stroke="#B9B9B9"/></svg>',
+  dots: false,
+  responsive: [
+      {
+        breakpoint: 991,
+        settings: {
+          slidesToShow: 2,
+        }
+      },
+      {
+        breakpoint: 767,
+        settings: {
+            slidesToShow: 1,
+        }
+      }	
+    ]
+});
+  });
+</script>

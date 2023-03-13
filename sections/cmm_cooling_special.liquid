@@ -1,0 +1,58 @@
+<section id="cmm_coolingg">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="cmm_cool_img col-lg-6 col-sm-6 col-12">
+        <div class="cmm_cool_img_inn">
+          <img src="{{ section.settings.cmm_cool_img | img_url: "master" }}" alt="image" />
+        </div>
+      </div>
+      <div class="cmm_cool_txt col-lg-6 col-sm-6 col-12">
+        <div class="cmm_cool_txt_inn">
+          <h2>{{ section.settings.cmm_cool_h2 }}</h2>
+          <div class="cmm_cool_txt_p">{{ section.settings.cmm_cool_p }}</div>
+        </div>
+        <div class="cmm_cool_a">
+          <a href="{{ section.settings.cmm_cool_url }}" class="">{{ section.settings.cmm_cool_a }} <span class="icon fa fa-angle-double-right"></span></a>
+        </div>
+      </div>
+    </div>
+  </div>  
+</section>
+{% schema %}
+  {
+    "name": "Common Image and Text",
+    "settings": [
+		{
+		"type": "image_picker",
+		"id": "cmm_cool_img",
+		"label": "Image"
+		},
+		{
+		"type": "text",
+		"id": "cmm_cool_h2",
+		"label": "Title"
+		},
+		{
+		"type": "html",
+		"id": "cmm_cool_p",
+		"label": "Content"
+		},
+		{
+		"type": "url",
+		"id": "cmm_cool_url",
+		"label": "URL"
+		},
+		{
+		"type": "text",
+		"id": "cmm_cool_a",
+		"label": "Url Title"
+		}
+	]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

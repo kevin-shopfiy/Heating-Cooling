@@ -1,0 +1,28 @@
+<div class="prom_coupons {{ block.settings.prom_coupon_class }}"> 
+	<div class="row"> 
+		<div class="prom_right col-md-5 align-self-center"> 
+			<img class="prom_coupon_img"src="https://cdn.searchkings.ca/img/assets/logo-de86e00c14.png" alt="Greenwood Heating and Air - Kent, WA" title="Greenwood Heating and Air" src="https://cdn.searchkings.ca/img/assets/logo-de86e00c14.png"> 
+			<div class="prom_info"> 
+				<h4 class="prom_phone">
+					<span class="fas fa-phone"></span> 206-202-9516
+				</h4> 
+				<h4 class="prom_location">Kent, WA</h4> 
+			</div> 
+		</div> 
+		<div class="prom_left col-md-7 align-self-center"> 
+			<h2 class="prom_discount">{{ block.settings.prom_h2 }}</h2> 
+		
+          {%if block.settings.prom_subhead != blank %}	
+            <div class="prom_subhead">{{ block.settings.prom_subhead }}</div>
+          {%elsif block.settings.prom_con_small != blank %}
+            <div class="prom_con_small">{{ block.settings.prom_con_small }}</div>
+        {% endif %}
+          
+		</div>
+      
+     </div>
+	<hr> 
+  {%if block.settings.prom_small != blank %}
+	<small class="disclaimer">{{ block.settings.prom_small }}</small> 
+  {%endif%}
+</div>

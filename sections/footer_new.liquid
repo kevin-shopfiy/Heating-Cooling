@@ -1,0 +1,201 @@
+<style>
+.footer-top {background-color: {{ settings.color_primary }};}
+.footer-top span.ft_icon {border-color: {{ section.settings.icon_border_color }};}
+.footer-top span.ft_icon svg {color: {{ section.settings.icon_color }};}  
+.footer-top span.ft_text {color: {{ section.settings.icon_text_color }};}
+.ft_copyright {background-color: {{ section.settings.copyright_bg_color }};}
+.ft_copyright p, .ft_copyright small a {color: {{ section.settings.copyright_text_color }} !important;}
+</style>
+
+<footer>
+  <div class="footer-top">
+    <div class="container">
+      <div class="ft_general-info row">
+        <div class="ft_logo_col col-lg-auto col-sm-12 align-self-center">
+          <div class="ft_left"> 
+			<a href="/" class="logo" >
+			  <img src="{{ section.settings.ft_logo | img_url: "master" }}" />
+			</a> 
+		  </div> 
+        </div>
+
+   <div class="ft_txt_col col align-self-center"> 
+		  <div class="ft_right">
+			
+            
+            
+            
+            <div class="ft_place ft_info-items sk">
+              
+			    <span class="sk_f_icon"> 
+			      <img src="{{ section.settings.loc_icon_class | image_url }}" />
+			    </span> 
+			    <span class="ft_text"> 
+				  <span class="ft_sub-text">{{ section.settings.loc_sub_txt_sm }}</span>
+                     {% if section.settings.loc_sub_txt_lg != blank %} 
+                        {{ section.settings.loc_sub_txt_lg }} 
+                        {% else %}
+                      {{ settings.city_state }}
+                    {% endif %} 
+			    </span> 
+              
+			</div>
+            
+            
+            <div class="ft_phonee ft_info-items"> 
+              <a href="{{ section.settings.ft_url }}" class="ft_phone">
+			  <span class="sk_f_icon"> 
+			      <img src="{{ section.settings.ft_icon_class | image_url }}" />
+			    </span> 
+			  <span class="ft_text sk"> 
+				<span class="ft_sub-text">{{ section.settings.ft_sub_txt_sm }}</span>
+                {% if section.settings.ft_sub_txt_lg != blank %} 
+                        {{ section.settings.ft_sub_txt_lg }} 
+                        {% else %}
+                      {{ settings.phone_number }}
+                    {% endif %}
+			  </span> 
+              </a>
+			</div>
+            
+            
+            
+			
+		  </div> 
+		</div> 
+
+        
+      </div>
+    </div>
+  </div>
+  <div class="ft_copyright">
+    <div class="container-fluid">
+      <p>
+      <small>Copyright &copy; {{ 'now' | date: '%Y' }}, {{ shop.name | link_to: routes.root_url }} {{ section.settings.text_footer }}.</small>
+        <a href= "/pages/privacy-policy" class="ft_policy">Privacy Policy</a></p>
+    </div>
+  </div>
+</footer>
+
+{% schema %}
+  {
+    "name": "Footer",
+    "settings": [
+		{
+		"type": "image_picker",
+		"id": "ft_logo",
+		"label": "Logo"
+		},
+		{
+		"type": "color",
+		"id": "background_color",
+		"label": "Background Color",
+		"default": "#e1d8bd"
+		},
+		{
+		"type": "color",
+		"id": "icon_border_color",
+		"label": "Icon Border Color",
+		"default": "#151515"
+		},
+		{
+		"type": "color",
+		"id": "icon_color",
+		"label": "icon_color",
+		"default": "#151515"
+		},
+		{
+		"type": "color",
+		"id": "icon_text_color",
+		"label": "Icon Text Color",
+		"default": "#151515"
+		},
+		{
+		"type": "color",
+		"id": "copyright_bg_color",
+		"label": "Copyright Background",
+		"default": "#151515"
+		},
+		{
+		"type": "color",
+		"id": "copyright_text_color",
+		"label": "Copyright Text",
+		"default": "#fff"
+		},
+        {
+          "type": "text",
+          "id": "text_footer",
+          "label": "Footer Extra Copy",
+          "default":"State License ROC 309388"
+        },
+    {
+      "type": "header",
+      "content": {
+        "en": "Location & Phone Number"
+      }
+    },
+      {
+			"type": "url",
+			"id": "loc_url",
+			"label": "Link for Location"
+			},
+			{
+			"type": "image_picker",
+			"id": "loc_icon_class",
+			"label": "Upload Icon"
+			},
+			{
+			"type": "text",
+			"id": "loc_sub_txt_sm",
+			"label": "Text is small"
+			},
+			{
+			"type": "text",
+			"id": "loc_sub_txt_lg",
+			"label": "Text is Large"
+			},
+      {
+			"type": "url",
+			"id": "ft_url",
+			"label": "URL"
+			},
+			{
+			"type": "image_picker",
+			"id": "ft_icon_class",
+			"label": "Upload Icon"
+			},
+			{
+			"type": "text",
+			"id": "ft_sub_txt_sm",
+			"label": "Text is small"
+			},
+			{
+			"type": "text",
+			"id": "ft_sub_txt_lg",
+			"label": "Text is Large"
+			}
+          
+	],
+	"blocks": [
+		{
+		
+		"type": "select",
+		"name": "Footer",
+    	"settings": [
+			{
+			"type": "text",
+			"id": "ft_txt_class",
+			"label": "Class"
+			}
+			
+		]
+		}
+	]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

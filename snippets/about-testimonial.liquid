@@ -1,0 +1,31 @@
+<div class="abt_quote_block text-center">
+  <span class="iconn">
+    <span class="fa fa-quote-left"></span>
+  </span>
+  <div class="abt_us_text_pp">{{ block.settings.abt_us_text_p }}</div>
+  <span class="author">{{ block.settings.abt_us_author }}</span>
+
+  <span class="rating">
+    {% if block.settings.abt_range == 1 %}
+     <span class="fa fa-star"></span>
+    {% elsif block.settings.abt_range == 2 %}
+     <span class="fa fa-star"></span>
+    <span class="fa fa-star"></span>
+    {% elsif block.settings.abt_range == 3 %}
+     <span class="fa fa-star"></span>
+    <span class="fa fa-star"></span>
+    <span class="fa fa-star"></span>
+    {% elsif block.settings.abt_range == 4 %}
+     <span class="fa fa-star"></span>
+    <span class="fa fa-star"></span>
+    <span class="fa fa-star"></span>
+    <span class="fa fa-star"></span>
+    {% elsif block.settings.abt_range == 5 %}
+     <span class="fa fa-star"></span>
+    <span class="fa fa-star"></span>
+    <span class="fa fa-star"></span>
+    <span class="fa fa-star"></span>
+    <span class="fa fa-star"></span>
+    {%endif%}
+  </span>
+</div>

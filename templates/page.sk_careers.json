@@ -1,0 +1,56 @@
+{
+  "sections": {
+    "sk_join_team_content": {
+      "type": "sk_join_team_content",
+      "blocks": {
+        "a6f6835b-4582-4836-a008-b234b987b3cc": {
+          "type": "select",
+          "settings": {
+            "abt_h2": "Now Hiring HVAC Service Techs & Installers!",
+            "abt_p": "With more than 200 locations throughout the United States and Canada, Aire Serv is a trusted name in the field of heating and air conditioning installation, maintenance, and repair. We are proud of our reputation for putting clients first and getting the job done right the first time, every time. We are a team of qualified experts dedicated to living our code of values of Respect, Integrity, and Customer Focus while having fun in the process!"
+          }
+        },
+        "0a848d82-750b-4c38-87ac-8d39d3ff1321": {
+          "type": "select-text",
+          "settings": {
+            "select-text-p": "We are always on the lookout for ambitious and skilled professionals to join our ranks. If you are looking for a rewarding career in the heating and cooling service industry, please fill out the contact form and upload your resume or give us a call at 817-776-4523. If we feel that you are a good fit, one of our managers will be in touch to schedule an interview!"
+          }
+        },
+        "5f9eb630-b1e1-4495-aeba-76229095cdbe": {
+          "type": "select",
+          "settings": {
+            "abt_h2": "Available Jobs",
+            "abt_p": "<div class=\"accrodin_rte panel-group\" id=\"accordion\" role=\"tablist\" aria-multiselectable=\"true\">\n    <div class=\"panell\">\n       <div class=\"panel-heading\">\n          <h3><a data-toggle=\"collapse\" href=\"#control1\" class=\"collapsed\" aria-controls=\"control\">HVAC Service Technician<i class=\"fas fa-chevron-right\"><\/i> <\/a><\/h3>\n       <\/div>\n       <div id=\"control1\" class=\"panel-collapse collapse\">\n          <div class=\"panel-body\">\n             <div class=\"abt-list-items list_ul_box\">\n                <p>As Service Professional Technician, you are a key member of our team responsible for the quality and efficient installation, service, and maintenance of heating and air conditioning systems. You will also develop new customers by identifying opportunities to sell additional work. Exemplifying our code of values by showing respect and courtesy to all customers and employees.<\/p>    \n                <p>Ideally, you have prior experience in the HVAC industry and have proven communication skills with supervisors, employees, and customers.<\/p>    \n                <p>You are self-motivated, thrive in fast-moving environments, and are able to manage time to effectively meet deadlines.<\/p>\n                <h3>Key Responsibilties Include:<\/h3>\n                <ul>\n                <li>Installation, maintenance, and repair of refrigeration, heating and air conditioning systems<\/li>\n                <li>Ensure the efficient use of materials and maintain adequate stock of necessary equipment<\/li>\n                <li>Collect payment and\/or payment information from customers for work performed<\/li>\n                <li>Complete invoices, daily route sheets, and weekly reports as required<\/li>\n                <li>Perform other duties as needed which may include cross-training in related positions<\/li>\n                <li>Keep company vehicle and equipment properly serviced, clean, and in good working order and condition<\/li>\n                <\/ul>\n                <h3>Qualifications Required:<\/h3>\n                <ul>\n                    <li>Have a great personality and a genuine concern for helping people<\/li>\n                    <li>Professional appearance &amp; uniform<\/li>\n                    <li>Excellent communicator all-around<\/li>\n                    <li>Positive attitude and always ready to learn<\/li>\n                    <li>Learn and use the Aire Serv systems of success<\/li>\n                    <li>Clean criminal history<\/li>\n                    <li>Clean driving record and valid Texas drivers license<\/li>\n                    <li>Able to lift up to 80 lbs<\/li>\n                    <li>Able to run 4 to 6 calls per day<\/li>\n                    <li>Minim. 2 years experience or more (preferred)<\/li>\n                <\/ul>\n            <\/div>\n          <\/div>\n       <\/div>\n    <\/div>\n    <div class=\"panell\">\n       <div class=\"panel-heading\">\n          <h3><a data-toggle=\"collapse\" href=\"#control2\" class=\"collapsed\" aria-controls=\"control\">HVAC Installer\n            <i class=\"fas fa-chevron-right\"><\/i> <\/a><\/h3>\n       <\/div>\n       <div id=\"control2\" class=\"panel-collapse collapse\">\n          <div class=\"panel-body\">\n             <div class=\"abt-list-items list_ul_box\">\n                <p>As an Installation Professional, you are a key member of our team responsible for the quality and efficient installation of refrigeration, heating, and air conditioning systems. You will also develop new customers by identifying opportunities to sell additional work. Exemplifying our code of values, you show respect and courtesy to all customers and employees.<\/p>    \n                <p>Ideally, you have prior experience in the HVAC industry and have proven communication skills with supervisors, employees, and customers.<\/p>\n                <p>You are self-motivated, thrive in fast-moving environments, and are able to manage time to effectively meet deadlines.<\/p>\n                <h3>Key Responsibilities Include:<\/h3>\n                <ul>\n                    <li>Installation, maintenance, and repair of refrigeration, heating and air conditioning systems<\/li>\n                    <li>Ensure the efficient use of materials and maintain adequate stock of necessary equipment<\/li>\n                    <li>Collect payment and\/or payment information from customers for work performed<\/li>\n                    <li>Complete invoices, daily route sheets, and weekly reports as required<\/li>\n                    <li>Perform other duties as needed which may include cross-training in related positions<\/li>\n                    <li>Keep company vehicle and equipment properly serviced, clean, and in good working order and condition<\/li>\n                <\/ul>\n                <h3>Qualifications Required:<\/h3>\n                <ul>\n                    <li>Have a great personality and a genuine concern for helping people<\/li>\n                    <li>Professional appearance &amp; uniform<\/li>\n                    <li>Excellent communicator all-around<\/li>\n                    <li>Positive attitude and always ready to learn<\/li>\n                    <li>Learn and use the Aire Serv systems of success<\/li>\n                    <li>Clean criminal history<\/li>\n                    <li>Clean driving record and valid Texas drivers license<\/li>\n                    <li>Able to lift up to 80 lbs<\/li>\n                    <li>Able to run 4 to 6 calls per day<\/li>\n                    <li>Minim. 2 years experience or more (preferred)<\/li>\n                <\/ul>\n            <\/div>\n          <\/div>\n       <\/div>\n    <\/div>\n <\/div>"
+          }
+        },
+        "6395e458-3c61-47fe-8d56-39f7b7057ce9": {
+          "type": "select",
+          "settings": {
+            "abt_h2": "Why Join Our Team?",
+            "abt_p": "<h3> Some of our benefits include:<\/h3>"
+          }
+        },
+        "e656f7fe-f3c6-4c1d-a8f6-b9e39ecff6e9": {
+          "type": "testimonial",
+          "settings": {
+            "list_ul": "<ul>\n    <li>Competitive pay<\/li>\n    <li>Full benefits package (including medical, vision, dental, life and supplemental insurance)<\/li>\n    <li>401K &amp; FSA Plan<\/li>\n    <li>PTO accrues from day one (available after 90 days of employment)<\/li>\n    <li>Paid Holidays<\/li>\n    <li>Family-friendly work schedule (3-day weekends)<\/li>\n    <li>Company vehicle provided<\/li>\n    <li>Company uniform provided<\/li>\n    <li>Professional skills &amp; advanced technical training<\/li>\n<\/ul>"
+          }
+        }
+      },
+      "block_order": [
+        "a6f6835b-4582-4836-a008-b234b987b3cc",
+        "0a848d82-750b-4c38-87ac-8d39d3ff1321",
+        "5f9eb630-b1e1-4495-aeba-76229095cdbe",
+        "6395e458-3c61-47fe-8d56-39f7b7057ce9",
+        "e656f7fe-f3c6-4c1d-a8f6-b9e39ecff6e9"
+      ],
+      "settings": {
+        "sec_banner_img": "shopify:\/\/shop_images\/rsz_11technician.0000000000000.jpg",
+        "sec_header_bg_color": "#474747"
+      }
+    }
+  },
+  "order": [
+    "sk_join_team_content"
+  ]
+}

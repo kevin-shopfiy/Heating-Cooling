@@ -1,0 +1,73 @@
+<section id="abt_gurante_main" class="cmm_gurante_main">
+  <div class="container">
+    <div class="abt_gurante_repair-cta">
+	<div class="row justify-content-center">
+		<div class="abt_gurante_col_5 col-lg-5 col-sm-12"> 
+			<div class="abt_gurante_repair-head"> 
+				<span class="abt_gurante_h2">{{ section.settings.abt_gurante_h2 }}</span> 
+				<div class="abt_gurante_p">{{ section.settings.abt_gurante_p }}</div> 
+				<a href="{{ section.settings.abt_gur_btn_url }}" class="full-inner-slab-button">
+					<span class="abt_gur_btn">{{ section.settings.abt_gur_btn }}</span>
+					<span class="icon fas fa-arrow-circle-right"></span>
+				</a> 
+			</div> 
+		</div> 
+		<div class="abt_gurante_col_7 col-lg-7 col-sm-12 align-self-center"> 
+			
+          {% for block in section.blocks %}
+          	<div class="abt_gurante_repair-item"> 
+			  {{ block.settings.abt_gurante_item }}
+			</div>
+          {% endfor %}
+          
+		</div> 
+	</div> 
+</div>
+  </div>
+</section>
+{% schema %}
+  {
+    "name": "Gurantee",
+    "settings": [
+	{
+	"type": "text",
+	"id": "abt_gurante_h2",
+	"label": "Title"
+	},
+	{
+	"type": "text",
+	"id": "abt_gurante_p",
+	"label": "Text"
+	},
+	{
+	"type": "url",
+	"id": "abt_gur_btn_url",
+	"label": "Url"
+	},
+	{
+	"type": "text",
+	"id": "abt_gur_btn",
+	"label": "Button Text"
+	}
+	],
+	"blocks": [
+		{
+		"type": "select",
+      	"name": "item",
+		"settings": [
+		{
+		"type": "html",
+		"id": "abt_gurante_item",
+		"label": "Description"
+		}
+		]
+	  }
+	]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

@@ -1,0 +1,283 @@
+<style>
+  .page_header_warp { background-color: {{ section.settings.sec_header_bg_color }};}
+</style>
+<style>
+  .top_promotion_box {background-color: {{ settings.color_primary }}; border-bottom: 7px solid {{ settings.color_second }}; }
+</style>
+
+<div class="custom_main_new page_content_wrpper">
+  <div class="page_header_warp">
+    <div class="container">
+      <div class="row ">
+        <div class="col">
+          <h1 class="page_title">{{ page.title }}</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="page_content_wrap">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-12">
+          <div class="page_text_content">
+            {% if section.settings.sec_banner_img %}
+              <img
+                src="{{ section.settings.sec_banner_img | image_url }}"
+                alt="{{ section.settings.sec_banner_img | image_tag }}"
+              >
+            {% else %}
+              <div class="no_img">No Image Found!</div>
+            {% endif %}
+            {% for block in section.blocks %}
+              {% case block.type %}
+                {% when 'select' %}
+                  <div class="h2_content add_image_block">
+                    {% if block.settings.content_image != blank %}
+                      <div class="image">
+                        <img
+                          src="{{ block.settings.content_image | image_url }}"
+                          alt="{{ block.settings.content_image | image_tag }}"
+                        >
+                      </div>
+                    {% endif %}
+                    <div class="text">
+                      <h2>{{ block.settings.abt_h2 }}</h2>
+                      <p>{{ block.settings.abt_p }}</p>
+                    </div>
+                    
+                  </div>
+                {% when 'select-text' %}
+                  <div class="textes">{{ block.settings['select-text-p'] }}</div>
+                {% when 'testimonial' %}
+                  <div class="list_ul_box">
+                    {{ block.settings.list_ul }}
+                  </div>
+                {%  when 'announcement' %}
+                  <div class="fin_box">
+                    <div class="h2_content">
+                      <h2>{{ block.settings.fin_abt_h2 }}</h2>
+                      <div class="fin_subtitle">
+                        <p>{{ block.settings.fin_subtitle }}</p>
+                        <div class="fin_content">
+                            <p >{{ block.settings.fin_content}}</p>                            
+                        </div>
+                        
+                      </div>  
+                                  
+                    </div>
+                    <div class="fin_btn">
+                      <a href="{{ block.settings.fin_url }}" class="promo_button">
+                        {{- block.settings.fin_btn -}}
+                      </a>
+                    </div>  
+                  </div> 
+                    
+                  {%  when 'button' %}
+                    <div class="border-box_button">
+                      <a class="theme_green_btn" href="{{ block.settings.testi_btn_url }}">{{ block.settings.testi_btn_text }}</a>
+                    </div> 
+              {% endcase %}
+            {% endfor %}
+          </div>
+
+          {% if settings.enable_cta_box %}
+            {% comment %} <div class="call_to_action_wrap">
+              <h3>{{ settings.cta_text }}</h3>
+              <p>{{ settings.cta_desc }}</p>
+              <div class="buton_box">
+                <a href="tel:{{ settings.cta_phone }}"
+                  ><span class="fas fa-phone-alt"></span>
+                  {%- if settings.cta_phone != blank %}
+                    {{ settings.cta_phone }}
+                  {% else %}
+                    {{ settings.phone_number }}
+                  {% endif -%}
+                </a>
+                <a href="{{ settings.cta_email_address }}"
+                  ><span class="fas fa-envelope"></span> {{ settings.cta_email -}}
+                </a>
+              </div>
+            </div> {% endcomment %}
+            
+          {% endif %}
+        </div>
+        <div class="col-lg-4 col-md-12">
+          <div class="sk_sidebar">
+            <div class="top_promotion_box">
+              <h4>
+                {% if settings.tp_sub_icon -%}
+                  <img src="{{ settings.tp_sub_icon | image_url }}">
+                {% endif %}
+                <span class="current_month"> </span> {{ settings.tp_sub_title }}
+              </h4>
+              <h2>{{ settings.tp_title }}</h2>
+              <a href="{{ settings.tp_condition_url }}" class="promo_button">
+                {{- settings.tp_condition_btn -}}
+              </a>
+              <p>{{ settings.tp_condition }}</p>
+            </div>
+
+            <div class="sidebar_form">
+              <div class="sidebar_form">
+                {% include 'sk_sidebar_form' %}
+              </div>
+            </div>
+
+            <div class="sidebar_rev_fi">
+              <div class="side_review_box">
+                <a href="{{ settings.review_box_url }}">
+                  <div class="rating">
+                    {% include 'icon-star' %}
+                    {% include 'icon-star' %}
+                    {% include 'icon-star' %}
+                    {% include 'icon-star' %}
+                    {% include 'icon-star' %}
+                  </div>
+                  <h3>{{ settings.review_text }}</h3>
+                </a>
+              </div>
+              <style>
+  .side_finance_box a {background-color: {{ settings.color_primary }}; color: {{ settings.btn_color }}; }
+</style>
+
+              {% comment %} <div class="side_finance_box">
+                  <h3>{{ settings.finacne_text }}</h3>
+                  <a href="{{ settings.finace_box_url }}" class="finace_btn">{{ settings.finacne_btn_text }}</a>
+              </div> {% endcomment %}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+{% schema %}
+ {
+   "name": "Service Main Page New",
+   "settings": [
+       {
+	"type": "image_picker",
+	"id": "sec_banner_img",
+	"label": "Banner Image"
+	},
+     {
+	"type": "color",
+	"id": "sec_header_bg_color",
+	"label": "Background Color",
+       "default": "#474747"
+	}
+     
+   ],
+"blocks": [
+	{
+	"type": "select",
+     	"name": "Content",
+	"settings": [
+    {
+      "type": "image_picker",
+      "id": "content_image",
+      "label": "Image"
+    },
+		{
+		"type": "text",
+		"id": "abt_h2",
+		"label": "Heading 2"
+		},
+		{
+		"type": "html",
+		"id": "abt_p",
+		"label": "Content"
+		}
+	 ]
+   },
+   {
+	"type": "select-text",
+     	"name": "Text HTML",
+	"settings": [
+		{
+		"type": "html",
+		"id": "select-text-p",
+		"label": "Text"
+		}
+	 ]
+   },
+  {
+	"type": "testimonial",
+     	"name": "Ul List",
+	"settings": [
+		{
+		"type": "html",
+		"id": "list_ul",
+		"label": "Ul List"
+		}
+	 ]
+   },
+   {
+	"type": "announcement",
+  "name": "announcement",
+	"settings": [	  
+    {
+		"type": "text",
+		"id": "fin_abt_h2",
+		"label": "Heading 2"
+		},  
+    
+    {
+      "type": "text",
+      "id": "fin_subtitle",
+      "label": "Subtitle"
+    },
+    {
+        "type": "text",
+        "id": "fin_content",
+        "label": "Text"
+    }, 
+   {
+    "type": "text",
+    "id": "fin_btn",
+    "label": "Button",
+    "default": "Apply Now"
+   },
+   {
+    "type": "url",
+    "id": "fin_url",
+    "label": "Link"
+   }
+   
+	 ]
+   },
+   {
+    "type": "button",
+  "name": "button",
+	"settings": [
+    {
+        "type": "text",
+        "id": "testi_btn_url",
+        "label": "Button Url",
+        "default": "\/pages\/about-us\/#reviews"
+      },
+      {
+        "type": "text",
+        "id": "testi_btn_text",
+        "label": "Author button"
+      }
+  ]
+   }
+   
+   ],
+   "presets": [
+      {
+        "name": "Service Main page New"
+       
+      }
+    ]
+ }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

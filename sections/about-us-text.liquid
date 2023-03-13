@@ -1,0 +1,217 @@
+<section id="abt_us_txt_main" class="cmm_inn_txt_main">
+  <div class="container">
+    <div class="row">
+      <div class="abt_us_text col-lg-8 col-sm-12 col-12">
+        <div class="abt_us_text_img">
+          <img src="{{ section.settings.abt_us_text_img | img_url: "master" }}" alt="image">
+          <div class="abt_us_text_pp">{{ section.settings.abt_us_text_p }}</div>
+        </div>
+        <div class="abt_us_content">
+          {% for block in section.blocks %}
+          {% case block.type %}
+          
+          {% when 'select' %}
+          {%include 'about-select'%}
+          
+          {% when 'select-text' %}
+   			<div class="abt_us_text_pp">{{ block.settings.select-text_p }}</div>
+          
+          {% when 'testimonial' %}
+          {%include 'about-testimonial'%}
+           
+          {% endcase %}
+          {% endfor %}
+        </div>
+        <div class="box_abt_cta"> 
+	<div class="abt_img-cta"> 
+		<div class="col-lg-9 col-md-8 col-sm-8 col-12 abt_cta_txt"> 
+			<span class="abt_bld">{{ section.settings.abt_bld }}</span> 
+			<div class="abt_bld_p">{{ section.settings.abt_bld_p }}</div> 
+		</div> 
+		<div class="col-lg-3 col-md-4 col-sm-4 col-12 abt_cta_btn"> 
+			<a href="{{ section.settings.abt_phn_url }}" class="btn-normal abt_phone">
+				<span class="fas fa-phone"></span> {{ section.settings.abt_phn_txt }}
+			</a> 
+			<a href="{{ section.settings.abt_email_url }}" class="btn-normal abt_email">
+				<span class="fas fa-envelope"></span> {{ section.settings.abt_email_txt }}
+			</a> 
+		</div> 
+	</div> 
+</div>
+      </div>
+      <div class="abt_us_form col-lg-4 col-sm-12 col-12">
+        
+        <div class="abt_memcom_main">
+          <h2>{{ section.settings.abt_memcom_h2 }}</h2>
+          <div class="abt_memcom_a">
+            <a href="{{ section.settings.abt_memcom_url }}">{{ section.settings.abt_memcom_a }}</a>
+          </div>
+        </div>
+        
+        {%include 'about-contact'%}
+        
+        <div class="abt_review_main">
+        {{ section.settings.abt_review_des }}
+        </div>
+        
+        <div class="abt_quick_main" style="background: url({{ section.settings.abt_quick_hero_bg | image_url }}) no-repeat  center;background-size: cover !important;">
+        {{ section.settings.abt_quick_des }}
+        </div>
+        
+        {% if section.settings.club_enroll != blank %}
+        <div class="club_enroll">
+  		  <a href="{{ section.settings.club_enroll_url }}">{{ section.settings.club_enroll }}</a>
+        </div>
+        {% endif %}
+        
+      </div>
+    </div>
+  </div>
+</section>
+{% schema %}
+  {
+    "name": "About us Text",
+    "settings": [
+	{
+	"type": "image_picker",
+	"id": "abt_us_text_img",
+	"label": "Image"
+	},
+	{
+	"type": "html",
+	"id": "abt_us_text_p",
+	"label": "Text"
+	},
+	{
+	"type": "text",
+	"id": "abt_bld",
+	"label": "Bold Title"
+	},
+	{
+	"type": "text",
+	"id": "abt_bld_p",
+	"label": "Text"
+	},
+	{
+	"type": "url",
+	"id": "abt_phn_url",
+	"label": "Phone Url"
+	},
+	{
+	"type": "text",
+	"id": "abt_phn_txt",
+	"label": "Phone"
+	},
+	{
+	"type": "url",
+	"id": "abt_email_url",
+	"label": "Email Url"
+	},
+	{
+	"type": "text",
+	"id": "abt_email_txt",
+	"label": "Email"
+	},
+	{
+	"type": "text",
+	"id": "abt_memcom_h2",
+	"label": "Compare Title"
+	},
+	{
+	"type": "url",
+	"id": "abt_memcom_url",
+	"label": "URL"
+	},
+	{
+	"type": "text",
+	"id": "abt_memcom_a",
+	"label": "URL Title"
+	},
+	{
+	"type": "html",
+	"id": "abt_review_des",
+	"label": "Review"
+	},
+	{
+	"type": "image_picker",
+	"id": "abt_quick_hero_bg",
+	"label": "Quick Background"
+	},
+	{
+	"type": "html",
+	"id": "abt_quick_des",
+	"label": "Quick Des"
+	},
+	{
+	"type": "url",
+	"id": "club_enroll_url",
+	"label": "URL"
+	},
+	{
+	"type": "text",
+	"id": "club_enroll",
+	"label": "Club Enroll"
+	}
+	],
+	"blocks": [
+		{
+		"type": "select",
+      	"name": "Content",
+		"settings": [
+			{
+			"type": "text",
+			"id": "abt_h2",
+			"label": "Heading"
+			},
+			{
+			"type": "html",
+			"id": "abt_p",
+			"label": "Content"
+			}
+		 ]
+	   },
+	   {
+		"type": "select-text",
+      	"name": "text",
+		"settings": [
+			{
+			"type": "html",
+			"id": "select-text_p",
+			"label": "Text"
+			}
+		 ]
+	   },
+		{
+		"type": "testimonial",
+      	"name": "Testimonial",
+		"settings": [
+			{
+			"type": "html",
+			"id": "abt_us_text_p",
+			"label": "Text"
+			},
+			{
+			"type": "text",
+			"id": "abt_us_author",
+			"label": "Author"
+			},
+			{
+            "type": "range",
+            "id": "abt_range",
+            "min": 3,
+            "max": 5,
+            "step": 1,
+            "default": 3,
+            "label": "Rating"
+            }
+		 ]
+	   }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

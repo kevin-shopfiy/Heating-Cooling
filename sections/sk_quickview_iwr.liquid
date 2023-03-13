@@ -1,0 +1,129 @@
+<section class="product_iwr">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-12">
+                <div class="installation_wrap">
+                    <h4>
+                      {% if section.settings.install_icon %}
+                        <img src="{{ section.settings.install_icon | image_url }}" />
+                      {% endif %}
+                      {{ section.settings.intall_text }}
+                    </h4>
+                    <div class="ins_content">{{ section.settings.intall_desc }}</div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12">
+                <div class="warranty_wrap">
+                    <h4>
+                        {% if section.settings.war_icon %}
+                          <img src="{{ section.settings.war_icon | image_url }}" />
+                        {% endif %}
+                        {{ section.settings.war_text }}
+                    </h4>
+                    <div class="warr_content">
+                      {{ section.settings.war_desc }}
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12">
+                <div class="warranty_wrap last">
+                    <h4>
+                      {% if section.settings.comm_icon %}
+                        <img src="{{ section.settings.comm_icon | image_url }}" />
+                      {% endif %}
+                      {{ section.settings.comm_title }}
+                    </h4>
+                    <div class="ins_content">
+                      {{ section.settings.comm_desc }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% schema %}
+  {
+    "name": "QuickView IWR",
+    "settings": [
+      {
+    "type": "color",
+    "id": "section_bg_color",
+    "label": "Section Background Color",
+    "default": "#f5f5f5"
+},
+      {
+    "type": "header",
+    "content": "Precise Cooling"
+},
+{
+    "type": "image_picker",
+    "id": "install_icon",
+    "label": "Icon"
+},
+{
+    "type": "text",
+    "id": "intall_text",
+    "label": "Title",
+    "default": "Precise Cooling"
+},
+{
+    "type": "richtext",
+    "id": "intall_desc",
+    "label": "Description",
+    "default":"<p>Our units continuously adjust their speed to meet the temperature you want. They gradually slow down or speed up to deliver a consistent flow of cool, comfortable air.</p>"
+},
+{
+    "type": "header",
+    "content": "Durability"
+},
+{
+    "type": "image_picker",
+    "id": "war_icon",
+    "label": "Icon"
+},
+{
+    "type": "text",
+    "id": "war_text",
+    "label": "Title",
+    "default": "Long-lasting durability"
+},
+{
+    "type": "richtext",
+    "id": "war_desc",
+    "label": "Description",
+  "default":"<p>Parts and components of these air conditioners have been tested again and again for long-lasting performance and reliability.</p>"
+},
+{
+    "type": "header",
+    "content": "Communication"
+},
+{
+    "type": "image_picker",
+    "id": "comm_icon",
+    "label": "Icon"
+},
+{
+    "type": "text",
+    "id": "comm_title",
+    "label": "Title",
+    "default": "Communication Technology"
+},
+{
+    "type": "richtext",
+    "id": "comm_desc",
+    "label": "Description",
+  "default":"<p>Lorem ipsum dolor sit amet. Sed voluptas adipisci et molestias modi et fugit voluptas! Non dolor esse rem quia mollitia eum iusto quibusdam qui molestias voluptatibus aut blanditiis.</p>"
+}      
+      
+    ],
+	"presets": [
+	{
+	"name": "SK Quickview IWR",
+	"category": "Custom Content"
+	}
+	]
+  }
+{% endschema %}
+
+

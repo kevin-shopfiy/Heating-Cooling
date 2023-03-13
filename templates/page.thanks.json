@@ -1,0 +1,17 @@
+{
+  "sections": {
+    "main": {
+      "type": "sk_thanks",
+      "settings": {
+        "cart_title": "Thank You",
+        "cart_sub_title": "We have received your request and will get back to you as soon as possible.",
+        "cart_btn_text": "View All Products",
+        "btn_url": "shopify:\/\/pages\/shop",
+        "cart_email_text": "shopify:\/\/pages\/contact-us"
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

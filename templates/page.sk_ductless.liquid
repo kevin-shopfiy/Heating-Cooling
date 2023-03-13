@@ -1,0 +1,34 @@
+<div class="page_content_wrpper">
+    <div class="page_header_warp">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1 class="page_title">{{page.title}}</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="page_content_wrap">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-12">
+                    {% section 'sk_ductless_content' %}
+                    {% section 'sk_page_cta' %}
+                </div>
+                <div class="col-lg-4 col-md-12">
+                   <div class="sk_sidebar">
+                    {% section 'sk_top_promotion' %}
+                    {% section 'sk_sidebar_form' %}
+                    <div class="sidebar_rev_fi">
+                      {% section 'sk_sidebar_review' %}
+                      {% section 'sk_sidebar_finance' %}
+                    </div>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% section 'sk_services_solutions' %}
+

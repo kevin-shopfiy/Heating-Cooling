@@ -1,0 +1,149 @@
+{% if section.settings.enable_slider %}
+<div class="product_slider_wrap">
+    <div class="container">
+        <div class="row align-items-end">
+            <div class="col-lg-8 col-md-12">
+                <div class="collection_content">
+                    <h2>{{ section.settings.cs_title }}</h2>
+                    <p>{{ section.settings.cs_desc }}</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12">
+                <div class="btn_wrap">
+                  <a href="{{ section.settings.cs_btn_url }}" class="view_all_btn">{{ section.settings.cs_btn_text }}</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="collection_slider">
+                    {% for product in section.settings.collection.products %}
+                      <div class="single_product">
+                          <a href="{{ product.url }}">
+                              <div class="product_img_box">
+                                  <img src="{{ product.featured_image.src | image_url }}" alt="{{ product.featured_image.src.alt | escape  }}" alt="{{ product.featured_image.src.alt | escape  }}">
+                              </div>
+                              <h3>{{product.title}}</h3>
+                              <div class="pro-price">
+                                  <span>{{ product.price | money }}</span>
+                                  {% if product.compare_at_price_max > product.price %}
+                                  <span class="old-price">{{ product.compare_at_price | money }}</span>
+                                  {% endif %}
+                              </div>
+                          </a>
+                      </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endif %}
+
+{% schema %}
+  {
+    "name": "SK Air Condition Slider",
+    "settings": [
+      {
+    	"type": "checkbox",
+    	"id": "enable_slider",
+    	"label": "Enable Slider",
+        "default": true
+    	},
+        {
+    	"type": "text",
+    	"id": "cs_title",
+    	"label": "Title",
+        "default": "Air Conditioners"
+    	},
+      {
+    	"type": "textarea",
+    	"id": "cs_desc",
+    	"label": "Description"
+      },
+      {
+    	"type": "text",
+    	"id": "cs_btn_text",
+    	"label": "Button Text",
+        "default": "View all"
+      },
+      {
+    	"type": "url",
+    	"id": "cs_btn_url",
+    	"label": "Button url"
+      },
+        {
+          "type": "header",
+          "content": "Slider Options"
+        },
+      {
+  "type": "collection",
+  "id": "collection",
+  "label": "Collection"
+},
+      {
+    "type": "image_picker",
+    "id": "prev_img_icon",
+    "label": "Previous Button Icon"
+},
+{
+    "type": "image_picker",
+    "id": "next_img_icon",
+    "label": "Next Button Icon"
+},
+{
+    "type": "checkbox",
+    "id": "enable_autoplay",
+    "label": "Enable AutoPlay"
+},
+{
+    "type": "range",
+    "id": "autoplay_time",
+    "min": 1,
+    "max": 10,
+    "step": 1,
+    "unit": "sec",
+    "label": "Autoplay Time",
+    "default": 5
+}
+
+
+    ]
+  }
+{% endschema %}
+
+<script>
+/*start slick slider*/
+jQuery(document).ready(function(){
+jQuery('.collection_slider').slick({
+  infinite: true,
+  autoplay: false,
+  slidesToShow: 4,
+  slidesToScroll: 1, 
+  arrows: true, 
+  {% if section.settings.prev_img_icon %}
+  prevArrow:"<button type='button' class='slick-prev'><img src='{{ section.settings.prev_img_icon | image_url }}' /></button>",
+  {% endif %}
+  {% if section.settings.next_img_icon %}
+  nextArrow:"<button type='button' class='slick-next'><img src='{{ section.settings.next_img_icon | image_url }}' /></button>",
+  {% endif %}  
+  dots: false,
+  responsive: [
+      {
+        breakpoint: 991,
+        settings: {
+          slidesToShow: 2,
+        }
+      },
+      {
+        breakpoint: 575,
+        settings: {
+            slidesToShow: 1,
+        }
+      }	
+    ]
+});
+  });
+</script>

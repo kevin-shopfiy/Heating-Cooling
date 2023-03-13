@@ -1,0 +1,56 @@
+
+{% if settings.enable_cta_box %}
+<div class="call_to_action_wrap">
+    <h3>{{ settings.cta_text }}</h3>
+    <p>{{ settings.cta_desc }}</p>
+    <div class="buton_box">
+        <a href="tel:{{ settings.cta_phone }}"><span class="fas fa-phone-alt"></span>{% if  settings.cta_phone != blank %} {{ settings.cta_phone }} {% else %} {{ settings.phone_number }} {% endif %}</a>
+        <a href="{{ settings.cta_email_address }}"><span class="fas fa-envelope"></span> {{ settings.cta_email }}</a>
+    </div>
+</div>
+{% endif %}
+
+
+{% schema %}
+  {
+    "name": "CTA",
+    "settings": [
+      {
+		"type": "checkbox",
+		"id": "enable_cta_box",
+		"label": "Show CTA Section",
+          "default": true
+		},
+        {
+        "type": "text",
+        "id": "cta_text",
+        "label": "Heading",
+          "default": "Ready for your Next Heating or Cooling Project?"
+        },
+        {
+        "type": "text",
+        "id": "cta_desc",
+        "label": "Description",
+          "default": "Our professional technicians and staff are ready to help!"
+        },
+        {
+        "type": "text",
+        "id": "cta_phone",
+        "label": "Phone Number",
+          "default": "555-555-555"
+        },
+        {
+        "type": "text",
+        "id": "cta_email",
+        "label": "Email Text",
+          "default": "Email Us"
+        },
+        {
+        "type": "url",
+        "id": "cta_email_address",
+        "label": "Email Address Or URL"
+        }
+    ]
+  }
+{% endschema %}
+

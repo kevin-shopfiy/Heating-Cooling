@@ -1,0 +1,47 @@
+
+<style>
+.theme_green_btn { background-color: {{ settings.color_primary }};}  
+.theme_green_btn:hover { background-color: {{ settings.color_second }};}  
+</style>
+
+
+<section class="home_testimoinal {{ settings.test_class }}">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="home_testi_box">
+                    <img class="desktop_only" src="{{ settings.testi_icon | image_url }}" />
+                    <img class="mobile_only" src="{{ settings.testi_icon_mobile | image_url }}" />
+                    <p>{{ settings.testi_desc }}</p>
+                    <div class="name_btn">
+                        <p class="author_name">{{ settings.author_text }}</p>
+                        <a class="theme_green_btn" href="{{ settings.testi_btn_url }}">{{ settings.testi_btn_text }}</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+{% schema %}
+  {
+    "name": "SK Home Tesimonial",
+    "settings": [
+     
+    ],
+    "presets":[
+      {
+        "name": "SK Home Tesimonial",
+        "category": "Custom Content"
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

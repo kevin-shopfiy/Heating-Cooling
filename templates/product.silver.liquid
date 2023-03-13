@@ -1,0 +1,31 @@
+{% section 'product-hero' %}
+
+<section id="green_plan_txt_main" class="cmm_inn_txt_main">
+  <div class="container">
+    <div class="row">
+      <div class="abt_us_text col-lg-8 col-sm-12 col-12">
+		{% section 'silver-plan-text' %}
+      </div>
+      <div class="prdt_cart_col_4 abt_us_form col-lg-4 col-sm-12 col-12">
+		{% section 'product-template-green' %}
+      </div>
+    </div>
+  </div>
+</section>
+
+{% section 'about-us-guarante' %}
+{% section 'common_collection' %}
+{% section 'cmm_cooling_special' %}
+{% section 'cmm_testimonial' %}
+{% section 'cmm_brand' %}
+
+<script>
+  // Override default values of shop.strings for each template.
+  // Alternate product templates can change values of
+  // add to cart button, sold out, and unavailable states here.
+  window.productStrings = {
+    addToCart: {{ 'products.product.add_to_cart' | t | json }},
+    soldOut: {{ 'products.product.sold_out' | t | json }},
+    unavailable: {{ 'products.product.unavailable' | t | json }}
+  }
+</script>

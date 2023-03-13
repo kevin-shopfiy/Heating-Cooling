@@ -1,0 +1,101 @@
+{
+  "sections": {
+    "sk_main-page": {
+      "type": "sk_main-page",
+      "disabled": true,
+      "settings": {
+        "sec_header_bg_color": "#474747"
+      }
+    },
+    "sk_custom-liquid": {
+      "type": "sk_custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "<div class=\"page-width\">\n        <div class=\"abt_us_text_img\">\n          \n          \n          <div class=\"abt_us_text_pp\">The following discloses the information gathering and dissemination practices for {{ shop.name  }} We reserve the right to modify the information contained herein at anytime without prior notice. If we do make changes to our privacy policies, we will modify this page accordingly.<\/div>\n        <\/div>\n        <div class=\"abt_us_content\">\n          \n          \n          <div class=\"abt_us_content_inn\">\n  <h2 class=\"abt_h2\">Information Collected From Normal Browsing<\/h2>\n  <div class=\"abt_us_text_pp\">Like many websites, we collect certain information when you access our site. When you browse, read, or download information from this site, data is collected by us, including but not limited to your IP address, URL request, browser type, web pages visited, and date and time of your request. We use this information to generate statistics and measure site activity, so that we can improve the usefulness of the site to our visitors and for other business purposes. For example, we track which pages are most popular among visitors. Currently, we handle this information on an aggregated basis and do not use this information to identify any users.\n<br>\n<br>\nWe often use analytics companies, such as Webtrends, Google Analytics and others, to assist us, and we may use additional or different service providers in the future.<\/div>\n<\/div>\n          \n          \n          \n          \n          <div class=\"abt_us_content_inn\">\n  <h2 class=\"abt_h2\">Information You Provide<\/h2>\n  <div class=\"abt_us_text_pp\">At several places on the site, {{ shop.name  }} asks you to provide additional information so that we can respond to inquiries from you. For example, we may ask for your name, your email address, and your location, or may ask for other information about you. We will use this information to contact you, administer mailing lists or online communities, or other activities related to the mission or services of {{ shop.name  }}. You do not have to provide us with this information to use many features of the site, but we will be unable to provide you with certain information unless you do so. We will manage and store this information as an ordinary business record. Should you wish to unsubscribe from receiving future communications from {{ shop.name  }}, submit a request to be removed from our mailing list.<\/div>\n<\/div>\n          \n          \n          \n          \n          <div class=\"abt_us_content_inn\">\n  <h2 class=\"abt_h2\">Disclosure Of Information<\/h2>\n  <div class=\"abt_us_text_pp\">Available log records, account information, and all data stored on servers hosting this website, our blogs and any other online sites we use may be accessed by our system administrators who may make the information available to other {{ shop.name  }} personnel for business purposes.\n<br>\n<br>\n{{ shop.name  }} may share information that you have provided to us, including your name and email address, with our affiliated franchisors and with the companies that provide analytical services to us in support of the website. In some circumstances, we may share information that you have provided to one or more of our franchisees located in your area.\n<br>\n<br>\nIn addition, we may share information that you have provided to us with non-affiliated third parties where we think doing so may allow you to receive information regarding products or and services that may be useful to you.\n<br>\n<br>\nFinally, we will provide information that you have given us when required by legal process to do so, such as by a subpoena.<\/div>\n<\/div>\n          \n          \n          \n          \n          <div class=\"abt_us_content_inn\">\n  <h2 class=\"abt_h2\">Cookies<\/h2>\n  <div class=\"abt_us_text_pp\">Cookies are small computer files placed on your computer by our site. Our site may use both session and permanent cookies. Session cookies make it easier to use our site by, for example, enabling you to move through the site without having to re-enter your personal information on each page. Session cookies are deleted automatically when you close your browser.\n<br>\n<br>\nIn addition, our site also uses permanent cookies to facilitate our registration and login functions, we may also use cookies to recognize when you return to our website. In addition, some cookies may be set by advertising networks that provide advertising services on our website. In some instances, cookies set by those networks may trigger specific advertisements based on the parts of our site, and other websites, that your browser visits.<\/div>\n<\/div>\n          \n          \n          \n          \n          <div class=\"abt_us_content_inn\">\n  <h2 class=\"abt_h2\">Posting<\/h2>\n  <div class=\"abt_us_text_pp\">Posting or updating content is a public action, and all content may be publicly visible. All content may be retained for restorative, archival, research or business purposes by {{ shop.name  }}.<\/div>\n<\/div>\n          \n          \n          \n          \n          <div class=\"abt_us_content_inn\">\n  <h2 class=\"abt_h2\">Security<\/h2>\n  <div class=\"abt_us_text_pp\">{{ shop.name  }} employs reasonable administrative and technical security measures in place to help protect against loss, misuse and alteration of the information under our control. However, as with any Internet website, it is not possible to guarantee that the site will not be attacked or that information you provided may not be compromised.<\/div>\n<\/div>\n          \n          \n          \n          \n          <div class=\"abt_us_content_inn\">\n  <h2 class=\"abt_h2\">Other Websites<\/h2>\n  <div class=\"abt_us_text_pp\">This website may contain links to independently run websites outside of the this one. {{ shop.name  }} is not responsible for the privacy practices or content of such websites. We encourage you to read the privacy policies of any websites you visit from this website and its accompanying blog.<\/div>\n<\/div>\n          \n          \n          \n        <\/div>\n        \n      <\/div>"
+      }
+    },
+    "4ae5cc38-bc0a-4da8-9b7f-4308f76d0b01": {
+      "type": "sk_service-main-page",
+      "blocks": {
+        "bc112dbc-f8e3-4b00-ae23-534a4143e662": {
+          "type": "announcement",
+          "settings": {
+            "abt_h2": "",
+            "testi_icon": "shopify:\/\/shop_images\/Frame.png",
+            "testi_icon_mobile": "shopify:\/\/shop_images\/Frame.png",
+            "box_text": "Our old air conditioner broke and Button’s Heating and Air Conditioning came to our rescue when other companies didn’t. Todd Button was very thorough when explaining all of my different options for new air conditioners and took the time to answer all of my questions. Their install of our new air conditioner was neat and tidy and they did a good job of cleaning up their work space once the job was done. Thank you!! Highly recommend Button’s Heating and Air Conditioning!!!",
+            "m_author_text": "Kristen M.",
+            "rating": 5
+          }
+        },
+        "8eb323a5-429a-47a5-aecd-9adf799baf2d": {
+          "type": "announcement",
+          "settings": {
+            "abt_h2": "",
+            "testi_icon": "shopify:\/\/shop_images\/Frame.png",
+            "testi_icon_mobile": "shopify:\/\/shop_images\/Frame.png",
+            "box_text": "Buttons installed our a\/c and furnace in 2017. This weekend I was installing an ecobee thermostat and had some wiring issues. I called their 24 hour number and was contacted by their technician within 30 minutes. Andrew walked me through the process without charging for a service call. This was an example of the quality service we have received since choosing Buttons to provide our heating and air conditioning equipment. Very happy with our decision.",
+            "m_author_text": "Scott P",
+            "rating": 5
+          }
+        },
+        "a0830acc-f753-4e37-b1a7-7c2e535a6bae": {
+          "type": "announcement",
+          "settings": {
+            "abt_h2": "",
+            "testi_icon": "shopify:\/\/shop_images\/Frame.png",
+            "testi_icon_mobile": "shopify:\/\/shop_images\/Frame.png",
+            "box_text": "Technician showed up within 24 hours at exactly the time he promised on a long weekend. Ryan was very friendly and courteous.  Checked the system over thoroughly. He checked all the normally serviceable components.  In our case the actual compressor had failed. Because of the great service Button’s has provided to us we will get the replacement AC. From them.",
+            "m_author_text": "Jim D.",
+            "rating": 5
+          }
+        },
+        "01c3e67f-a1be-4378-bcc4-33ceb082684b": {
+          "type": "announcement",
+          "settings": {
+            "abt_h2": "",
+            "testi_icon": "shopify:\/\/shop_images\/Frame.png",
+            "testi_icon_mobile": "shopify:\/\/shop_images\/Frame.png",
+            "box_text": "Service technician was pleasant and removed his foot wear when entering our home.The front office women is helpful and easy to communicate with.Buttons installed our furnace and A\/C a few years back and we continue to have them return for annual inspections.",
+            "m_author_text": "Carolyn J.",
+            "rating": 5
+          }
+        },
+        "cafe74c8-e142-42e1-95c3-14d8dd39a079": {
+          "type": "announcement",
+          "settings": {
+            "abt_h2": "",
+            "testi_icon": "shopify:\/\/shop_images\/Frame.png",
+            "testi_icon_mobile": "shopify:\/\/shop_images\/Frame.png",
+            "box_text": "I had Button's Heating and Air Conditioning install both furnace and air conditioning 2 years ago.  Since then I have them come for regular maintenance.  They are very professional and thorough.  Cost is less than other ones that I used before.  Strongly recommend Button's to anyone!",
+            "m_author_text": "Kay A.",
+            "rating": 5
+          }
+        },
+        "767233f6-50ad-4e9b-b070-942a06670206": {
+          "type": "button",
+          "settings": {
+            "testi_btn_url": "\/pages\/about-us\/#reviews",
+            "testi_btn_text": " Read More Google Reviews"
+          }
+        }
+      },
+      "block_order": [
+        "bc112dbc-f8e3-4b00-ae23-534a4143e662",
+        "8eb323a5-429a-47a5-aecd-9adf799baf2d",
+        "a0830acc-f753-4e37-b1a7-7c2e535a6bae",
+        "01c3e67f-a1be-4378-bcc4-33ceb082684b",
+        "cafe74c8-e142-42e1-95c3-14d8dd39a079",
+        "767233f6-50ad-4e9b-b070-942a06670206"
+      ],
+      "settings": {
+        "sec_header_bg_color": "#474747"
+      }
+    }
+  },
+  "order": [
+    "sk_main-page",
+    "sk_custom-liquid",
+    "4ae5cc38-bc0a-4da8-9b7f-4308f76d0b01"
+  ]
+}

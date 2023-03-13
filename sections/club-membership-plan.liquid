@@ -1,0 +1,57 @@
+<section class="club-membership-plan">
+  <div class="container">
+    <div class="paln_container">
+    <div class="club_mplan_h2">
+      <h2>{{ section.settings.club_mplan_h2 }}</h2>
+    </div>
+   <div class="col-12">
+    <div class="row">
+      {% for block in section.blocks %}
+      <div class="club_mplan_12 col-sm-4 col-12">
+        <div class="club_mplan_inn">
+          <a class="club_mplan_a" href="{{ block.settings.club_mplan_url }}">{{ block.settings.club_mplan_a }}</a>
+        </div>
+      </div>
+      {%endfor%}
+    </div>
+      </div>
+      </div>
+  </div>
+</section>
+
+{% schema %}
+  {
+    "name": "Club Membership",
+    "settings": [
+	{
+	"type": "text",
+	"id": "club_mplan_h2",
+	"label": "Title"
+	}
+	],
+	"blocks": [
+		{
+		"type": "select",
+      	"name": "plan",
+		"settings": [
+			{
+			"type": "url",
+			"id": "club_mplan_url",
+			"label": "URL"
+			},
+			{
+			"type": "text",
+			"id": "club_mplan_a",
+			"label": "Title"
+			}
+		 ]
+	   }
+	]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

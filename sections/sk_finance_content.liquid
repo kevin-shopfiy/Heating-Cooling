@@ -1,0 +1,168 @@
+<div class="page_text_content">
+  {% if section.settings.sec_banner_img %}
+   {{  section.settings.sec_banner_img | image_url: width: 1000 | image_tag  }}
+  {% else %}
+    <div class="no_img">No Image Found!</div>
+  {% endif %}
+    {% for block in section.blocks %}
+      {% case block.type %}
+      
+      {% when 'select' %}
+      <div class="h2_content">
+          <h2>{{ block.settings.abt_h2 }}</h2>
+          <p>{{ block.settings.abt_p }}</p>
+      </div>
+      
+      {% when 'select-text' %}
+        <div class="textes">{{ block.settings.select-text-p }}</div>
+      
+      {% when 'testimonial' %}
+      <div class="list_ul_box">
+          {{ block.settings.list_ul }}
+      </div>
+
+      {% when 'select-cta' %}
+       <div class="cta_box" style="background-color: {{ settings.color_primary }};">
+          <h3>{{ block.settings.cta_title }}</h3>
+          <h4>{{ block.settings.cta_sub_title }}</h4>
+          <p>{{ block.settings.cta_condition }}</p>
+          <a href="{{ block.settings.cta_condition_url }}" class="cta_btn">{{ block.settings.cta_btn_text }}</a>
+        </div>
+
+        {% when 'select-finance' %}
+        <div class="logo_text">
+          {% if block.settings.logo_img %}
+            <img src="{{ block.settings.logo_img | image_url }}" />
+          {% endif %}
+            <h2>{{ block.settings.logo_title }}</h2>
+            <p>{{ block.settings.logo_desc }}</p>
+        </div>
+
+      {% endcase %}
+    {% endfor %}
+</div>
+
+<style>
+  .page_header_warp { background-color: {{ section.settings.sec_header_bg_color }};}
+</style>
+
+{% schema %}
+  {
+    "name": "Finance Content",
+    "settings": [
+        {
+		"type": "image_picker",
+		"id": "sec_banner_img",
+		"label": "Banner Image"
+		},
+      {
+		"type": "color",
+		"id": "sec_header_bg_color",
+		"label": "Background Color",
+        "default": "#474747"
+		}
+    ],
+	"blocks": [
+		{
+		"type": "select",
+      	"name": "Content",
+		"settings": [
+			{
+			"type": "text",
+			"id": "abt_h2",
+			"label": "Heading"
+			},
+			{
+			"type": "html",
+			"id": "abt_p",
+			"label": "Content"
+			}
+		 ]
+	   },
+	   {
+		"type": "select-text",
+      	"name": "Text",
+		"settings": [
+			{
+			"type": "html",
+			"id": "select-text-p",
+			"label": "Text"
+			}
+		 ]
+	   },
+      {
+		"type": "testimonial",
+      	"name": "Ul List",
+		"settings": [
+			{
+			"type": "html",
+			"id": "list_ul",
+			"label": "Ul List"
+			}
+		 ]
+	   },
+      {
+		"type": "select-cta",
+      	"name": "CTA",
+		"settings": [
+			{
+                "type": "color",
+                "id": "bg_color",
+                "label": "Background Color",
+                "default": "#086579"
+            },
+            {
+                "type": "text",
+                "id": "cta_title",
+                "label": "Title",
+                "default": "Looking For Financing Options?"
+            },
+            {
+                "type": "text",
+                "id": "cta_sub_title",
+                "label": "Sub Title",
+                "default": "Special Financing Available*"
+            },
+            {
+                "type": "text",
+                "id": "cta_condition",
+                "label": "Condition Text",
+                "default": "*This Credit card is issued with approved credit by Wells Fargo Bank N.A."
+            },
+            {
+                "type": "text",
+                "id": "cta_btn_text",
+                "label": "Button Text",
+                "default": "Apply Now"
+            },
+            {
+                "type": "text",
+                "id": "cta_condition_url",
+                "label": "Button Url"
+            }
+		 ]
+	   },
+      {
+          "type": "select-finance",
+          "name": "Logo & Text",
+          "settings": [
+              {
+                  "type": "image_picker",
+                  "id": "logo_img",
+                  "label": "Choose Image/Logo"
+              },
+              {
+                  "type": "text",
+                  "id": "logo_title",
+                  "label": "Title"
+              },
+              {
+                  "type": "textarea",
+                  "id": "logo_desc",
+                  "label": "Description"
+              }
+           ]
+      }
+    ]
+  }
+{% endschema %}

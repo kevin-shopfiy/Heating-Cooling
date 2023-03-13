@@ -1,0 +1,114 @@
+{
+  "sections": {
+    "sk_service-main-page": {
+      "type": "sk_service-main-page",
+      "blocks": {
+        "abfacb65-6715-4483-8a83-f7df80728141": {
+          "type": "select-text",
+          "settings": {
+            "select-text-p": "<p>In 1977, we (the three Button's brothers—Earl, Joe, and David) founded a residential and commercial heating contracting business.<br><br>\nOur company has seen tremendous growth over the years but we’re still a family-owned business. Personal and friendly service is our mandate.\n<\/p>"
+          }
+        },
+        "cd64b40d-4600-46d3-a556-d2ad1d1fbaaf": {
+          "type": "select",
+          "settings": {
+            "abt_h2": "Providing Award Winning Service Since 1977",
+            "abt_p": "<p>At Button’s Heating &amp; Air Conditioning, we take pride in our unparalleled workmanship, expertise, and friendly service. We complete every task with your comfort and satisfaction in mind.<\/p>\n<br>\n<p>We are <b>TSSA<\/b> and <b>HRAI<\/b> approved service providers. This means we uphold high standards for both you and your home and our employees.<\/p>\n<br>\n<p>Our service technicians, sales staff, and managers have extensive experience. We stay current with the latest advancements in home comfort products and strive to bring your family and home the same degree of well-being and ease we would want for our own.<\/p>"
+          }
+        },
+        "6299b148-ae43-4722-800f-aef7245c4514": {
+          "type": "select",
+          "settings": {
+            "abt_h2": "What our customers think",
+            "abt_p": ""
+          }
+        },
+        "123c65cd-55e9-4154-81f4-802f0cdfc222": {
+          "type": "announcement",
+          "settings": {
+            "abt_h2": "",
+            "testi_icon": "shopify:\/\/shop_images\/Frame.png",
+            "testi_icon_mobile": "shopify:\/\/shop_images\/Frame.png",
+            "box_text": "“Our old air conditioner broke and Button’s Heating and Air Conditioning came to our rescue when other companies didn’t. Todd Button was very thorough when explaining all of my different options for new air conditioners and took the time to answer all of my questions. Their install of our new air conditioner was neat and tidy and they did a good job of cleaning up their work space once the job was done. Thank you!! Highly recommend Button’s Heating and Air Conditioning!!!”",
+            "m_author_text": "Kristen M.",
+            "rating": 5
+          }
+        },
+        "a9c52702-c5ae-4b80-9d54-686a99a18897": {
+          "type": "announcement",
+          "settings": {
+            "abt_h2": "",
+            "testi_icon": "shopify:\/\/shop_images\/Frame.png",
+            "testi_icon_mobile": "shopify:\/\/shop_images\/Frame.png",
+            "box_text": "“Buttons installed our a\/c and furnace in 2017. This weekend I was installing an ecobee thermostat and had some wiring issues. I called their 24 hour number and was contacted by their technician within 30 minutes. Andrew walked me through the process without charging for a service call. This was an example of the quality service we have received since choosing Buttons to provide our heating and air conditioning equipment. Very happy with our decision.”",
+            "m_author_text": "Scott P.",
+            "rating": 5
+          }
+        },
+        "66fbeda5-0bcd-4c98-9801-bd8416d12c10": {
+          "type": "announcement",
+          "settings": {
+            "abt_h2": "",
+            "testi_icon": "shopify:\/\/shop_images\/Frame.png",
+            "testi_icon_mobile": "shopify:\/\/shop_images\/Frame.png",
+            "box_text": "“Technician showed up within 24 hours at exactly the time he promised on a long weekend. Ryan was very friendly and courteous. Checked the system over thoroughly. He checked all the normally serviceable components. In our case the actual compressor had failed. Because of the great service Button’s has provided to us we will get the replacement AC. From them.”",
+            "m_author_text": "Jim D.",
+            "rating": 5
+          }
+        },
+        "df299719-7d59-4e2a-800f-67adfa721915": {
+          "type": "announcement",
+          "settings": {
+            "abt_h2": "",
+            "testi_icon": "shopify:\/\/shop_images\/Frame.png",
+            "testi_icon_mobile": "shopify:\/\/shop_images\/Frame.png",
+            "box_text": "“Service technician was pleasant and removed his foot wear when entering our home.The front office women is helpful and easy to communicate with. Buttons installed our furnace and A\/C a few years back and we continue to have them return for annual inspections.”",
+            "m_author_text": "Carolyn J.",
+            "rating": 5
+          }
+        },
+        "1753b635-b54c-4f39-ae88-070f682a7df5": {
+          "type": "announcement",
+          "settings": {
+            "abt_h2": "",
+            "testi_icon": "shopify:\/\/shop_images\/Frame.png",
+            "testi_icon_mobile": "shopify:\/\/shop_images\/Frame.png",
+            "box_text": "“I had Button's Heating and Air Conditioning install both furnace and air conditioning 2 years ago. Since then I have them come for regular maintenance. They are very professional and thorough. Cost is less than other ones that I used before. Strongly recommend Button's to anyone!”",
+            "m_author_text": "Kay A.",
+            "rating": 5
+          }
+        },
+        "1d18b493-8851-4b25-abf4-6c3fbd09f7dc": {
+          "type": "button",
+          "settings": {
+            "testi_btn_url": "\/pages\/about-us",
+            "testi_btn_text": "Read more of our Google Reviews"
+          }
+        }
+      },
+      "block_order": [
+        "abfacb65-6715-4483-8a83-f7df80728141",
+        "cd64b40d-4600-46d3-a556-d2ad1d1fbaaf",
+        "6299b148-ae43-4722-800f-aef7245c4514",
+        "123c65cd-55e9-4154-81f4-802f0cdfc222",
+        "a9c52702-c5ae-4b80-9d54-686a99a18897",
+        "66fbeda5-0bcd-4c98-9801-bd8416d12c10",
+        "df299719-7d59-4e2a-800f-67adfa721915",
+        "1753b635-b54c-4f39-ae88-070f682a7df5",
+        "1d18b493-8851-4b25-abf4-6c3fbd09f7dc"
+      ],
+      "settings": {
+        "sec_banner_img": "shopify:\/\/shop_images\/download-4_1.png",
+        "sec_header_bg_color": "#474747"
+      }
+    },
+    "sk_services_solutions": {
+      "type": "sk_services_solutions",
+      "settings": {}
+    }
+  },
+  "order": [
+    "sk_service-main-page",
+    "sk_services_solutions"
+  ]
+}

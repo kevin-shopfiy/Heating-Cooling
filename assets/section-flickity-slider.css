@@ -1,0 +1,25 @@
+/* external css: flickity.css */
+@media screen and (max-width: 990px) {
+    .carousel {
+        margin-bottom: 30px;
+    }
+}
+@media screen and (max-width:746px) {
+    * { box-sizing: border-box; }
+
+body { font-family: sans-serif; }
+
+.carousel img {
+  display: block;
+  height: auto;
+  width: 161px;
+} 
+
+}
+.flickity-button {
+    display: none;
+}
+.flickity-page-dots .dot {
+    background: #176ea3;
+    display: none;
+}

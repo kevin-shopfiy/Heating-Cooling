@@ -1,0 +1,169 @@
+<div class="tab_mobile_only pagess">
+<section class="contact-form-area {{ settings.m_section_class }}">
+  <div class="container">
+    <div class="form-wrapper">
+      <div class="row">
+        <div class="col-12">
+          <div class="section-title">
+            {% if settings.m_section_title != '' %}
+              <h2>{{ settings.m_section_title }}</h2>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+      <div class="contact-form">
+        {% include 'sk_product_form' %}
+      </div>
+    </div>
+  </div>
+</section>
+</div>
+
+<style>
+.theme_green_btn { background-color: {{ settings.color_primary }};}  
+.theme_green_btn:hover { background-color: {{ settings.color_second }};}  
+</style>
+
+<div class="tab_mobile_only">
+<section class="home_testimoinal {{ settings.m_test_class }}">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="home_testi_box">
+                    <img class="desktop_only" src="{{ settings.m_testi_icon | image_url }}" />
+                    <img class="mobile_only" src="{{ settings.m_testi_icon_mobile | image_url }}" />
+                    <p>{{ settings.m_testi_desc }}</p>
+                    <div class="name_btn">
+                        <p class="author_name">{{ settings.m_author_text }}</p>
+                        <a class="theme_green_btn" href="{{ settings.m_testi_btn_url }}">{{ settings.m_testi_btn_text }}</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</div>
+{% schema %}
+{
+  "name": "SK Mobile forms",
+  "settings": [
+      {
+    "type": "text",
+    "id": "section_class",
+    "label": "Add Class"
+  },
+  {
+    "type": "header",
+    "content": "Section Background"
+  },
+  {
+    "type": "color",
+    "id": "section_bg_color",
+    "label": "Section Backgrond color",
+    "default": "#f6f6f6"
+  },
+  {
+    "type": "header",
+    "content": "Form Info"
+  },
+  {
+    "type": "text",
+    "id": "section_title",
+    "label": "Section Title",
+    "default": "Get an Estimate / Schedule a Repair Maintenance"
+  },
+  {
+    "type": "text",
+    "id": "name_placeholder",
+    "label": "Name Placeholder",
+    "default": "* Full Name"
+  },
+  {
+    "type": "text",
+    "id": "email_placeholder",
+    "label": "Email Placeholder",
+    "default": "* Email Address"
+  },
+  {
+    "type": "text",
+    "id": "postal_code",
+    "label": "Postal Code",
+    "default": "* Postal Code"
+  },
+  {
+    "type": "text",
+    "id": "message_placeholder",
+    "label": "Message Placeholder",
+    "default": "How can we help?"
+  },
+  {
+    "type": "text",
+    "id": "form_button_name",
+    "label": "Button Name",
+    "default": "Send Message"
+  },
+    {
+    "type": "header",
+    "content": "SK Home Tesimonial"
+    },
+      {
+		"type": "text",
+		"id": "test_class",
+		"label": "Class Name"
+		},
+      {
+		"type": "image_picker",
+		"id": "testi_icon",
+		"label": "Icon"
+		},
+      {
+		"type": "image_picker",
+		"id": "testi_icon_mobile",
+		"label": "Mobile Icon"
+		},
+      {
+		"type": "text",
+		"id": "author_text",
+		"label": "Author Name"
+		},
+      {
+		"type": "textarea",
+		"id": "testi_desc",
+		"label": "Review Text"
+		},
+      {
+		"type": "text",
+		"id": "testi_btn_text",
+		"label": "Button Text",
+        "default": "Read More"
+		},
+      {
+		"type": "text",
+		"id": "testi_btn_url",
+		"label": "Button Url"
+		},
+      {
+		"type": "color",
+		"id": "testi_btn_bg",
+		"label": "Button Background Color",
+        "default": "#0E6479"
+		},
+      {
+		"type": "color",
+		"id": "testi_btn_bg_hover",
+		"label": "Button Hover Color",
+        "default": "#F99E15"
+		}
+  ],
+  "presets":[
+  {
+    "name": "SK Product Form",
+    "category": "contact us"
+  }
+  ]
+}
+{% endschema %}
+<style>
+.form-wrapper {background-color: {{ settings.m_section_bg_color }};}
+
+</style>

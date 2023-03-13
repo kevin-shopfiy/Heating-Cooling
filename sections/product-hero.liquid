@@ -1,0 +1,28 @@
+<section id="abt_hero_banner" class="cmm_hero_banner_main"
+style="background: url({{ section.settings.abt_hero_bg | image_url }}) no-repeat  center;background-size: cover !important;position: relative;">
+  <div class="page-width">
+    <div class="hero_title_inn">
+      <h1 class="hero_title_h1">{{ product.title }}</h1>
+    </div>
+  </div>
+</section>
+
+
+{% schema %}
+  {
+    "name": "Hero Banner",
+    "settings": [
+	{
+	"type": "image_picker",
+	"id": "abt_hero_bg",
+	"label": "background"
+	}
+	]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

@@ -1,0 +1,33 @@
+<div class="side_review_box">
+  <a href="{{ settings.review_box_url }}">
+    <div class="rating">
+        {% include 'icon-star' %}
+        {% include 'icon-star' %}
+        {% include 'icon-star' %}
+        {% include 'icon-star' %}
+        {% include 'icon-star' %}
+    </div>
+    <h3>{{ settings.review_text }}</h3>
+  </a>
+</div>
+
+
+{% schema %}
+  {
+    "name": "SK Review",
+    "settings": [
+        {
+		"type": "textarea",
+		"id": "review_text",
+		"label": "Review Text",
+          "default": "Real Reviews <strong>From Real Customers</strong>"
+		},
+        {
+		"type": "url",
+		"id": "review_box_url",
+		"label": "Review Box Url"
+		}
+    ]
+  }
+{% endschema %}
+

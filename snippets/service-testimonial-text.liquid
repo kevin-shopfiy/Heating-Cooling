@@ -1,0 +1,25 @@
+<div id="testimonial-carousel-indicators" class="serv_texti_carousel carousel slide" data-interval="false">
+  <div class="carousel-inner">
+      {% for block in section.blocks %}
+		<div class="carousel-item {{ block.settings.testi_active }}">
+			<h3 class="testi_name">{{ block.settings.testi_name }}</h3> 
+			<div class="testi_desc">{{ block.settings.testi_desc }}</div>
+			<div class="rating">
+				<span class="fas fa-star"></span>
+				<span class="fas fa-star"></span>
+				<span class="fas fa-star"></span>
+				<span class="fas fa-star"></span>
+				<span class="fas fa-star"></span>
+			</div> 
+		</div>
+      {%endfor%}
+	</div>
+  	<ol class="carousel-indicators"> 
+	  <li data-target="#testimonial-carousel-indicators" data-slide-to="0" class="active"></li> 
+	  <li data-target="#testimonial-carousel-indicators" data-slide-to="1" class=""></li> 
+	  <li data-target="#testimonial-carousel-indicators" data-slide-to="2" class=""></li> 
+	  <li data-target="#testimonial-carousel-indicators" data-slide-to="3" class=""></li> 
+	  <li data-target="#testimonial-carousel-indicators" data-slide-to="4" class=""></li> 
+	  <li data-target="#testimonial-carousel-indicators" data-slide-to="5" class=""></li> 
+    </ol>
+</div>

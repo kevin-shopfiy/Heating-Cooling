@@ -1,0 +1,83 @@
+<section id="ac_install_tabs_main" class="service_inn_main">
+  <div class="container">
+    <div class="serv_row_tabs serv_row_tabs1">
+	  
+      <div class="serv_tabs_header">
+		<h2 class="serv_tabs_h2">{{ section.settings.serv_tabs_h2 }}</h2>
+		<p class="serv_tabs_p">{{ section.settings.serv_tabs_p }}</p>
+	  </div>
+      
+      <div class="rte serv_tabs">
+  		{{ page.content }}
+	  </div>
+      
+	</div>
+    
+    <div class="serv_row_tabs serv_row_tabs2">
+      {%include 'service-contact'%}
+    </div>
+    <div class="serv-inner-testimonial serv_row_tabs serv_row_tabs3" style="background: url({{ section.settings.serv_testi_bg | image_url }});background-repeat: no-repeat !important;background-size: cover !important;position: relative;">
+      <div class="row">
+        <div class="serv-testi-img col-xl-4 col-12 align-self-end order-xl-2">
+          {%include 'service-testimonial-img'%}  
+        </div>
+        <div class="serv-testi-txt col-xl-8 col-12 align-self-center order-xl-1">
+        {%include 'service-testimonial-text'%}
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</section>
+
+{% schema %}
+  {
+    "name": "Service Tabs",
+    "settings": [
+	{
+	"type": "text",
+	"id": "serv_tabs_h2",
+	"label": "Title"
+	},
+	{
+	"type": "html",
+	"id": "serv_tabs_p",
+	"label": "Sub Title"
+	},
+	{
+	"type": "image_picker",
+	"id": "serv_testi_bg",
+	"label": "Testimonial Background"
+	}
+	],
+	"blocks": [
+		{
+		"type": "select",
+      	"name": "Testimonial",
+		"settings": [
+			{
+			"type": "text",
+			"id": "testi_name",
+			"label": "Name"
+			},
+			{
+			"type": "html",
+			"id": "testi_desc",
+			"label": "Description"
+			},
+			{
+			"type": "text",
+			"id": "testi_active",
+			"label": "Class"
+			}
+		 ]
+	   }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

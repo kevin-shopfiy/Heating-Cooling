@@ -1,0 +1,185 @@
+{% style %}
+@media (max-width: 749px) {
+  .slide-track-1 {
+    width: calc(250px * {{ section.blocks.size }} * 4);
+  }
+}
+{% endstyle %}
+{{ 'section-flickity-slider.css' | asset_url | stylesheet_tag }}
+<script src="{{ 'section-flickity-slider.js' | asset_url }}" defer="defer"></script>
+
+<section class="sk_logo">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="certified_logo_wrap desktop_only">
+                    {% for block in section.blocks %}
+                      <div class="logo_box">
+                        <img src="{{ block.settings.sk_c_logo | image_url }}" alt="{{ block.settings.sk_c_logo.alt }}" />
+                      </div>
+                    {% endfor %}
+                </div>
+                <div class="certified_logo_wrap tab_mobile_slider tab_mobile_only r">
+                  <div class="main-carousel carousel"  data-flickity='{ "autoPlay": 1500, "imagesLoaded": true, "percentPosition": false, "wrapAround": true}'>
+                    {% for block in section.blocks %}
+                        
+                          <img style="margin:0 20px;" src="{{ block.settings.sk_c_logo | image_url }}" alt="{{ block.settings.sk_c_logo.alt }}" />
+                        
+                    {% endfor %}
+                    {% for block in section.blocks %}
+                        
+                      <img style="margin:0 20px;" src="{{ block.settings.sk_c_logo | image_url }}" alt="{{ block.settings.sk_c_logo.alt }}" />
+                    
+                    {% endfor %}
+                    {% comment %} {% for block in section.blocks %}
+                      <div class="slide">
+                        <img src="{{ block.settings.sk_c_logo | image_url }}" alt="{{ block.settings.sk_c_logo.alt }}" />
+                      </div>
+                    {% endfor %}
+                    {% for block in section.blocks %}
+                      <div class="slide">
+                        <img src="{{ block.settings.sk_c_logo | image_url }}" alt="{{ block.settings.sk_c_logo.alt }}" />
+                      </div>
+                    {% endfor %}
+                    {% for block in section.blocks %}
+                      <div class="slide">
+                        <img src="{{ block.settings.sk_c_logo | image_url }}" alt="{{ block.settings.sk_c_logo.alt }}" />
+                      </div>
+                    {% endfor %} {% endcomment %}
+
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<script>
+  $('.carousel').flickity({
+        cellAlign: 'left',
+        contain: true,
+  });
+</script>
+{% schema %}
+  {
+    "name": "SK Logo",
+    "settings": [],
+    "blocks": [
+		{
+		"type": "select",
+		"name": "Add Logo",
+		"settings": [
+          {
+              "type": "image_picker",
+              "id": "sk_c_logo",
+              "label": "Add Logo Image"
+          }
+		]
+		}
+	],
+    "presets":[
+      {
+        "name": "SK Logo",
+        "category": "Custom Content",
+        "blocks": [
+            { 
+            "type": "select"
+            }
+        ]
+      }
+    ]
+  }
+{% endschema %}
+
+
+<script>
+/*start slick slider*/
+
+{% comment %} function mobileLogoList() {
+
+    jQuery('.tab_mobile_slider').slick({
+      infinite: true,
+      autoplay: true,
+      autoplaySpeed: 1000,
+      slidesToShow: 3,
+      slidesToScroll: 1, 
+      dots: false,
+      arrows: false,
+      pauseOnHover: true,
+      responsive: [
+          {
+            breakpoint: 991,
+            settings: {
+              slidesToShow: 3,
+            }
+          },
+          {
+            breakpoint: 767,
+            settings: {
+                slidesToShow: 2,
+            }
+          }	
+        ]
+    });
+
+
+}  
+
+jQuery(document).ready(function(){
+
+  mobileLogoList();
+
+}); {% endcomment %}
+</script>
+
+{% comment %} <style>
+  .slider {
+    height: 75pt;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    cursor: default;
+    user-select: none;
+    touch-action: none;
+}
+
+.slider .slide-track-1 {
+    animation: scroll-l 8s linear infinite;
+    display: flex;
+    width: calc(250px * {{ section.blocks.size }} * 4);
+}
+
+.slider .slide {
+    height: 75pt;
+    width: 250px;
+    min-width: 250px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+.slider .slide img {
+    position: absolute;
+    width: 60%;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@keyframes scroll-l {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-250px * {{ section.blocks.size }}));
+    }
+}
+@keyframes scroll-r {
+    100% {
+        transform: translateX(0);
+    }
+    0% {
+        transform: translateX(calc(-250px * {{ section.blocks.size }}));
+    }
+}
+</style> {% endcomment %}

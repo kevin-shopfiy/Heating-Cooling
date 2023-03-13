@@ -1,0 +1,74 @@
+{
+  "sections": {
+    "sk_contact_map": {
+      "type": "sk_contact_map",
+      "disabled": true,
+      "settings": {
+        "heading_bg_color": "#474747",
+        "contact_page_title": "Contact Us",
+        "maps_con": "",
+        "contact_title": "Get Started With a Free Quote Today!",
+        "contact_desc": "We would love to hear from you! If you have any comments, questions, or concerns, let us know, and we will get back to you right away.",
+        "contact_location": "4474 Weston Rd # 233, Davie, FL 33331-3195",
+        "contact_phone": "555-555-5555"
+      }
+    },
+    "a50fc477-8bd9-478e-b229-481fc34bdc80": {
+      "type": "sk_contact_map_2",
+      "blocks": {
+        "486dd557-75d3-4757-9fe4-eaced6acf3da": {
+          "type": "text",
+          "settings": {
+            "time_table_day": "Open 24 hours",
+            "time_table_time": ""
+          }
+        }
+      },
+      "block_order": [
+        "486dd557-75d3-4757-9fe4-eaced6acf3da"
+      ],
+      "settings": {
+        "heading_bg_color": "#474747",
+        "contact_page_title": "Contact Us",
+        "maps_con": "",
+        "maps_ifram": "<iframe src=\"https:\/\/www.google.com\/maps\/embed?pb=!1m14!1m8!1m3!1d46055.13702153163!2d-79.0929845!3d43.8258482!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4de5aa3131e79%3A0x1d62359ff908f240!2s1895%20Clements%20Rd%20%23170pickering%2C%20Pickering%2C%20ON%20L1W%203V5%2C%20Canada!5e0!3m2!1sen!2sru!4v1671819239490!5m2!1sen!2sru\" width=\"100%\" height='500\"' style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"><\/iframe>",
+        "zoom": 16,
+        "contact_title": "Get Started With a Quote Today!",
+        "contact_desc": "We would love to hear from you! If you have any comments, questions, or concerns, let us know, and we will get back to you right away.",
+        "contact_location": "1895 Clements Rd #170Pickering, ON L1W 3V5",
+        "contact_phone": "555-555-5555"
+      }
+    },
+    "sk_product_form": {
+      "type": "sk_product_form",
+      "settings": {}
+    },
+    "sk_services_solutions": {
+      "type": "sk_services_solutions",
+      "settings": {}
+    },
+    "sk_specialist": {
+      "type": "sk_specialist",
+      "settings": {
+        "image_text_bg": "shopify:\/\/shop_images\/download-2_1_951a1001-cbe5-48a7-99c7-3db875201434.png",
+        "img_text_bg_color": "#f5f5f5",
+        "img_text_title": "Why Choose Us",
+        "description": "<p>At Button’s Heating & Air Conditioning we provide, install, service, and repair HVAC products from world-class brands. Our team is available 24\/7 to help you through your HVAC emergencies.<br\/><br\/>With over 40 years in business, you can rely on our experienced and knowledgeable staff help you make the right decision for your budget and comfort needs.<\/p>",
+        "img_text_btn": "Learn more about us",
+        "img_text_url": ""
+      }
+    },
+    "sk_home_testimonial": {
+      "type": "sk_home_testimonial",
+      "settings": {}
+    }
+  },
+  "order": [
+    "sk_contact_map",
+    "a50fc477-8bd9-478e-b229-481fc34bdc80",
+    "sk_product_form",
+    "sk_services_solutions",
+    "sk_specialist",
+    "sk_home_testimonial"
+  ]
+}

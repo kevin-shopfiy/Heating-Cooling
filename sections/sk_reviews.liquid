@@ -1,0 +1,126 @@
+<div id="reviews" class="about_review_wrapper">
+    <h2>{{ section.settings.review_title }}</h2>
+
+    <div class="review_wraps">
+      {% for block in section.blocks %}
+        <div class="single_review_box">
+            {% if  block.settings.quote_icon %}<img src="{{ block.settings.quote_icon | image_url }}"> {% endif %}
+            <p>{{ block.settings.review_text }}</p>
+            <h4>{{ block.settings.author }}</h4>
+            <div class="rating">
+              {% if block.settings.rating == 5 %}
+                {% include 'icon-star' %}
+                {% include 'icon-star' %}
+                {% include 'icon-star' %}
+                {% include 'icon-star' %}
+                {% include 'icon-star' %}
+              {% elsif block.settings.rating == 4 %}
+                <span class="fas fa-star"></span>
+                <span class="fas fa-star"></span>
+                <span class="fas fa-star"></span>
+                <span class="fas fa-star"></span>
+                <span class="far fa-star"></span>
+              {% elsif block.settings.rating == 3 %}
+                 <span class="fas fa-star"></span>
+                <span class="fas fa-star"></span>
+                <span class="fas fa-star"></span>
+                <span class="far fa-star"></span>
+                <span class="far fa-star"></span>
+                {% elsif block.settings.rating == 2 %}
+                 <span class="fas fa-star"></span>
+                  <span class="fas fa-star"></span>
+                  <span class="far fa-star"></span>
+                  <span class="far fa-star"></span>
+                  <span class="far fa-star"></span>
+                {% else %}
+                 <span class="fas fa-star"></span>
+                  <span class="far fa-star"></span>
+                  <span class="far fa-star"></span>
+                  <span class="far fa-star"></span>
+                  <span class="far fa-star"></span>
+              {% endif %}
+                
+            </div>
+        </div>
+      {% endfor %}
+    </div>
+    <div class="more_review">
+        <a href="{{ section.settings.review_btn }}" class="more_review_btn">{{ section.settings.review_btn_text }}</a>
+    </div>
+</div>
+
+<style>
+  .more_review_btn { background-color: {{ settings.color_primary }}; }
+  .more_review_btn:hover { background-color: {{ section.settings.btn_hoer_color }}; }
+</style>
+
+{% schema %}
+  {
+    "name": "Reviews",
+    "settings": [
+      {
+          "type": "text",
+          "id": "review_title",
+          "label": "Review Section Title",
+          "default": "What our customers think"
+      },
+      {
+          "type": "text",
+          "id": "review_btn_text",
+          "label": "Review Button Text",
+          "default": "Read More of Our Google Reviews"
+      },
+      {
+          "type": "text",
+          "id": "review_btn",
+          "label": "Button Url"
+      },
+      {
+          "type": "color",
+          "id": "btn_color",
+          "label": "Button BG Color",
+          "default": "#086579"
+      },
+      {
+          "type": "color",
+          "id": "btn_hoer_color",
+          "label": "Button Hover BG Color",
+          "default": "#F99D16"
+      }
+    ],
+    "blocks": [
+    {
+    "type": "select",
+    "name": "Review",
+    "settings": [
+        {
+        "type": "image_picker",
+        "id": "quote_icon",
+        "label": "Quote Icon"
+        },
+        {
+        "type": "text",
+        "id": "author",
+        "label": "Author"
+        },
+        {
+        "type": "textarea",
+        "id": "review_text",
+        "label": "Text"
+        },
+        {
+            "type": "range",
+            "id": "rating",
+            "min": 1,
+            "max": 5,
+            "step": 1,
+            "label": "Rating",
+            "default": 5
+        }
+          
+     ]
+   }
+]
+  }
+{% endschema %}
+

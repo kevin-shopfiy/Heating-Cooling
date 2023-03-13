@@ -1,0 +1,39 @@
+{
+  "sections": {
+    "c3ef95df-e3f3-4b33-bd35-0310ac853ce0": {
+      "type": "sk_product_breadcrumb",
+      "settings": {
+        "bred_clas": "mobile_only"
+      }
+    },
+    "sk_collection_template": {
+      "type": "sk_collection_template",
+      "settings": {
+        "collect_bg_color": "#4b4b4b",
+        "products_limit_handle": "6",
+        "bread_h_text": "Shop Now",
+        "bread_h_url": "shopify:\/\/pages\/shop",
+        "war_title": "Free 10 year parts and labour warranty on new installations*",
+        "war_conteiion": "*Conditions apply.",
+        "war_btn_text": "See all promotions",
+        "war_btn_url": "shopify:\/\/pages\/what-s-included-with-your-purchase",
+        "war_icon": "shopify:\/\/shop_images\/sell.png",
+        "war_bg_color": "#f5f5f5"
+      }
+    },
+    "1661159421a0ccc15c": {
+      "type": "sk_financing_options",
+      "settings": {}
+    },
+    "16611666229d1a5d13": {
+      "type": "sk_product_form",
+      "settings": {}
+    }
+  },
+  "order": [
+    "c3ef95df-e3f3-4b33-bd35-0310ac853ce0",
+    "sk_collection_template",
+    "1661159421a0ccc15c",
+    "16611666229d1a5d13"
+  ]
+}

@@ -1,0 +1,74 @@
+<section id="furnace-installations_banner" class="serv-full-inner-banner" style="background: url({{ section.settings.service_hero_bg | image_url }}) no-repeat  center;background-size: cover !important;position: relative;">
+	<div class="container text-center">
+		<div class="row"> 
+			<div class="col-12 align-self-center"> 
+				<h1 class="serv-banner-h1">{{ section.settings.service_h1 }}</h1> 
+				<p class="serv-banner-p">{{ section.settings.service_p }}</p> 
+				<div class="serv-banner-promo" style="background: #00583b url({{ section.settings.service_hero_pattern | image_url }}) no-repeat  center;background-size: cover !important;position: relative;"> 
+					<h2 class="serv-banner-h2">{{ section.settings.service_h2 }}</h2> 
+				{% if section.settings.service_condition != blank %}	
+                  <small class="serv-banner-extra">{{ section.settings.service_condition }}</small> 
+                  {%endif%}
+				</div> 
+				<a href="{{ section.settings.service_bann_url }}" class="ser-full-btn">
+					<span class="serv-banner-text">{{ section.settings.service_bann_a }}</span>
+					<span class="icon fas fa-arrow-circle-right"></span>
+				</a> 
+			</div> 
+		</div> 
+	</div> 
+</section>
+
+{% schema %}
+  {
+    "name": "Service Banner",
+    "settings": [
+	{
+	"type": "image_picker",
+	"id": "service_hero_bg",
+	"label": "Bakground"
+	},
+	{
+	"type": "text",
+	"id": "service_h1",
+	"label": "Title"
+	},
+	{
+	"type": "text",
+	"id": "service_p",
+	"label": "Sub Title"
+	},
+	{
+	"type": "image_picker",
+	"id": "service_hero_pattern",
+	"label": "Pattern"
+	},
+	{
+	"type": "text",
+	"id": "service_h2",
+	"label": "Offer"
+	},
+	{
+	"type": "text",
+	"id": "service_condition",
+	"label": "Condition"
+	},
+	{
+	"type": "url",
+	"id": "service_bann_url",
+	"label": "Link"
+	},
+	{
+	"type": "text",
+	"id": "service_bann_a",
+	"label": "Button"
+	}
+	]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

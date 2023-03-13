@@ -1,0 +1,37 @@
+<section class="mobile contact-form-area {{ settings.pf_section_class }}">
+  <div class="container">
+    <div class="form-wrapper">
+      <div class="row">
+        <div class="col-12">
+          <div class="mobile_title section-title">
+            {% if settings.pf_section_title != '' %}
+              <h2>{{ settings.pf_section_title }}</h2>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+      <div class="contact-form">
+        {% include 'sk_product_form' %}
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "SK Product form",
+  "settings": [
+   
+  ],
+  "presets":[
+  {
+    "name": "SK Product Form",
+    "category": "contact us"
+  }
+  ]
+}
+{% endschema %}
+<style>
+.form-wrapper {background-color: {{ section.settings.section_bg_color }};}
+
+</style>

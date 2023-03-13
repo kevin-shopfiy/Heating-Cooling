@@ -1,0 +1,65 @@
+<div class="top_promotion_box">
+    <h4>{% if settings.tp_sub_icon %}<img src="{{ settings.tp_sub_icon | image_url }}" /> {% endif %} <span class="current_month"> </span> {{ settings.tp_sub_title }}</h4>
+    <h2>{{ settings.tp_title }}</h2>
+    <a href="{{ settings.tp_condition_url }}" class="promo_button">{{ settings.tp_condition_btn }}</a>
+      <p>{{ settings.tp_condition }}</p>
+</div>
+
+<style>
+  .top_promotion_box {background-color: {{ settings.color_primary }}; border-bottom: 7px solid {{ settings.color_second }}; }
+</style>
+
+{% schema %}
+  {
+    "name": "SK Top Promotion",
+    "settings": [
+        {
+		"type": "text",
+		"id": "tp_title",
+		"label": "Promotion Title",
+        "default": "$100 off an indoor energy audit*"
+		},
+        {
+		"type": "text",
+		"id": "tp_sub_title",
+		"label": "Promotion Sub Title",
+          "default": "Installation Promotion"
+		},
+        {
+		"type": "text",
+		"id": "tp_condition",
+		"label": "Condition Text",
+          "default": "*Conditions Apply"
+		},
+        {
+		"type": "text",
+		"id": "tp_condition_btn",
+		"label": "Promotion Button Text",
+          "default": "Learn More"
+		},
+        {
+		"type": "url",
+		"id": "tp_condition_url",
+		"label": "Promotion Page Url"
+		},
+        {
+        "type": "color",
+		"id": "tp_bg_color",
+		"label": "Promotion Box BG Color",
+		"default": "#086579"
+		},
+        {
+        "type": "color",
+		"id": "tp_border_color",
+		"label": "Promotion Box Border Color",
+		"default": "#F99D16"
+		},
+        {
+		"type": "image_picker",
+		"id": "tp_sub_icon",
+		"label": "Upload Icon"
+		}
+    ]
+  }
+{% endschema %}
+

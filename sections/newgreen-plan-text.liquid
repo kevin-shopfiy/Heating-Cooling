@@ -1,0 +1,117 @@
+
+        <div class="abt_us_text_img">
+          <img src="{{ section.settings.abt_us_text_img | img_url: "master" }}" alt="image">
+          <div class="abt_us_text_pp">{{ section.settings.abt_us_text_p }}</div>
+        </div>
+        <div class="abt_us_content">
+          {% for block in section.blocks %}
+          {% case block.type %}
+          
+          {% when 'select' %}
+          {%include 'about-select'%}
+          
+          {% when 'select-text' %}
+   			<div class="abt_us_text_pp">{{ block.settings.select-text_p }}</div>
+           
+          {% endcase %}
+          {% endfor %}
+        </div>
+        <div class="box_abt_cta"> 
+	<div class="abt_img-cta"> 
+		<div class="col-lg-9 col-md-8 col-sm-8 col-12 abt_cta_txt"> 
+			<span class="abt_bld">{{ section.settings.abt_bld }}</span> 
+			<div class="abt_bld_p">{{ section.settings.abt_bld_p }}</div> 
+		</div> 
+		<div class="col-lg-3 col-md-4 col-sm-4 col-12 abt_cta_btn"> 
+			<a href="{{ section.settings.abt_phn_url }}" class="btn-normal abt_phone">
+				<span class="fas fa-phone"></span> {{ section.settings.abt_phn_txt }}
+			</a> 
+			<a href="{{ section.settings.abt_email_url }}" class="btn-normal abt_email">
+				<span class="fas fa-envelope"></span> {{ section.settings.abt_email_txt }}
+			</a> 
+		</div> 
+	</div> 
+</div>
+      
+{% schema %}
+  {
+    "name": "About us Text",
+    "settings": [
+	{
+	"type": "image_picker",
+	"id": "abt_us_text_img",
+	"label": "Image"
+	},
+	{
+	"type": "html",
+	"id": "abt_us_text_p",
+	"label": "Text"
+	},
+	{
+	"type": "text",
+	"id": "abt_bld",
+	"label": "Bold Title"
+	},
+	{
+	"type": "text",
+	"id": "abt_bld_p",
+	"label": "Text"
+	},
+	{
+	"type": "url",
+	"id": "abt_phn_url",
+	"label": "Phone Url"
+	},
+	{
+	"type": "text",
+	"id": "abt_phn_txt",
+	"label": "Phone"
+	},
+	{
+	"type": "url",
+	"id": "abt_email_url",
+	"label": "Email Url"
+	},
+	{
+	"type": "text",
+	"id": "abt_email_txt",
+	"label": "Email"
+	}
+	],
+	"blocks": [
+		{
+		"type": "select",
+      	"name": "Content",
+		"settings": [
+			{
+			"type": "text",
+			"id": "abt_h2",
+			"label": "Heading"
+			},
+			{
+			"type": "html",
+			"id": "abt_p",
+			"label": "Content"
+			}
+		 ]
+	   },
+	   {
+		"type": "select-text",
+      	"name": "text",
+		"settings": [
+			{
+			"type": "html",
+			"id": "select-text_p",
+			"label": "Text"
+			}
+		 ]
+	   }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

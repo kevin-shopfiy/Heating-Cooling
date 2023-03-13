@@ -1,0 +1,104 @@
+<div class="page_content_wrpper">
+  <div class="page_header_warp no_image">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h1 class="page_title">{{ page.title }}</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="page_content_wrap no_image">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 pb-50">
+          <div class="page_text_content">
+            {% if section.settings.sec_banner_img %}
+              {{ section.settings.sec_banner_img | image_url: width: 1000 | image_tag }}
+            {% endif %}
+            {% for block in section.blocks %}
+              {% case block.type %}
+                {% when 'select' %}
+                  <div class="h2_content">
+                    <h2>{{ block.settings.abt_h2 }}</h2>
+                    <p>{{ block.settings.abt_p }}</p>
+                  </div>
+
+                {% when 'select-text' %}
+                  <div class="textes">{{ block.settings['select-text-p'] }}</div>
+
+                {% when 'testimonial' %}
+                  <div class="list_ul_box">
+                    {{ block.settings.list_ul }}
+                  </div>
+              {% endcase %}
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+  .page_header_warp { background-color: {{ section.settings.sec_header_bg_color }};}
+</style>
+
+{% schema %}
+ {
+   "name": "SK Page Content",
+   "settings": [
+       {
+	"type": "image_picker",
+	"id": "sec_banner_img",
+	"label": "Banner Image"
+	},
+     {
+	"type": "color",
+	"id": "sec_header_bg_color",
+	"label": "Background Color",
+       "default": "#474747"
+	}
+   ],
+"blocks": [
+	{
+	"type": "select",
+     	"name": "Content",
+	"settings": [
+		{
+		"type": "text",
+		"id": "abt_h2",
+		"label": "Heading"
+		},
+		{
+		"type": "html",
+		"id": "abt_p",
+		"label": "Content"
+		}
+	 ]
+   },
+   {
+	"type": "select-text",
+     	"name": "Text",
+	"settings": [
+		{
+		"type": "html",
+		"id": "select-text-p",
+		"label": "Text"
+		}
+	 ]
+   },
+     {
+	"type": "testimonial",
+     	"name": "Ul List",
+	"settings": [
+		{
+		"type": "html",
+		"id": "list_ul",
+		"label": "Ul List"
+		}
+	 ]
+   }
+   ]
+ }
+{% endschema %}

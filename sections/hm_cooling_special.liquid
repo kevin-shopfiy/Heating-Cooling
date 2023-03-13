@@ -1,0 +1,109 @@
+<style>
+#hm_coolingg .hm_cool_txt.col-12 {background-color: {{ section.settings.cooling_background }};}
+.hm_cool_txt_p p {color: {{ section.settings.cooling_text }};}
+.hm_cool_a a {color: {{ section.settings.cooling_button_text }};}
+@media (max-width: 991.98px) {
+  {%- assign overlay_opacity = section.settings.overlay_opacity | divided_by: 100.0 -%}
+  #hm_coolingg .hm_cool_txt.col-12 {background-color: {{ section.settings.cooling_background_mob | color_modify: 'alpha', overlay_opacity }} };
+}  
+  
+</style>
+
+<section id="hm_coolingg">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="hm_cool_img col-lg-6 col-sm-6 col-12">
+        <div class="hm_cool_img_inn">
+          <img src="{{ section.settings.hm_cool_img | img_url: "master" }}" alt="image" />
+        </div>
+      </div>
+      <div class="hm_cool_txt col-lg-6 col-sm-6 col-12">
+        <div class="hm_cool_txt_inn">
+          <h2>{{ section.settings.hm_cool_h2 }}</h2>
+          <div class="hm_cool_txt_p">{{ section.settings.hm_cool_p }}</div>
+        </div>
+        <div class="hm_cool_a">
+          <a href="{{ section.settings.hm_cool_url }}" class="">{{ section.settings.hm_cool_a }} <span class="icon fa fa-angle-double-right"></span></a>
+        </div>
+      </div>
+    </div>
+  </div>  
+</section>
+{% schema %}
+  {
+    "name": "Home Image and Text",
+    "settings": [
+		{
+		"type": "image_picker",
+		"id": "hm_cool_img",
+		"label": "Image"
+		},
+		{
+		"type": "color",
+		"id": "cooling_background",
+		"label": "Cooling Background",
+		"default": "#063f2c"
+		},
+		{
+		"type": "color",
+		"id": "cooling_background_mob",
+		"label": "Cooling Background Mobile",
+		"default": "#063f2c"
+		},
+		{
+		"type": "range",
+		"id": "overlay_opacity",
+		"min": 0,
+		"max": 100,
+		"step": 1,
+		"unit": "%",
+		"label": "Mobile Opacity",
+		"default": 30
+		},
+		{
+		"type": "color",
+		"id": "cooling_text",
+		"label": "Cooling Text",
+		"default": "#fff"
+		},
+		{
+		"type": "color",
+		"id": "cooling_button_text",
+		"label": "Cooling Button Text",
+		"default": "#fff"
+		},
+		{
+		"type": "text",
+		"id": "hm_cool_h2",
+		"label": "Title"
+		},
+		{
+		"type": "html",
+		"id": "hm_cool_p",
+		"label": "Content"
+		},
+		{
+		"type": "url",
+		"id": "hm_cool_url",
+		"label": "URL"
+		},
+		{
+		"type": "text",
+		"id": "hm_cool_a",
+		"label": "Url Title"
+		}
+	],
+	"presets": [
+	{
+	"name": "Home Image and Text",
+	"category": "Custom Content"
+	}
+	]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

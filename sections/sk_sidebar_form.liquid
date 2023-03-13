@@ -1,0 +1,79 @@
+<div class="sidebar_form">
+    {% include 'sk_sidebar_form' %}
+</div>
+
+
+{% schema %}
+{
+  "name": "SK Sidebar form",
+  "settings": [
+  {
+    "type": "header",
+    "content": "Form Info"
+  },
+  {
+    "type": "text",
+    "id": "section_title",
+    "label": "Section Title",
+    "default": "Get an Estimate / Schedule a Repair Maintenance"
+  },
+  {
+    "type": "text",
+    "id": "name_placeholder",
+    "label": "Name Placeholder",
+    "default": "* Full Name"
+  },
+  {
+    "type": "text",
+    "id": "email_placeholder",
+    "label": "Email Placeholder",
+    "default": "* Email Address"
+  },
+  {
+    "type": "text",
+    "id": "postal_code",
+    "label": "Postal Code",
+    "default": "* Postal Code"
+  },
+  {
+    "type": "text",
+    "id": "message_placeholder",
+    "label": "Message Placeholder",
+    "default": "How can we help?"
+  },
+  {
+    "type": "text",
+    "id": "form_button_name",
+    "label": "Button Name",
+    "default": "Submit"
+  },
+    {
+        "type": "header",
+        "content": "Submitted Text"
+      },
+        {
+          "type": "text",
+          "id": "submitted_h1",
+          "label": "Response Heading",
+          "default": "Thank you for your message!"
+        },
+        {
+          "type": "text",
+          "id": "submitted_p",
+          "label": "Response Sub Title",
+          "default": "One of our customer service representatives will get back to you soon."
+        },
+        {
+          "type": "image_picker",
+          "id": "submitted_img",
+          "label": "Response Image"
+        },
+        {
+          "type": "text",
+          "id": "submitted_close",
+          "label": "Response Close",
+          "default": "Close"
+        }
+  ]
+}
+{% endschema %}

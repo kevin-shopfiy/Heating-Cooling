@@ -1,0 +1,109 @@
+<style>
+.hm_testi_quote svg.fa-quote-left {color: {{ section.settings.quote_color }};}
+.hm_testi_blockquote .test_blockquote {color: {{ section.settings.blockquote_text }};}
+span.test_author {color: {{ section.settings.author_text }};}
+.hm_testi_a a {background-color: {{ section.settings.button_bg_text }};color: {{ section.settings.button_text }};}
+.hm_testi_a a:hover {background-color: {{ section.settings.button_hover_bg_text }};}  
+.hm_testi_a a svg {color: {{ section.settings.button_icon_color }};}
+</style>
+
+<section id="hm_testimonial">
+<div class="container"> 
+	<div class="row justify-content-center"> 
+		<div class="hm_testi_quote col-12 col-md-2 text-center align-self-center"> 
+			<span class="fas fa-quote-left"></span> 
+		</div> 
+		<div class="hm_testi_blockquote col-12 col-md-6 col-lg-7 quote align-self-center"> 
+			<div class="test_blockquote">
+              {{ section.settings.hm_test_blockquote }}
+			  <span class="test_author">{{ section.settings.hm_test_author }}</span>
+			</div> 
+		</div> 
+		<div class="hm_testi_a col-12 col-md-4 col-lg-3 text-center align-self-center"> 
+			<a href="{{ section.settings.hm_test_url }}" >{{ section.settings.hm_test_a }} <span class="fa fa-angle-double-right"></span></a> 
+		</div> 
+	</div> 
+</div>
+</section>
+  
+{% schema %}
+  {
+    "name": "Home Testimonial",
+    "settings": [
+		{
+		"type": "color",
+		"id": "quote_color",
+		"label": "Quote Color",
+		"default": "#d1c39a"
+		},
+		{
+		"type": "color",
+		"id": "blockquote_text",
+		"label": "Blockquote Text",
+		"default": "#151515"
+		},
+		{
+		"type": "color",
+		"id": "author_text",
+		"label": "Author Text",
+		"default": "#151515"
+		},
+		{
+		"type": "color",
+		"id": "button_bg_text",
+		"label": "Button Background Text",
+		"default": "#00583b"
+		},
+		{
+		"type": "color",
+		"id": "button_text",
+		"label": "Button Text",
+		"default": "#fff"
+		},
+		{
+		"type": "color",
+		"id": "button_hover_bg_text",
+		"label": "Button Hover Background",
+		"default": "#151515"
+		},
+		{
+		"type": "color",
+		"id": "button_icon_color",
+		"label": "Button Icon Color",
+		"default": "#fff"
+		},
+		{
+		"type": "html",
+		"id": "hm_test_blockquote",
+		"label": "Blockquote"
+		},
+		{
+		"type": "text",
+		"id": "hm_test_author",
+		"label": "Author"
+		},
+		{
+		"type": "url",
+		"id": "hm_test_url",
+		"label": "URL"
+		},
+		{
+		"type": "text",
+		"id": "hm_test_a",
+		"label": "URL Name"
+		}
+	],
+	"presets": [
+		{
+		"name": "Home Testimonial",
+		"category": "Custom Content"
+		}
+	]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
